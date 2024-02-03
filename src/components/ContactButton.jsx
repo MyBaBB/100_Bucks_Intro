@@ -27,7 +27,7 @@ const ContactButton = () => {
        📡
      </span>
          <span  className="z-50 text-varLIGHTBLUEFEATHER hover:text-[#FFDB58]">
-            Contact 
+            MyBaBB 
          </span>
      <span>
        📡

@@ -1,8 +1,8 @@
 {
-  "name": "mybabb-introduction",
+  "name": "100_Bucks_Intro",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://MyBABB.github.io/My_Introduction",
+  "homepage": "https://MyBABB.github.io/100_Bucks_Intro",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

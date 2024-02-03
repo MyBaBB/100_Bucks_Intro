@@ -22,14 +22,21 @@ const TopSection = () => {
         <p className="objectiveParagraph 
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">
-          <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />
-          &nbsp; &nbsp;&nbsp;Custom landing pages can be created to appeal to different types of customers. The content, page style, advertising, and offer it contains will determine its impact on the targeted customer group. Landing pages can be focused on drawing customers from a specific location, demographic, or individuals looking at price and quality. Easier testing and optimization of landing pages can be done by creating multiple landing pages targeted toward segmented customer populations.
+          
+          <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;
+        &nbsp;&nbsp;Email templates save time by allowing you to reuse professionally designed emails. Whether it&apos;s invitations, sales messages, thank-you notes, or holiday greetings, templates streamline the process. With over 4.1 billion active email users globally, having efficient communication is essential.
+
+
+
+
+
+          
          <br /> 
 
           
         <br/>
         <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;
-        &nbsp;&nbsp;Custom landing pages can be created to appeal to different types of customers. The content, page style, advertising, and offer it contains will determine its impact on the targeted customer group. Landing pages can be focused on drawing customers from a specific location, demographic, or individuals looking at price and quality. Easier testing and optimization of landing pages can be done by creating multiple landing pages targeted toward segmented customer populations.
+        &nbsp; &nbsp;&nbsp;Custom landing pages can be created to appeal to different types of customers. The content, page style, advertising, and offer it contains will determine its impact on the targeted customer group. Landing pages can be focused on drawing customers from a specific location, demographic, or individuals looking at price and quality. Easier testing and optimization of landing pages can be done by creating multiple landing pages targeted toward segmented customer populations.
           </p>
         <p className="objectiveParagraph mt-[-3rem]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
@@ -78,6 +85,42 @@ const TopSection = () => {
         </p>
         
 
+              <div className='text-center pb-2 font-bold text-2xl underline text-amber-200'><span className='landingPage underline1'>A Email Template Importance: </span></div>
+        <div className='p-8 text-2xl'>
+             <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
+             <span className='underline'>Templates Ensure:</span>
+             <br /> That your emails maintain a consistent brand tone and message. Every team member communicates with the same professional demeanor, reinforcing your company&apos;s identity in every interaction.
+             <br />
+             <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
+             <span className='underline'>Using templates:</span>
+             <br />  Helps you appear polished and proficient. Despite spending only a few minutes crafting an email, you&apos;ll still convey a professional image.
+             <br />
+             <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
+             <span className='underline'>Conversion Rates:</span>
+             <br />   Well-designed, visually appealing emails can increase click-through rates by up to 14% and conversion rates by 10%. Templates provide the foundation for creating compelling content.
+             <br />
+             <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
+             <span className='underline'>Brand Identity:</span>
+             <br />  Templates keep your messaging on brand, reinforcing your company&apos;s identity. Whether it&apos;s a sales pitch or a customer service response, consistency matters.
+             <br />
+             <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
+             <span className='underline'>Efficiency:</span>
+             <br />   Email templates save time by allowing you to reuse professionally designed emails. Whether it&apos;s invitations, sales messages, thank-you notes, or holiday greetings, templates streamline the process. With over 4.1 billion active email users globally, having efficient communication is essential.
+             <br />
+             
+
+
+
+
+
+
+
+
+
+
+
+           
+    </div> 
               <div className='text-center pb-2 font-bold text-2xl underline text-amber-200'><span className='landingPage underline1'>A Landing Page Importance: </span></div>
         <div className='p-8 text-2xl'>
              <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
@@ -98,7 +141,6 @@ const TopSection = () => {
                          
              <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
              &nbsp;&nbsp;Allow for easier testing and optimization by creating multiple landing pages targeted toward segmented customer populations.
-
              <p className="objectiveParagraph mt-[0rem]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]" >  
@@ -107,8 +149,10 @@ const TopSection = () => {
            Start up with a new Domain is $50 plus Domain cost and $25 a month.
             I can migrate your domain to my server for  $100 total price and $25 a month.
              </p>
+             <br />
             <p className='text-center mt-[-3rem] mb-4'>You can make file purchases and I will send you the files if your tech savy.
              </p>
+            
     </div> 
     </div>
     <hr className="objectiveDivider"/>      

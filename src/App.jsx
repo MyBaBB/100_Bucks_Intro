@@ -4,7 +4,7 @@ import './App.css'
 import Header from './components/Header'
 import ContactButton from './components/ContactButton'
 import TopSection from './components/TopSection'
-import SecondSection from './components/SecondSection'
+ 
 import CopyRight from './components/Copyright'
 import ThirdSection from './components/ThirdSection'
 import Footer from './components/Footer'
@@ -15,7 +15,7 @@ const App = () => {
       <Header />  
       <ContactButton />
       <TopSection />
-      <SecondSection />
+      
       <ThirdSection />
       <Footer />
       <CopyRight />
