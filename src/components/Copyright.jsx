@@ -6,7 +6,7 @@ function Copyright  () {
     <div>
 
 <p className="fixed bottom-0 right-5 whitespace-nowrap text-xs">
-  <span className="text-varBoneWhite text-black  font-bold text-[9px] sm:text-[9px] z-0">
+  <span className="text-varBoneWhite text-white  font-bold text-[9px] sm:text-[9px] z-0">
     &lt;&lt;&lt;&copy;MyBaBB <em>12-2013</em>&gt;&gt;&gt;
   </span>
 </p>

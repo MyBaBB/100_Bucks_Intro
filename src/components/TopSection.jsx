@@ -10,7 +10,7 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
 import { GiDiamonds } from "react-icons/gi";
-
+import { TiEqualsOutline } from "react-icons/ti";
 
 const TopSection = () => {
   return (
@@ -46,14 +46,15 @@ const TopSection = () => {
           What you will get for $100
             <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' /> 
             <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 1 $100 Custom Email. 
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 1&nbsp;<TiEqualsOutline className='TiEqualsOutline'/>&nbsp;$100 Personalized Mobile Responsive Email.
             <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 2 $200 Custom Email with Links to Social Media  
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 2&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$200 Custom Email with Links to Social Media.  
             <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 3 $300 Custom Email with Links to Social Media and a Landing Page.  
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 3&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$300 Custom Email with Links to Social Media and a Landing Page.  
              <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 4 $400 All of the Above with Email integration. 
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 4&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$400 Everything plus secure Web-Mail to Gmail Integration. 
              <br/>
+           <span className='text-center block w-[75%]'><GiDiamonds className='GiDiamonds'/>&nbsp;Integrating web-mail with Gmail streamlines your email management, enhances security, and provides a seamless experience across devices.</span> 
              </p>
             
         <p className="objectiveParagraph mt-[-3rem]

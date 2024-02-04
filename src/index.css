@@ -29,6 +29,17 @@
    }
 
 
+   .GiDiamonds  {
+    color:#60A5FA;
+
+    display: inline-block;
+   }
+   .TiEqualsOutline {
+    display: inline-block;
+    color: #85bb65;
+
+
+   }
 .reheader{
    
   z-index: 50;
