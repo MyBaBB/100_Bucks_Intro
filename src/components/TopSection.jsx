@@ -11,6 +11,12 @@ import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
 import { GiDiamonds } from "react-icons/gi";
 import { TiEqualsOutline } from "react-icons/ti";
+import { TiPlus } from "react-icons/ti";
+import { GrVmMaintenance } from "react-icons/gr";
+import { MdOutlineSupportAgent } from "react-icons/md";
+import { MdAddShoppingCart } from "react-icons/md";
+import { TfiLock } from "react-icons/tfi";
+
 
 const TopSection = () => {
   return (
@@ -46,15 +52,23 @@ const TopSection = () => {
           What you will get for $100
             <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' /> 
             <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 1&nbsp;<TiEqualsOutline className='TiEqualsOutline'/>&nbsp;$100 Personalized Mobile Responsive Email.
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;
+            <span className='underline decoration-[#85bb65]'>Level 1</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline'/>&nbsp;$100 A Quick-Send and Professional Email Template.
             <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 2&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$200 Custom Email with Links to Social Media.  
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;
+            <span className='underline decoration-[#85bb65]'>Level 2</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$200 Quick-Send Template 
+            &nbsp;<TiPlus className='TiPlus ' />&nbsp;Social Media Links.  
             <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 3&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$300 Custom Email with Links to Social Media and a Landing Page.  
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;
+            <span className='underline decoration-[#85bb65]'>Level 3</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$300 Quick-Send Template
+            &nbsp;<TiPlus className='TiPlus ' />&nbsp;Social Media Links.
+            &nbsp;<TiPlus className='TiPlus ' />&nbsp;Custom Landing Page.  
              <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Level 4&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$400 Everything plus secure Web-Mail to Gmail Integration. 
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;
+            <span className='underline decoration-[#85bb65]'>Level 4</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$400 Everything
+            &nbsp;<TiPlus className='TiPlus ' />&nbsp;Secure Web-Mail to Gmail Integration. 
              <br/>
-           <span className='text-center block w-[75%]'><GiDiamonds className='GiDiamonds'/>&nbsp;Integrating web-mail with Gmail streamlines your email management, enhances security, and provides a seamless experience across devices.</span> 
+           <span className='text-center block w-[75%]'><GiDiamonds className='GiDiamonds'/>&nbsp;Integrating Web-Mail with Gmail streamlines your email management, enhances security, and provides a seamless experience across devices.</span> 
              </p>
             
         <p className="objectiveParagraph mt-[-3rem]
@@ -79,9 +93,9 @@ const TopSection = () => {
             <br/>         
             <SlEyeglass className='inline-block text-blue-400' /> I can make it look great on all devices.(Mobile Responsive)
             <br/>       
-            <MdOutlineTimer className='inline-block text-blue-400' />&nbsp;I can spend the time it takes to make it perfect for you.
+            <MdOutlineTimer className='inline-block text-blue-400' />&nbsp; Quality and Perfection.
             <br/>
-            <RiLinksFill className='inline-block text-blue-400' />&nbsp;I can add custom links that Channel new customers to your business.
+            <RiLinksFill className='inline-block text-blue-400' />&nbsp; Add custom links that Channel new customers to your business.
             <br/> 
         </p>
         
@@ -89,23 +103,23 @@ const TopSection = () => {
               <div className='text-center pb-2 font-bold text-2xl underline text-amber-200'><span className='landingPage underline1'>A Email Template Importance: </span></div>
         <div className='p-8 text-2xl'>
              <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
-             <span className='underline'>Templates Ensure:</span>
+             <span className='underline text-amber-200'>Templates Ensure:</span>
              <br /> That your emails maintain a consistent brand tone and message. Every team member communicates with the same professional demeanor, reinforcing your company&apos;s identity in every interaction.
              <br />
              <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
-             <span className='underline'>Using templates:</span>
+             <span className='underline text-amber-200'>Using templates:</span>
              <br />  Helps you appear polished and proficient. Despite spending only a few minutes crafting an email, you&apos;ll still convey a professional image.
              <br />
              <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
-             <span className='underline'>Conversion Rates:</span>
+             <span className='underline text-amber-200'>Conversion Rates:</span>
              <br />   Well-designed, visually appealing emails can increase click-through rates by up to 14% and conversion rates by 10%. Templates provide the foundation for creating compelling content.
              <br />
              <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
-             <span className='underline'>Brand Identity:</span>
+             <span className='underline text-amber-200'>Brand Identity:</span>
              <br />  Templates keep your messaging on brand, reinforcing your company&apos;s identity. Whether it&apos;s a sales pitch or a customer service response, consistency matters.
              <br />
              <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
-             <span className='underline'>Efficiency:</span>
+             <span className='underline text-amber-200'>Efficiency:</span>
              <br />   Email templates save time by allowing you to reuse professionally designed emails. Whether it&apos;s invitations, sales messages, thank-you notes, or holiday greetings, templates streamline the process. With over 4.1 billion active email users globally, having efficient communication is essential.
              <br />
              
@@ -143,16 +157,46 @@ const TopSection = () => {
              <span className='IoDiamondSharp inline-block pb-1'><GiDiamonds /></span>
              &nbsp;&nbsp;Allow for easier testing and optimization by creating multiple landing pages targeted toward segmented customer populations.
              <p className="objectiveParagraph mt-[0rem]
-        text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
-        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]" >  
-          A landing page requires a domain and a monthly charge.
+              text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
+               p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]" > 
+             <span className='text-left block underline decoration-[#85bb65]'>
+                  Levels&nbsp;1
+                   - 2&nbsp;
+            </span>
+              <span> 
+           &nbsp;
+              Do Not require a Domain and have No Monthly Charge.
+             </span> 
+
+           <span className='text-left block underline decoration-[#85bb65]'>
+            Levels&nbsp;3
+               - 4
+            </span>
+            <span> 
+            &nbsp;
+             Do Require a Domain and a Monthly Charge.
+           </span>
           <br />
-           Start up with a new Domain is $50 plus Domain cost and $25 a month.
-            I can migrate your domain to my server for  $100 total price and $25 a month.
+           <br />
+           <span className='text-left block '>
+             <span className='underline decoration-[#85bb65]'>New Domain</span> is $50 plus Domain cost and $25 a month</span>
+            <span className='block text-center'>
+               
+            </span>
+             <span>
+                 <span className='underline decoration-[#85bb65] '>Domain Transfer</span> to MyBaBB is a flat rate of  $100 and $25 a month.
+             </span>
              </p>
              <br />
-            <p className='text-center mt-[-3rem] mb-4'>You can make file purchases and I will send you the files if your tech savy.
-             </p>
+            <p className='text-center mt-[-3rem] mb-4'>
+              Monthly Charges are for Web Hosting Are for:
+              <br />
+              &nbsp;<GrVmMaintenance className='inline-block text-blue-400' />&nbsp;Maintenance 
+              &nbsp;<MdOutlineSupportAgent   className='inline-block text-blue-400' />&nbsp;Support 
+              &nbsp;<MdAddShoppingCart className='inline-block text-blue-400' />&nbsp;Bonuses 
+              &nbsp;<TfiLock  className='inline-block text-blue-400' />&nbsp;SSL Certificate 
+               <br />
+            </p>
             
     </div> 
     </div>
