@@ -16,33 +16,34 @@ import { GrVmMaintenance } from "react-icons/gr";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { MdAddShoppingCart } from "react-icons/md";
 import { TfiLock } from "react-icons/tfi";
-
-
+import { TbMailFast } from "react-icons/tb";
+import { FaEye } from "react-icons/fa";
 const TopSection = () => {
   return (
     <div>
       
       <section>
-         <h2 className='reObjective'>Hello :</h2>
+         <p className='reObjective'>Hello :</p>
     <div className="objectiveWrapper">
         <p className="objectiveParagraph 
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">
           
-          <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;
-        &nbsp;&nbsp;Email templates save time by allowing you to reuse professionally designed emails. Whether it&apos;s invitations, sales messages, thank-you notes, or holiday greetings, templates streamline the process. With over 4.1 billion active email users globally, having efficient communication is essential.
-
-
-
-
-
-          
+          <FaEye className='inline-block text-blue-400 -mt-1' />&nbsp;
+        &nbsp;&nbsp;
+        
+        <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
+        <h1 className='inline-block text-blue-300 underline hover:text-amber-200'>Email templates:</h1>
+        </a>
+        &nbsp;save time by allowing you to reuse professionally designed emails. Whether it&apos;s invitations, sales messages, thank-you notes, or holiday greetings, templates streamline the process. With over 4.1 billion active email users globally, having efficient communication is essential.
          <br /> 
-
-          
         <br/>
-        <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;
-        &nbsp; &nbsp;&nbsp;Custom landing pages can be created to appeal to different types of customers. The content, page style, advertising, and offer it contains will determine its impact on the targeted customer group. Landing pages can be focused on drawing customers from a specific location, demographic, or individuals looking at price and quality. Easier testing and optimization of landing pages can be done by creating multiple landing pages targeted toward segmented customer populations.
+        <FaEye className='inline-block text-blue-400 -mt-1' />&nbsp;
+                &nbsp;
+                <a href="https://mybabb.github.io/BetterMcTransport/">
+                 <h2 className='inline-block text-blue-300 underline hover:text-amber-200'>Custom Landing Pages:</h2>
+                </a>
+                &nbsp;can be created to appeal to different types of customers. The content, page style, advertising, and offer it contains will determine its impact on the targeted customer group. Landing pages can be focused on drawing customers from a specific location, demographic, or individuals looking at price and quality. Easier testing and optimization of landing pages can be done by creating multiple landing pages targeted toward segmented customer populations.
           </p>
         <p className="objectiveParagraph mt-[-3rem]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
@@ -53,30 +54,39 @@ const TopSection = () => {
             <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' /> 
             <br/>
             <TbDiamond className='inline-block text-blue-400 ' />&nbsp;
-            <span className='underline decoration-[#85bb65]'>Level 1</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline'/>&nbsp;$100 A Quick-Send and Professional Email Template.
+            <span className='underline decoration-[#85bb65]'>Level 1</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline'/>&nbsp;$100&nbsp; 
+            <span className='inline-block text-blue-500'><TbMailFast /></span>
+               Quick-Send Pro Email Template.
             <br/>
             <TbDiamond className='inline-block text-blue-400 ' />&nbsp;
-            <span className='underline decoration-[#85bb65]'>Level 2</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$200 Quick-Send Template 
+            <span className='underline decoration-[#85bb65]'>Level 2</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$200&nbsp;
+            <span className='inline-block text-blue-500'><TbMailFast /></span>
+            Quick Send Pro Email Template 
             &nbsp;<TiPlus className='TiPlus ' />&nbsp;Social Media Links.  
             <br/>
             <TbDiamond className='inline-block text-blue-400 ' />&nbsp;
-            <span className='underline decoration-[#85bb65]'>Level 3</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$300 Quick-Send Template
+            <span className='underline decoration-[#85bb65]'>Level 3</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$300&nbsp;
+            <span className='inline-block text-blue-500'><TbMailFast /></span>
+            Quick-Send Pro Email Template
             &nbsp;<TiPlus className='TiPlus ' />&nbsp;Social Media Links.
             &nbsp;<TiPlus className='TiPlus ' />&nbsp;Custom Landing Page.  
              <br/>
             <TbDiamond className='inline-block text-blue-400 ' />&nbsp;
-            <span className='underline decoration-[#85bb65]'>Level 4</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$400 Everything
+            <span className='underline decoration-[#85bb65]'>Level 4</span>&nbsp;<TiEqualsOutline className='TiEqualsOutline' />&nbsp;$400&nbsp;
+            <span className='inline-block text-blue-500'><TbMailFast /></span>
+            Everything Above
             &nbsp;<TiPlus className='TiPlus ' />&nbsp;Secure Web-Mail to Gmail Integration. 
-             <br/>
-           <span className='text-center block w-[75%]'><GiDiamonds className='GiDiamonds'/>&nbsp;Integrating Web-Mail with Gmail streamlines your email management, enhances security, and provides a seamless experience across devices.</span> 
+             <br/><br />
+
+           <span className='text-center block'><GiDiamonds className='GiDiamonds'/>&nbsp;Integrating Web-Mail with Gmail streamlines your email management, enhances security, and provides a seamless experience across devices.</span> 
              </p>
             
         <p className="objectiveParagraph mt-[-3rem]
         
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
-        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]">  
+        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">  
         <RiDoubleQuotesL className='inline-block text-blue-400 mb-6' />
-        My landing page is Great for a small business or a personal page.
+        <span>My landing page is Great for a small business or a personal page.</span>
         <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' />  
             <br/>
         <SiGooglechrome className='inline-block text-blue-400' />&nbsp;<span className='googleG1 text-red-600'>G</span>
@@ -95,7 +105,7 @@ const TopSection = () => {
             <br/>       
             <MdOutlineTimer className='inline-block text-blue-400' />&nbsp; Quality and Perfection.
             <br/>
-            <RiLinksFill className='inline-block text-blue-400' />&nbsp; Add custom links that Channel new customers to your business.
+            <RiLinksFill className='inline-block text-blue-400' />&nbsp; Adds custom links that Channel new customers to your business.
             <br/> 
         </p>
         
