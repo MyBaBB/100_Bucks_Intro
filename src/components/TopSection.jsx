@@ -7,7 +7,6 @@ import { SlEyeglass } from "react-icons/sl";
 import { SiGooglechrome } from "react-icons/si";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
-import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
 import { GiDiamonds } from "react-icons/gi";
 import { TiEqualsOutline } from "react-icons/ti";
@@ -189,7 +188,7 @@ const TopSection = () => {
           <br />
            <br />
            <span className='text-left block '>
-             <span className='underline decoration-[#85bb65]'>New Domain</span> is $50 plus Domain cost and $25 a month</span>
+             <span className='underline decoration-[#85bb65]'>New Domain</span> is $50 plus Domain Name cost and $25 a month</span>
             <span className='block text-center'>
                
             </span>
