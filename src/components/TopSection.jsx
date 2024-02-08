@@ -198,7 +198,7 @@ const TopSection = () => {
              </p>
              <br />
             <p className='text-center mt-[-3rem] mb-4'>
-              Monthly Charges are for Web Hosting Are for:
+              Monthly Charges for Web Hosting Services include:
               <br />
               &nbsp;<GrVmMaintenance className='inline-block text-blue-400' />&nbsp;Maintenance 
               &nbsp;<MdOutlineSupportAgent   className='inline-block text-blue-400' />&nbsp;Support 
