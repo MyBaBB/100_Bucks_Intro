@@ -5,21 +5,22 @@ const ContactButton = () => {
   return (
 <div>
  <a href="https://Mybabb.com">
-   <div className="reContactButtonWrapper">
+   <div className="reContactButtonWrapper ">
      <div className=" reContactButton content-center p-10 
          rounded-full
          border border-solid 
          border-slate-900 
          bg-varMEDBLUEFEATHER
-         p-3 
+          p-1 sm:p-3 
         text-[1rem] sm:text-[1.5rem] lg:text-[2rem]
          
          text-black
          active:bg-varLIGHTBLUEFEATHER 
-         dark:border-none sm:text-3xl
+         dark:border-none 
+         text-[8px] sm:text-3xl
          text-center
          whitespace-nowrap
-         mt-10
+          mt-2 sm:mt-10
          -mb-5"
          > 
          

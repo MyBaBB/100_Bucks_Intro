@@ -22,8 +22,8 @@ const TopSection = () => {
     <div>
       
       <section>
-         <p className='reObjective'>Hello :</p>
-    <div className="objectiveWrapper">
+        
+    <div className="objectiveWrapper  mt-[1.67rem]  sm:mt-[4rem]">
         <p className="objectiveParagraph 
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">
@@ -32,7 +32,7 @@ const TopSection = () => {
         &nbsp;&nbsp;
         
         <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
-        <h1 className='inline-block text-blue-300 underline hover:text-amber-200'>Email templates:</h1>
+        <h1 className='inline-block text-amber-200 underline hover:text-blue-300'>Email templates:</h1>
         </a>
         &nbsp;save time by allowing you to reuse professionally designed emails. Whether it&apos;s invitations, sales messages, thank-you notes, or holiday greetings, templates streamline the process. With over 4.1 billion active email users globally, having efficient communication is essential.
          <br /> 
@@ -40,7 +40,7 @@ const TopSection = () => {
         <FaEye className='inline-block text-blue-400 -mt-1' />&nbsp;
                 &nbsp;
                 <a href="https://mybabb.github.io/BetterMcTransport/">
-                 <h2 className='inline-block text-blue-300 underline hover:text-amber-200'>Custom Landing Pages:</h2>
+                 <h2 className='inline-block text-amber-200 underline hover:text-blue-300'>Custom Landing Pages:</h2>
                 </a>
                 &nbsp;can be created to appeal to different types of customers. The content, page style, advertising, and offer it contains will determine its impact on the targeted customer group. Landing pages can be focused on drawing customers from a specific location, demographic, or individuals looking at price and quality. Easier testing and optimization of landing pages can be done by creating multiple landing pages targeted toward segmented customer populations.
           </p>
