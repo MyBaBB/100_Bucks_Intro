@@ -133,11 +133,13 @@ const TopSection = () => {
         p-[12px] text-[12px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px]
         xs:text-[20px] sm:p-[42px] sm:text-[24px] md:p-[52px] md:text-[28px] lg:p-[52px] "
           >
-            <RiDoubleQuotesL className="mb-6 inline-block text-blue-400" />
+            <RiDoubleQuotesL className="-mt-4 inline-block text-blue-400" />
+              &nbsp;
             <span>
               My landing page is Great for a small business or a personal page.
+              &nbsp;
             </span>
-            <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
+            <RiDoubleQuotesR className=" -mt-4 inline-block text-blue-400" />
             <br />
             <SiGooglechrome className="inline-block text-blue-400" />
             &nbsp;<span className="googleG1 text-red-600">G</span>
