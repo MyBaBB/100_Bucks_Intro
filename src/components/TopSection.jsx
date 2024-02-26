@@ -126,20 +126,21 @@ const TopSection = () => {
               across devices.
             </span>
           </p>
-
+          <br />
           <p
-            className="objectiveParagraph mt-[-3rem]
+            className="objectiveParagraph mt-[-3rem] p-[12px]
         
-        p-[12px] text-[12px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px]
+        text-center text-[12px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px]
         xs:text-[20px] sm:p-[42px] sm:text-[24px] md:p-[52px] md:text-[28px] lg:p-[52px] "
           >
             <RiDoubleQuotesL className="-mt-4 inline-block text-blue-400" />
-              &nbsp;
+            &nbsp;
             <span>
-              My landing page is Great for a small business or a personal page.
+              A Good landing page is great for Capturing Attention Quickly.
               &nbsp;
             </span>
             <RiDoubleQuotesR className=" -mt-4 inline-block text-blue-400" />
+            <br />
             <br />
             <SiGooglechrome className="inline-block text-blue-400" />
             &nbsp;<span className="googleG1 text-red-600">G</span>

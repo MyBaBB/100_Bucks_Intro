@@ -1,3 +1,5 @@
-this is a pricelist. intoductory offer.
+# This is a price list. introductory offer.
 
-use npm run deploy for gh-pages
+### Use npm run deploy for gh-pages
+
+![image](100bucksReadme.png)
