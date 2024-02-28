@@ -1,3 +1,5 @@
+<!-- note to self npm run deploy for gh-pages -->
+
 # This is a price list. introductory offer.
 
 ### Use npm run deploy for gh-pages
