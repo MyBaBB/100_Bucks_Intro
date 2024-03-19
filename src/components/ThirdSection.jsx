@@ -38,6 +38,11 @@ const ThirdSection = () => {
             <IoBookSharp className="inline-block text-blue-400" />
             &nbsp;&nbsp;&nbsp;Adobe Illustrator
           </li>
+          
+          <li>
+            <IoBookSharp className="inline-block text-blue-400" />
+            &nbsp;&nbsp;&nbsp;Stable Diffusion
+          </li>
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
             &nbsp;&nbsp;&nbsp;Vite with Firebase
