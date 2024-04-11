@@ -95,7 +95,7 @@ const TopSection = () => {
             <span className="underline decoration-[#85bb65]">Level 3</span>
             &nbsp;
             <TiEqualsOutline className="TiEqualsOutline" />
-            &nbsp;$300&nbsp;
+            &nbsp;$500&nbsp;
             <span className="inline-block text-blue-500">
               <TbMailFast />
             </span>
@@ -110,7 +110,7 @@ const TopSection = () => {
             <span className="underline decoration-[#85bb65]">Level 4</span>
             &nbsp;
             <TiEqualsOutline className="TiEqualsOutline" />
-            &nbsp;$400&nbsp;
+            &nbsp;$700&nbsp;
             <span className="inline-block text-blue-500">
               <TbMailFast />
             </span>
