@@ -68,16 +68,15 @@ const Navbar = () => {
                    "
         >
           <div /* middle part */
-            className="  top-1 z-[1]  
-              h-fit w-fit rounded-3xl   bg-rgba(47, 162, 139) px-[1.5rem] text-center"
+            className="  bg-rgba(47, 162,  
+              139) top-1 z-[1]   h-fit w-fit rounded-3xl px-[1.5rem] text-center"
           >
-             Beginner Steps
+            Beginner Steps
             <nav
               className="relative flex flex-col  justify-center  "
               aria-label="mobile"
             >
               <p id="mobile-menu2">
-                
                 <br />
                 <a href="https://mybabb.com" onClick={hideMobileMenu}>
                   {" "}

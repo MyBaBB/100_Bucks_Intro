@@ -24,11 +24,13 @@ const TopSection = () => {
       <section>
         <div
           className="objectiveWrapper  mx-8 mt-[1.67rem] from-gray-700
-        to-gray-800 sm:mt-[4rem] dark:bg-gradient-to-b shadow-stone-950"
-        > 
-        < ScubaMask  />
-        <br />
-        <h2 className="text-center font-Kingthings_Petrock   xs:text-7xl "><u>Beginner Steps</u></h2>
+        to-gray-800 shadow-stone-950 sm:mt-[4rem] dark:bg-gradient-to-b"
+        >
+          <ScubaMask />
+          <br />
+          <h2 className="text-center font-Kingthings_Petrock   xs:text-7xl ">
+            <u>Beginner Steps</u>
+          </h2>
           <p
             className="objectiveParagraph 
         p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
@@ -126,7 +128,6 @@ const TopSection = () => {
             &nbsp;Secure Web-Mail to Gmail Integration.
             <br />
             <br />
-            
             <span className="block text-center">
               <GiDiamonds className="GiDiamonds" />
               &nbsp;Integrating Web-Mail with Gmail streamlines your email
@@ -134,11 +135,13 @@ const TopSection = () => {
               across devices.
             </span>
             <span className="block text-center text-5xl text-green-300">
-              <span className="whitespace-nowrap"><GiDiamonds className="GiDiamonds" /></span>
+              <span className="whitespace-nowrap">
+                <GiDiamonds className="GiDiamonds" />
+              </span>
               &nbsp;Advanced Professional Custom Parts Require Negotiation.
             </span>
           </p>
-          
+
           <p
             className="objectiveParagraph mt-[-4rem] p-[12px]
         
