@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { GiLightningTear } from "react-icons/gi";
+import { GiLightningTear, GiScubaMask } from "react-icons/gi";
 import { RiLinksFill } from "react-icons/ri";
 import { MdOutlineTimer } from "react-icons/md";
 import { SlEyeglass } from "react-icons/sl";
@@ -17,15 +17,22 @@ import { MdAddShoppingCart } from "react-icons/md";
 import { TfiLock } from "react-icons/tfi";
 import { TbMailFast } from "react-icons/tb";
 import { FaEye } from "react-icons/fa";
+import ScubaMask from "./ScubaManFolder/ScubaMask";
 const TopSection = () => {
   return (
     <div>
       <section>
-        <div className="objectiveWrapper  mt-[1.67rem]  sm:mt-[4rem]">
+        <div
+          className="objectiveWrapper  mx-8 mt-[1.67rem] from-gray-700
+        to-gray-800 sm:mt-[4rem] dark:bg-gradient-to-b shadow-stone-950"
+        > 
+        < ScubaMask  />
+        <br />
+        <h2 className="text-center font-Kingthings_Petrock   xs:text-7xl "><u>Beginner Steps</u></h2>
           <p
             className="objectiveParagraph 
-        p-[12px] text-[12px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px]
-        xs:text-[20px] sm:p-[42px] sm:text-[24px] md:p-[52px] md:text-[28px] lg:p-[52px] "
+        p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
+        md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px] "
           >
             <FaEye className="-mt-1 inline-block text-blue-400" />
             &nbsp; &nbsp;&nbsp;
@@ -59,8 +66,8 @@ const TopSection = () => {
           </p>
           <p
             className="objectiveParagraph mt-[-3rem]
-        p-[12px] text-[12px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px]
-        xs:text-[20px] sm:p-[42px] sm:text-[24px] md:p-[52px] md:text-[28px] lg:p-[52px]"
+        p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
+        md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px]"
           >
             <RiDoubleQuotesL className="mb-6 inline-block text-blue-400" />
             What you will get for $100
@@ -119,19 +126,24 @@ const TopSection = () => {
             &nbsp;Secure Web-Mail to Gmail Integration.
             <br />
             <br />
+            
             <span className="block text-center">
               <GiDiamonds className="GiDiamonds" />
               &nbsp;Integrating Web-Mail with Gmail streamlines your email
               management, enhances security, and provides a seamless experience
               across devices.
             </span>
+            <span className="block text-center text-5xl text-green-300">
+              <span className="whitespace-nowrap"><GiDiamonds className="GiDiamonds" /></span>
+              &nbsp;Advanced Professional Custom Parts Require Negotiation.
+            </span>
           </p>
-          <br />
+          
           <p
-            className="objectiveParagraph mt-[-3rem] p-[12px]
+            className="objectiveParagraph mt-[-4rem] p-[12px]
         
-        text-center text-[12px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px]
-        xs:text-[20px] sm:p-[42px] sm:text-[24px] md:p-[52px] md:text-[28px] lg:p-[52px] "
+        text-center text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
+        md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px] "
           >
             <RiDoubleQuotesL className="-mt-4 inline-block text-blue-400" />
             &nbsp;
@@ -171,11 +183,11 @@ const TopSection = () => {
               A Email Template Importance:{" "}
             </span>
           </div>
-          <div className="p-8 text-2xl">
+          <div className="p-8 text-2xl ">
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-amber-200 underline">Templates Ensure:</span>
+            <span className="text-amber-200  underline">Templates Ensure:</span>
             <br /> That your emails maintain a consistent brand tone and
             message. Every team member communicates with the same professional
             demeanor, reinforcing your company&apos;s identity in every
@@ -257,8 +269,8 @@ const TopSection = () => {
             populations.
             <p
               className="objectiveParagraph mt-[0rem]
-              p-[12px] text-[12px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px]
-               xs:text-[20px] sm:p-[42px] sm:text-[24px] md:p-[52px] md:text-[28px] lg:p-[52px]"
+              p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
+               md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px]"
             >
               <span className="block text-left underline decoration-[#85bb65]">
                 Levels&nbsp;1 - 2&nbsp;

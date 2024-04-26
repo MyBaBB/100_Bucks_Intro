@@ -13,10 +13,10 @@ const ContactButton = () => {
          border 
          border-solid
           border-slate-900 bg-varMEDBLUEFEATHER 
-        p-1 p-1 text-center
+         p-1 text-center
          
          text-[1rem]
-         text-[8px] 
+           
          text-black 
          active:bg-varLIGHTBLUEFEATHER sm:mt-10
          sm:p-3

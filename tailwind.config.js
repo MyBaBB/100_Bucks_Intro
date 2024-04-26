@@ -42,20 +42,71 @@ export default {
         varBlUE: '#008080',
         varDARKBLUE: '#000080',
           },
-
-     screens: {
-      'xxxs': '280px',
-      'xxs': '320px',
-      'xs': '420px',
-      'sm': '460px',
-      'md': '685px',
-      'lg': '1024px',
-      'xl': '1280px',
-    },
-
-   
-    },
+          fontFamily: {
+            'Aclonica-Regular': ['Aclonica-Regular', 'sans-serif'],
+    'ArchivoBlack': ['Archivo Black', 'sans-serif'],
+    'BlackOpsOne': ['Black Ops One', 'cursive'],
+    'Caprasimo': ['Caprasimo', 'cursive'],
+    'Creepster': ['Creepster', 'cursive'],
+    'DMSerifDisplay': ['DM Serif Display-italic', 'serif'],
+      'EmilysCandy': ['Emilys Candy', 'cursive'],
+          'HoltwoodOneSC': ['Holtwood One SC', 'sans-serif'],
+    'Itim': ['Itim, cursive'],
+    'Kingthings_Petrock': ['Kingthings_Petrock', 'cursive'],
+    'Kranky': ['Kranky', 'cursive'],
+    'LibreBaskerville': ['Libre Baskerville', 'serif'],
+    "Montserrat": ['Montserrat', 'sans-serif'],
+    'Noto Serif': ['Noto Serif', 'serif'],
+    'Noto': ['Noto Sans', 'sans-serif'],
+    'Nosifer': ['Nosifer', 'cursive'],
+    'Orbitron': ['Orbitron', 'sans-serif'],
+    'PermanentMarker': ['Permanent Marker', 'cursive'],
+    'PtSerif': ['PT Serif_Bold', 'serif'],
+     // eslint-disable-next-line no-dupe-keys
+    'PtSerif': ['PT Serif_BoldItalic', 'serif'],
+    "Rye": ['Rye', 'cursive'], 
+    'Vollkorn': ['Vollkorn', 'serif'],
+    'Wallpoet': ['Wallpoet', 'cursive'],
+    'Sixtyfour': ['Sixtyfour', 'cursive'],
+    
   },
-  plugins: [],
-}
+ 
+     screens: {
+     'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
+     'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
+              xxs: '320px',
+      xs: '420px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      xxl: '1536px',
+      xxxl: '1920px',
+
+
+
+
+     },
+ 
+     keyframes: {
+     'open-menu': {
+       '0%': { transform: 'scaleY(0)' },
+       '80%': { transform: 'scaleY(01.2)' },
+       '100%': { transform: 'scaleY(1)' },
+     },
+     },
+     
+
+
+
+     animation: {
+     'open-menu': 'open-menu 0.5s ease-in-out forwards'
+     },
+   },
+   
+   plugins: [],
+ }
+};
+ 
+    
 

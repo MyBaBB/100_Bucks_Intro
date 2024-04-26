@@ -1,14 +1,16 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { IoBookSharp } from "react-icons/io5";
+import AquariumDataTip from "./AquariumFolder/AquariumDataTip";
+import "./AquariumFolder/AquariumStand.css";
 const ThirdSection = () => {
   return (
     <div>
       <section className="pl-8">
-        <h2 className="reSkills">Skills</h2>
+        <h2 className="reSkills text-[3rem]">Skills</h2>
         <ul
           className="reUnOrderedList2
-            text-[12px] xxs:text-[19px] xs:text-[23px] sm:text-[20px] md:text-[23px] "
+            text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   "
         >
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
@@ -38,7 +40,7 @@ const ThirdSection = () => {
             <IoBookSharp className="inline-block text-blue-400" />
             &nbsp;&nbsp;&nbsp;Adobe Illustrator
           </li>
-          
+
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
             &nbsp;&nbsp;&nbsp;Stable Diffusion
@@ -49,6 +51,9 @@ const ThirdSection = () => {
           </li>
         </ul>
       </section>
+      <div className="  relative m-auto flex w-screen justify-center">
+        <AquariumDataTip />
+      </div>
     </div>
   );
 };
