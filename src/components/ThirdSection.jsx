@@ -51,6 +51,7 @@ const ThirdSection = () => {
           </li>
         </ul>
       </section>
+      br
       <div className="  relative m-auto flex w-screen justify-center">
         <AquariumDataTip />
       </div>

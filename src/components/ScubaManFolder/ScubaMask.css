@@ -34,7 +34,7 @@
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
   top: 1.9rem;
-  left: 1.3rem;
+  left: 1.8rem;
   transform: translateX(-35%) scale(var(--scale));
   transform-origin: bottom center;
   transition: 0.25s;

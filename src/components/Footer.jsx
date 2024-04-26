@@ -6,12 +6,12 @@ import { GiSadCrab } from "react-icons/gi";
 const Footer = () => {
   return (
     <div>
-      <div className=" relative flex justify-center pr-4 sm:justify-end ">
+      <div className=" relative flex justify-center sm:justify-end ">
         <a
           href="mailto:howdy@mybabb.com"
-          className=" text-bold relative mb-2  mt-2 flex w-fit rounded-lg border-[1px]
-         border-varLIGHTBLUEFEATHER bg-blue-950 p-2 text-center font-Aclonica-Regular text-lg text-gray-300
-       hover:bg-gray-950 sm:mr-16"
+          className=" text-bold relative  mb-[-1rem] mt-[-.85rem] flex w-fit rounded-lg border-[1px]
+         border-varLIGHTBLUEFEATHER bg-blue-950 p-2 text-center font-Aclonica-Regular text-sm sm:text-lg text-gray-300
+       hover:bg-gray-950  sm:mr-16"
         >
           Contact@MyBaBB.com
         </a>
