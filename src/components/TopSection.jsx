@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { GiLightningTear,   } from "react-icons/gi";
+import { GiLightningTear, GiScubaMask } from "react-icons/gi";
 import { RiLinksFill } from "react-icons/ri";
 import { MdOutlineTimer } from "react-icons/md";
 import { SlEyeglass } from "react-icons/sl";
@@ -29,7 +29,7 @@ const TopSection = () => {
           <ScubaMask />
           <br />
           <h2 className="text-center font-Kingthings_Petrock   xs:text-7xl ">
-            <u>Beginner Steps</u>
+            <u>Beginner&apos;s Kit</u>
           </h2>
           <p
             className="objectiveParagraph 
