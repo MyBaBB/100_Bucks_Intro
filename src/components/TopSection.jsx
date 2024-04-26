@@ -28,9 +28,14 @@ const TopSection = () => {
         >
           <ScubaMask />
           <br />
-          <h2 className="text-center font-Kingthings_Petrock   xs:text-7xl ">
+          <a href="#gotoLevel1">
+            <div className=" w-fit relative m-auto text-white hover:text-opacity-50">
+          <h2 className="text-center  font-Kingthings_Petrock   xs:text-7xl ">
             <u>Beginner&apos;s Kit</u>
           </h2>
+          </div>
+          </a>
+
           <p
             className="objectiveParagraph 
         p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
@@ -77,7 +82,7 @@ const TopSection = () => {
             <br />
             <TbDiamond className="inline-block text-blue-400 " />
             &nbsp;
-            <span className="underline decoration-[#85bb65]">Level 1</span>
+            <span id="gotoLevel1" className="underline decoration-[#85bb65] scroll-mt-24">Level 1</span>
             &nbsp;
             <TiEqualsOutline className="TiEqualsOutline" />
             &nbsp;$100&nbsp;
