@@ -2,6 +2,20 @@
   margin: 0;
   box-sizing: 0;
 }
+.buttonStyles {
+  position: relative;
+  display: flex;
+  border-radius: 24px;
+  border:2px solid #282b30;
+  background-image: linear-gradient(to bottom, #5b616b, #1a1c20);
+  padding-bottom:.25rem ; 
+  padding-top:.25rem ;  
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .5);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+ }
+ 
+
 
 /* -------------Navbar and Burger menu ---------- */
 /* holds the burger icon */
@@ -41,12 +55,12 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(47, 162, 139, 0.931);
+  background-color: rgba(29, 97, 84, 0.931);
   font-family: Kingthings_Petrock;
   width: 100%;
   height: screen;
   border: 5px solid black;
-
+  
   z-index: 10;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
