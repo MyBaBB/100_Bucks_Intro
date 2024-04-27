@@ -86,7 +86,7 @@ const Navbar = () => {
                 <a href="https://mybabb.com" onClick={hideMobileMenu}>
                   {" "}
                   <div
-                    className="buttonStyles  origin-top animate-open-menu text-gray-100 "
+                    className="buttonStyles my-[10px] sm:my-[20px]  origin-top animate-open-menu text-gray-100 "
                     >
                     <div className="relative inline-block  pl-4 text-center ">
                       <BsPersonVcard />
@@ -96,7 +96,7 @@ const Navbar = () => {
                     </span>
                   </div>
                 </a>
-                <br />
+              
 
                 <a
                   href="https://mybabb.github.io/My_Introduction/"
@@ -104,7 +104,7 @@ const Navbar = () => {
                 >
                   {" "}
                   <div
-                    className="buttonStyles  origin-top animate-open-menu text-gray-100 "
+                    className="buttonStyles my-[10px] sm:my-[20px]   origin-top animate-open-menu text-gray-100 "
                     >
                     <div className="relative inline-block pl-4 ">
                       <GiStrongMan />
@@ -114,7 +114,7 @@ const Navbar = () => {
                     </span>
                   </div>
                 </a>
-                <br />
+                
 
                 <a
                   href="https://mybabb.github.io/About_MyBaBB/"
@@ -122,7 +122,7 @@ const Navbar = () => {
                 >
                   {" "}
                   <div
-                    className="buttonStyles  origin-top animate-open-menu text-gray-100 "
+                    className="buttonStyles my-[10px] sm:my-[20px]   origin-top animate-open-menu text-gray-100 "
                     >
                     <div className="relative inline-block pl-4 ">
                       <LiaInfoSolid />
@@ -133,14 +133,14 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <br />
+               
                 <a
                   href="https://mybabb.github.io/SEO-BEST_PRACTICES/"
                   onClick={hideMobileMenu}
                 >
                   {" "}
                   <div
-                    className="buttonStyles  origin-top animate-open-menu text-gray-100 "
+                    className="buttonStyles my-[10px] sm:my-[20px]   origin-top animate-open-menu text-gray-100 "
                     >
                     <div className="relative inline-block pl-4 pr-2 ">
                       <RiSeoLine />
@@ -150,14 +150,14 @@ const Navbar = () => {
                     </span>
                   </div>
                 </a>
-                <br />
+              
                 <a
                   href="https://mybabb.github.io/BetterMcTransport/"
                   onClick={hideMobileMenu}
                 >
                   {" "}
                   <div
-                    className="buttonStyles  origin-top animate-open-menu text-gray-100 "
+                    className="buttonStyles my-[10px] sm:my-[20px]   origin-top animate-open-menu text-gray-100 "
                     >
                     <div className="relative inline-block pl-4 pr-2 ">
                       <SiQuicklook />
@@ -167,10 +167,10 @@ const Navbar = () => {
                     </span>
                   </div>
                 </a>
-                <br />
+               
                 <a href="https://mybabb.github.io/Franken-Timer/">
                   <div
-                    className="buttonStyles  origin-top animate-open-menu text-gray-100 "
+                    className="buttonStyles my-[10px] sm:my-[20px]   origin-top animate-open-menu text-gray-100 "
                     >
                     <div className="relative inline-block pl-4 pr-2">
                       <LiaHourglassHalfSolid />
@@ -180,7 +180,7 @@ const Navbar = () => {
                     </span>
                   </div>
                 </a>
-                <br />
+                 
 
                 <a
                   href="https://resume-hub.mybabb.com/"
@@ -188,7 +188,7 @@ const Navbar = () => {
                 >
                   {" "}
                   <div
-                    className="buttonStyles  origin-top animate-open-menu text-gray-100 "
+                    className="buttonStyles my-[10px] sm:my-[20px]   origin-top animate-open-menu text-gray-100 "
                     >
                     <div className="relative inline-block pl-4 ">
                       <SiTestinglibrary />
