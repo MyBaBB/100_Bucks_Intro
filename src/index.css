@@ -6,7 +6,7 @@
   background: linear-gradient(to bottom, #1b3854, #181e2c 60%);
   padding: 0, 4rem, 0, 4rem;
   margin: 0, 4rem, 0, 4rem;
-  
+
 }
 
 .TestAppWrapper {
@@ -221,4 +221,14 @@
 @font-face {
   font-family: "Sixtyfour";
   src: url(../GoogleFonts/SixtyFour-Regular.ttf);
+}
+
+@media screen and (max-height: 413px) and (max-width: 760px) and (orientation: landscape) {
+ .buttonStyles {
+  margin-top: 4px;
+  margin-bottom: 4px;
+ }
+ .BeginnersKitH1 {
+  display: none;
+ }
 }

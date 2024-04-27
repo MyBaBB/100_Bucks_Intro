@@ -67,7 +67,7 @@ const Navbar = () => {
           className="hiddenHolder relative m-auto  flex-row  items-center justify-center  text-4xl 
                    "
         >
-           <h2 className="text-amber-200 text-center pt-4 pb-[2rem] text-[4rem]">Beginner&apos;s Kit</h2>
+           <h2 className="BeginnersKitH1 text-amber-200 text-center pt-4 pb-[2rem] text-[4rem]">Beginner&apos;s Kit</h2>
           <div /* middle part */
             className="  top-1 z-[1]  
               h-fit w-fit rounded-3xl   bg-green-950 px-[1.5rem] text-center"
