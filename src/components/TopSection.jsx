@@ -162,7 +162,13 @@ const TopSection = () => {
             <RiDoubleQuotesR className=" -mt-4 inline-block text-blue-400" />
             <br />
             <br />
-            <p className="text-left translate-x-[22%]">
+
+                      {/* custom google button  */}
+
+            <p className="text-left lg:translate-x-[22%]">
+
+
+
             <SiGooglechrome className="inline-block text-blue-400" />
             &nbsp;<span className="googleG1 text-red-600">G</span>
             <span className="googleO1 text-green-600">o</span>
@@ -170,6 +176,9 @@ const TopSection = () => {
             <span className="googleG2 text-blue-600">g</span>
             <span className="googleL text-orange-400">l</span>
             <span className="googleE text-green-600">e</span>
+
+
+
             &nbsp; Search Engine Optimization
             <GiLightningTear className="inline-block text-blue-300" />
             lightning fast for&nbsp;
