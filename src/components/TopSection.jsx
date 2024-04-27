@@ -139,7 +139,7 @@ const TopSection = () => {
               management, enhances security, and provides a seamless experience
               across devices.
             </span>
-            <span className="block text-center mt-4 -mb-4 text-5xl text-green-300">
+            <span className="block text-center mt-4  text-2xl md:text-5xl text-green-300">
               <span className="whitespace-nowrap">
                 <GiDiamonds className="GiDiamonds" />
               </span>
