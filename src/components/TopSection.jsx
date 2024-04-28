@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { GiLightningTear, GiScubaMask } from "react-icons/gi";
+import { GiLightningTear} from "react-icons/gi";
 import { RiLinksFill } from "react-icons/ri";
 import { MdOutlineTimer } from "react-icons/md";
 import { SlEyeglass } from "react-icons/sl";
@@ -29,11 +29,11 @@ const TopSection = () => {
           <ScubaMask />
           <br />
           <a href="#gotoLevel1">
-            <div className=" w-fit relative m-auto text-white hover:text-opacity-50">
-          <h2 className="text-center  font-Kingthings_Petrock   xs:text-7xl ">
-            <u>Beginner&apos;s Kit</u>
-          </h2>
-          </div>
+            <div className=" relative m-auto w-fit text-white hover:text-opacity-50">
+              <h2 className="text-center  font-Kingthings_Petrock   xs:text-7xl ">
+                <u>Beginner&apos;s Kit</u>
+              </h2>
+            </div>
           </a>
 
           <p
@@ -82,7 +82,12 @@ const TopSection = () => {
             <br />
             <TbDiamond className="inline-block text-blue-400 " />
             &nbsp;
-            <span id="gotoLevel1" className="underline decoration-[#85bb65] scroll-mt-24">Level 1</span>
+            <span
+              id="gotoLevel1"
+              className="scroll-mt-24 underline decoration-[#85bb65]"
+            >
+              Level 1
+            </span>
             &nbsp;
             <TiEqualsOutline className="TiEqualsOutline" />
             &nbsp;$100&nbsp;
@@ -139,7 +144,7 @@ const TopSection = () => {
               management, enhances security, and provides a seamless experience
               across devices.
             </span>
-            <span className="block text-center mt-4  text-2xl md:text-5xl text-green-300">
+            <span className="mt-4 block text-center  text-2xl text-green-300 md:text-5xl">
               <span className="whitespace-nowrap">
                 <GiDiamonds className="GiDiamonds" />
               </span>
@@ -162,42 +167,32 @@ const TopSection = () => {
             <RiDoubleQuotesR className=" -mt-4 inline-block text-blue-400" />
             <br />
             <br />
-
-                      {/* custom google button  */}
-
+            {/* custom google button  */}
             <p className="text-left lg:translate-x-[22%]">
-
-
-
-            <SiGooglechrome className="inline-block text-blue-400" />
-            &nbsp;<span className="googleG1 text-red-600">G</span>
-            <span className="googleO1 text-green-600">o</span>
-            <span className="googleO2 text-yellow-600">o</span>
-            <span className="googleG2 text-blue-600">g</span>
-            <span className="googleL text-orange-400">l</span>
-            <span className="googleE text-green-600">e</span>
-
-
-
-            &nbsp; Search Engine Optimization
-            <GiLightningTear className="inline-block text-blue-300" />
-            lightning fast for&nbsp;
-            <span className="underline">(SEO)</span>
-            <br />
-            <SlEyeglass className="inline-block text-blue-400" /> I can make it
-            look great on all devices.(Mobile Responsive)
-            <br />
-            <MdOutlineTimer className="inline-block text-blue-400" />
-            &nbsp; Quality and Perfection.
-            <br />
-            <RiLinksFill className="inline-block text-blue-400" />
-            &nbsp; Adds custom links that Channel new customers to your
-            business.
-            <br />
+              <SiGooglechrome className="inline-block text-blue-400" />
+              &nbsp;<span className="googleG1 text-red-600">G</span>
+              <span className="googleO1 text-green-600">o</span>
+              <span className="googleO2 text-yellow-600">o</span>
+              <span className="googleG2 text-blue-600">g</span>
+              <span className="googleL text-orange-400">l</span>
+              <span className="googleE text-green-600">e</span>
+              &nbsp; Search Engine Optimization
+              <GiLightningTear className="inline-block text-blue-300" />
+              lightning fast for&nbsp;
+              <span className="underline">(SEO)</span>
+              <br />
+              <SlEyeglass className="inline-block text-blue-400" /> I can make
+              it look great on all devices.(Mobile Responsive)
+              <br />
+              <MdOutlineTimer className="inline-block text-blue-400" />
+              &nbsp; Quality and Perfection.
+              <br />
+              <RiLinksFill className="inline-block text-blue-400" />
+              &nbsp; Adds custom links that Channel new customers to your
+              business.
+              <br />
+            </p>
           </p>
-          </p>
-            
-            
 
           <div className="pb-2 text-center text-4xl font-bold text-amber-200 underline">
             <span className="landingPage underline1">
@@ -208,51 +203,59 @@ const TopSection = () => {
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-amber-200 text-3xl underline">Templates Ensure:</span>
-            <br />   Your emails will maintain a consistent brand tone and
+            <span className="text-3xl text-amber-200 underline">
+              Templates Ensure:
+            </span>
+            <br /> Your emails will maintain a consistent brand tone and
             message. Every team member communicates with the same professional
             demeanor, reinforcing your company&apos;s identity in every
-            interaction. 
+            interaction.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-amber-200 text-3xl underline">Using templates:</span>
-            <br />  Helps you appear polished and proficient. Despite spending
+            <span className="text-3xl text-amber-200 underline">
+              Using templates:
+            </span>
+            <br /> Helps you appear polished and proficient. Despite spending
             only a few minutes crafting an email, you&apos;ll still convey a
-            professional image. 
+            professional image.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-amber-200 text-3xl underline">Conversion Rates:</span>
+            <span className="text-3xl text-amber-200 underline">
+              Conversion Rates:
+            </span>
             <br /> Well-designed, visually appealing emails can increase
             click-through rates by up to 14% and conversion rates by 10%.
-            Templates provide the foundation for creating compelling content. 
+            Templates provide the foundation for creating compelling content.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-amber-200 text-3xl underline">Brand Identity:</span>
+            <span className="text-3xl text-amber-200 underline">
+              Brand Identity:
+            </span>
             <br /> Templates keep your messaging on brand, reinforcing your
             company&apos;s identity. Whether it&apos;s a sales pitch or a
-            customer service response, consistency matters. 
+            customer service response, consistency matters.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-amber-200 text-3xl underline">Efficiency:</span>
+            <span className="text-3xl text-amber-200 underline">
+              Efficiency:
+            </span>
             <br /> Email templates save time by allowing you to reuse
             professionally designed emails. Whether it&apos;s invitations, sales
             messages, thank-you notes, or holiday greetings, templates
             streamline the process. With over 4.1 billion active email users
-            globally, having efficient communication is essential. 
+            globally, having efficient communication is essential.
             <br />
           </div>
           <div className="pb-2 text-center text-4xl font-bold text-amber-200 underline">
-            <span className="landingPage underline1">
-              Landing Page Pros:{" "}
-            </span>
+            <span className="landingPage underline1">Landing Page Pros: </span>
           </div>
           <div className="p-8 text-2xl">
             <span className="IoDiamondSharp inline-block pb-1">

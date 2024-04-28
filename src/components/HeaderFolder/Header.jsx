@@ -29,12 +29,12 @@ const Header = () => {
           </div>
         </a>
         <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
-        <p
-          className=" headerCenterTextBox text-[12px]sm:text-[16px]   w-fit scale-[70%] 
+          <p
+            className=" headerCenterTextBox text-[12px]sm:text-[16px]   w-fit scale-[70%] 
          text-amber-100  hover:text-opacity-50  md:text-[20px] lg:text-[25px] xl:text-[30px] xxs:scale-[80%] xs:scale-[100%]"
-        >
-          <h1>Quick Pro Email </h1>
-        </p>
+          >
+            <h1>Quick Pro Email </h1>
+          </p>
         </a>
         <a href="https://resume-hub.mybabb.com/">
           <div className="outerOctoglassesWrapper hidden md:block">

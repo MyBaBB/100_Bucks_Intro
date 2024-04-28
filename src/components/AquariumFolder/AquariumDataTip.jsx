@@ -5,7 +5,7 @@ import "./AquariumStand.css";
 const Profile = () => {
   return (
     <div>
-      <div className="relative bottom-[1.5rem] sm:bottom-[-2rem] mt-[-3.2rem] flex">
+      <div className="relative bottom-[1.5rem] mt-[-3.2rem] flex sm:bottom-[-2rem]">
         <a className="" href="https://Resume-Hub.mybabb.com">
           <div
             className="dataToolTip9"

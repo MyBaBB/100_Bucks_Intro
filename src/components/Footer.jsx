@@ -10,8 +10,8 @@ const Footer = () => {
         <a
           href="mailto:howdy@mybabb.com"
           className=" text-bold relative  mb-[-1rem] mt-[-.85rem] flex w-fit rounded-lg border-[1px]
-         border-varLIGHTBLUEFEATHER bg-blue-950 p-2 text-center font-Aclonica-Regular text-sm sm:text-lg text-gray-300
-       hover:bg-gray-950  sm:mr-16"
+         border-varLIGHTBLUEFEATHER bg-blue-950 p-2 text-center font-Aclonica-Regular text-sm text-gray-300 hover:bg-gray-950
+       sm:mr-16  sm:text-lg"
         >
           Contact@MyBaBB.com
         </a>
