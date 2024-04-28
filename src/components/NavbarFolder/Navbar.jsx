@@ -197,7 +197,7 @@ const Navbar = () => {
                     <div className="relative inline-block pl-4 ">
                       <SiTestinglibrary />
                     </div>
-                    <span className="menuButtonWords   pr-6 ">Kraken</span>
+                    <span className="menuButtonWords   pr-6 ">Zale</span>
                   </div>
                 </a>
               </p>
