@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div>
       <Navbar />
-      <div className="headerWrapper">
+      <div className="headerWrapper fixed">
         <a href="https://mybabb.com">
           <div className="outerNewMeWrapper hidden md:block">
             <div className="newMeWrapper">

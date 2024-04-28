@@ -23,8 +23,8 @@ const TopSection = () => {
     <div>
       <section>
         <div
-          className="objectiveWrapper  mx-8 mt-[1.67rem] from-gray-700
-        to-gray-800 shadow-stone-950 sm:mt-[4rem] dark:bg-gradient-to-b"
+          className="objectiveWrapper  mx-8 mt-[6rem] from-gray-700
+        to-gray-800 shadow-stone-950 sm:mt-[7rem] dark:bg-gradient-to-b"
         >
           <ScubaMask />
           <br />

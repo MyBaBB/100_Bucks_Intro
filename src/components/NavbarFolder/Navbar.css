@@ -18,8 +18,8 @@
   text-align: center;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .5);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  margin-top: .5rem ;
-  margin-bottom: .5rem;
+  margin-top: 1rem ;
+  margin-bottom: 1rem;
   
  }
   .buttonStyles:hover {
@@ -59,7 +59,7 @@
 /* holds the burger icon */
 /* burger icon position */
 .navWrapper {
-  position: absolute;
+  position: fixed;
   height: 5em;
   left: 2rem;
   top: 1rem;
