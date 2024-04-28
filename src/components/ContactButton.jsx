@@ -4,7 +4,7 @@ import React from "react";
 const ContactButton = () => {
   return (
     <div>
-      <a href="https://Mybabb.com">
+      <a href="https://resume-hub.mybabb.com/">
         <div className="reContactButtonWrapper ">
           <div
             className=" reContactButton -mb-5 mt-2 
@@ -26,7 +26,7 @@ const ContactButton = () => {
           >
             <span className="span1">📡</span>
             <span className="z-50 text-varLIGHTBLUEFEATHER hover:text-[#FFDB58]">
-              MyBaBB
+              Resume Hub
             </span>
             <span>📡</span>
           </div>

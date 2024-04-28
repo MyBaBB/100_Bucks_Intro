@@ -18,14 +18,17 @@ import { TfiLock } from "react-icons/tfi";
 import { TbMailFast } from "react-icons/tb";
 import { FaEye } from "react-icons/fa";
 import ScubaMask from "./ScubaManFolder/ScubaMask";
+import ContactButton from "./ContactButton";
 const TopSection = () => {
   return (
     <div>
       <section>
         <div
-          className="objectiveWrapper  mx-8 mt-[6rem] from-gray-700
-        to-gray-800 shadow-stone-950 sm:mt-[7rem] dark:bg-gradient-to-b"
+          className="objectiveWrapper  mx-18 mt-[6rem] from-gray-700
+        to-gray-800 shadow-stone-950 sm:mt-[7rem] pt-14 dark:bg-gradient-to-b"
         >
+          <ContactButton />
+        <br />
           <ScubaMask />
           <br />
           <a href="#gotoLevel1">
