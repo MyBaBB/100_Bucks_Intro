@@ -3,12 +3,13 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { LiaInfoSolid } from "react-icons/lia";
 import { SiQuicklook } from "react-icons/si";
-import { GiStrongMan } from "react-icons/gi";
+import { GiStrongMan, GiWoodCabin } from "react-icons/gi";
 import { BsGithub } from "react-icons/bs";
 import { GrBaby } from "react-icons/gr";
 import { BsPersonVcard } from "react-icons/bs";
 import { LiaHourglassHalfSolid } from "react-icons/lia";
 import { SiTestinglibrary } from "react-icons/si";
+ 
 const Navbar = () => {
   //to change burger classes
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
@@ -77,46 +78,19 @@ const Navbar = () => {
                 id="mobile-menu "
                 className="relative my-auto flex-row justify-center"
               >
+              
+
+
                 <a
-                  href="https://mybabb.github.io/100_Bucks_Intro/"
+                  href="#"
                   onClick={hideMobileMenu}
                 >
                   {" "}
                   <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
                     <div className="relative inline-block pl-4 ">
-                      <GrBaby />
+                      <GiWoodCabin />
                     </div>
-                    <span className="menuButtonWords pr-6 font-Aclonica-Regular  text-4xl ">
-                      <u>Starter Kit</u>
-                    </span>
-                  </div>
-                </a>
-
-                <a href="https://mybabb.com" onClick={hideMobileMenu}>
-                  {" "}
-                  {/* xxxxxxx the mobile buttons xxxxxxxxx */}
-                  <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
-                    <div className="relative inline-block pl-4  ">
-                      <BsPersonVcard />
-                    </div>
-                    <span className="menuButtonWords  ml-[2rem] pr-8 ">
-                      MyBaBB.com
-                    </span>
-                  </div>
-                </a>
-
-                <a
-                  href="https://mybabb.github.io/My_Introduction/"
-                  onClick={hideMobileMenu}
-                >
-                  {" "}
-                  <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
-                    <div className="relative inline-block pl-4 ">
-                      <GiStrongMan />
-                    </div>
-                    <span className="menuButtonWords   pr-6 ">
-                      My Resume&apos;
-                    </span>
+                    <span className="menuButtonWords    pr-6 ">Home</span>
                   </div>
                 </a>
 
@@ -133,6 +107,7 @@ const Navbar = () => {
                   </div>
                 </a>
 
+
                 <a
                   href="https://mybabb.github.io/BetterMcTransport/"
                   onClick={hideMobileMenu}
@@ -146,6 +121,50 @@ const Navbar = () => {
                   </div>
                 </a>
 
+                <a href="https://github.com/MyBaBB" onClick={hideMobileMenu}>
+                  {" "}
+                  <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
+                    <div className="relative inline-block pl-4 pr-2 ">
+                      <BsGithub />
+                    </div>
+                    <span className="menuButtonWords   pr-6 ">GitHub</span>
+                  </div>
+                </a>
+
+
+                <a href="https://mybabb.com" onClick={hideMobileMenu}>
+                  {" "}
+                  {/* xxxxxxx the mobile buttons xxxxxxxxx */}
+                  <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
+                    <div className="relative inline-block pl-4  ">
+                      <BsPersonVcard />
+                    </div>
+                    <span className="menuButtonWords  ml-[2rem] pr-8 ">
+                      MyBaBB.com
+                    </span>
+                  </div>
+                </a>
+
+
+
+
+                <a
+                  href="https://mybabb.github.io/My_Introduction/"
+                  onClick={hideMobileMenu}
+                >
+                  {" "}
+                  <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
+                    <div className="relative inline-block pl-4 ">
+                      <GiStrongMan />
+                    </div>
+                    <span className="menuButtonWords   pr-6 ">
+                      My Resume&apos;
+                    </span>
+                  </div>
+                </a>
+
+
+
                 <a href="https://mybabb.github.io/Franken-Timer/">
                   <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
                     <div className="relative inline-block pl-4 pr-2">
@@ -157,13 +176,18 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <a href="https://github.com/MyBaBB" onClick={hideMobileMenu}>
+                <a
+                  href="https://mybabb.github.io/100_Bucks_Intro/"
+                  onClick={hideMobileMenu}
+                >
                   {" "}
                   <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
-                    <div className="relative inline-block pl-4 pr-2 ">
-                      <BsGithub />
+                    <div className="relative inline-block pl-4 ">
+                      <GrBaby />
                     </div>
-                    <span className="menuButtonWords   pr-6 ">GitHub</span>
+                    <span className="menuButtonWords pr-6 font-Aclonica-Regular  text-3xl ">
+                      <u>Starter Kit</u>
+                    </span>
                   </div>
                 </a>
 
