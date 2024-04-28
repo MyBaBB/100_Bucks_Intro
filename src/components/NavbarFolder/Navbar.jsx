@@ -181,12 +181,12 @@ const Navbar = () => {
                   onClick={hideMobileMenu}
                 >
                   {" "}
-                  <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
+                  <div className="buttonStyles   origin-top animate-open-menu text-gray-100 opacity-35 ">
                     <div className="relative inline-block pl-4 ">
                       <GrBaby />
                     </div>
                     <span className="menuButtonWords pr-6 font-Aclonica-Regular  text-3xl ">
-                      <u>Starter Kit</u>
+                      Starter Kit
                     </span>
                   </div>
                 </a>
