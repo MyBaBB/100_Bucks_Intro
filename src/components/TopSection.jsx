@@ -31,8 +31,8 @@ const TopSection = () => {
         <br />
           <ScubaMask />
           <br />
-          <a href="#gotoLevel1">
-            <div className=" relative m-auto w-fit text-white hover:text-opacity-50">
+          <a href="#gotoLevel1" >
+            <div className="scroll-mt-[19rem] relative m-auto w-fit text-white hover:text-opacity-50">
               <h2 className="text-center  font-Kingthings_Petrock   xs:text-7xl ">
                 <u>Beginner&apos;s Kit</u>
               </h2>
@@ -87,7 +87,7 @@ const TopSection = () => {
             &nbsp;
             <span
               id="gotoLevel1"
-              className="scroll-mt-24 underline decoration-[#85bb65]"
+              className="scroll-mt-[14rem] underline decoration-[#85bb65]"
             >
               Level 1
             </span>
