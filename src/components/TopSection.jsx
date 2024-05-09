@@ -16,7 +16,7 @@ import { MdOutlineSupportAgent } from "react-icons/md";
 import { MdAddShoppingCart } from "react-icons/md";
 import { TfiLock } from "react-icons/tfi";
 import { TbMailFast } from "react-icons/tb";
-import { FaEye } from "react-icons/fa";
+import { PiLinkBold } from "react-icons/pi";
 import ScubaMask from "./ScubaManFolder/ScubaMask";
 import ContactButton from "./ContactButton";
 import ToolBox from "./ToolBoxFolder/ToolBox";
@@ -50,8 +50,8 @@ const TopSection = () => {
         p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
         md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px] "
           >
-            <FaEye className="-mt-1 inline-block text-blue-400" />
-            &nbsp; &nbsp;&nbsp;
+            <PiLinkBold className="-mt-1 inline-block text-blue-400" />
+            &nbsp; 
             <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
               <h1 className="inline-block text-green-400 underline hover:text-blue-300">
                 Email templates:
@@ -64,8 +64,8 @@ const TopSection = () => {
             communication is essential.
             <br />
             <br />
-            <FaEye className="-mt-1 inline-block text-blue-400" />
-            &nbsp; &nbsp;
+            <PiLinkBold className="-mt-1 inline-block text-blue-400" />
+            &nbsp; 
             <a href="https://mybabb.github.io/BetterMcTransport/">
               <h2 className="inline-block text-green-400 underline hover:text-blue-300">
                 Custom Landing Pages:
