@@ -285,39 +285,39 @@ const TopSection = () => {
           <div id="landingPagePros" className=" scroll-mt-[12rem] pb-2 text-center text-4xl font-bold text-green-400 underline">
             <span className="landingPagePros underline1 font-LibreBaskerville-Bold">Landing Page Pros: </span>
           </div>
-          <div className="p-8 text-center text-5xl">
+           <div className="p-8 text-center text-5xl">
             
              
 
           <span className="whitespace-nowrap inline-flex my-1   ">
             <PiCrosshairSimpleFill className="text-blue-400" />
-            &nbsp;&nbsp;Serves<span></span>&nbsp;a single and focused purpose.</span>
+            &nbsp;&nbsp;Serves</span><span>&nbsp;a single and focused purpose.</span>
             <br />
 
             <span className="whitespace-nowrap inline-flex my-1 ">
-              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;<span>
-                Helps</span>&nbsp;Visitors to Become Customers.</span>
+              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;
+                Helps</span><span>&nbsp;Visitors to Become Customers.</span>
             <br />
              
             <span className="whitespace-nowrap inline-flex my-1 ">
-              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;<span>
-                Can be</span>&nbsp;click-through or lead generation based.</span>
+              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;
+                Can be</span><span>&nbsp;click-through or lead generation based.</span>
             <br />
             
             <span className="whitespace-nowrap inline-flex my-1 ">
-              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;<span>
-                It Can</span>&nbsp;be customized to appeal to different types of
+              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;
+                It Can</span><span>&nbsp;be customized to appeal to different types of
             Buyers.</span>
             <br />          
             
             <span className="whitespace-nowrap inline-flex my-1 ">
-              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;<span>
-                It helps</span>&nbsp;to Target a Specific Type of Customer</span>
+              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;
+                It helps</span><span>&nbsp;to Target a Specific Type of Customer</span>
             <br />
           
             <span className="whitespace-nowrap inline-flex my-1 ">
-              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;<span>
-                 Allows</span>&nbsp;for easier testing and optimization </span>
+              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;
+                 Allows</span><span>&nbsp;for easier testing and optimization </span>
             <br />
             <div className="my-1">
             <span className="mt-10 block text-center  text-2xl text-green-300 md:text-5xl">
