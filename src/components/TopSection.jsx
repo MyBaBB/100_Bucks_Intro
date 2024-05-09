@@ -40,7 +40,7 @@ const TopSection = () => {
           <a href="#gotoLevel1" >
             <div className="scroll-mt-[19rem]  relative m-auto w-fit text-blue-200 hover:text-opacity-50">
               <h2 className="text-center  font-Kingthings_Petrock   xs:text-7xl ">
-                <u>Beginner&apos;s Kit</u>
+                <u className="decoration-green-400">Beginner&apos;s Kit</u>
               </h2>
             </div>
           </a>
@@ -53,7 +53,7 @@ const TopSection = () => {
             <FaEye className="-mt-1 inline-block text-blue-400" />
             &nbsp; &nbsp;&nbsp;
             <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
-              <h1 className="inline-block text-amber-200 underline hover:text-blue-300">
+              <h1 className="inline-block text-green-400 underline hover:text-blue-300">
                 Email templates:
               </h1>
             </a>
@@ -67,7 +67,7 @@ const TopSection = () => {
             <FaEye className="-mt-1 inline-block text-blue-400" />
             &nbsp; &nbsp;
             <a href="https://mybabb.github.io/BetterMcTransport/">
-              <h2 className="inline-block text-amber-200 underline hover:text-blue-300">
+              <h2 className="inline-block text-green-400 underline hover:text-blue-300">
                 Custom Landing Pages:
               </h2>
             </a>
@@ -99,12 +99,12 @@ const TopSection = () => {
             &nbsp;
             <span
               id="gotoLevel1"
-              className="scroll-mt-[16rem] underline decoration-[#85bb65]"
+              className="scroll-mt-[16rem] underline decoration-green-400"
             >
               Level 1
             </span>
             &nbsp;
-            <TiEqualsOutline className="TiEqualsOutline" />
+            <TiEqualsOutline className="TiEqualsOutline text-green-400" />
             &nbsp;$100&nbsp;
             <span className="inline-block text-blue-500">
               <TbMailFast />
@@ -115,9 +115,9 @@ const TopSection = () => {
             <div className="my-1"></div>
             <TbDiamond className="inline-block text-blue-400 " />
             &nbsp;
-            <span className="underline decoration-[#85bb65]">Level 2</span>
+            <span className="underline decoration-green-400">Level 2</span>
             &nbsp;
-            <TiEqualsOutline className="TiEqualsOutline" />
+            <TiEqualsOutline className="TiEqualsOutline text-green-400" />
             &nbsp;$200&nbsp;
             <span className="inline-block text-blue-500">
               <TbMailFast />
@@ -130,32 +130,32 @@ const TopSection = () => {
             <div className="my-1">
             <TbDiamond className="inline-block text-blue-400 " />
             &nbsp;
-            <span className="underline decoration-[#85bb65]">Level 3</span>
+            <span className="underline decoration-green-400">Level 3</span>
             &nbsp;
-            <TiEqualsOutline className="TiEqualsOutline" />
+            <TiEqualsOutline className="TiEqualsOutline text-green-400" />
             &nbsp;$500&nbsp;
             <span className="inline-block text-blue-500">
               <TbMailFast />
             </span>
             All of  Above
-            <TiPlus className="TiPlus " />
+            <TiPlus className="TiPlus text-green-400 " />
             
-            <TiPlus className="TiPlus " />
+            <TiPlus className="TiPlus text-green-400" />
             &nbsp;Custom Landing Page.
             </div>
 
             <div className="mt-1 mb-4">
             <TbDiamond className="inline-block text-blue-400 " />
             &nbsp;
-            <span className="underline decoration-[#85bb65]">Level 4</span>
+            <span className="underline decoration-green-400">Level 4</span>
             &nbsp;
-            <TiEqualsOutline className="TiEqualsOutline" />
+            <TiEqualsOutline className="TiEqualsOutline text-green-400" />
             &nbsp;$700&nbsp;
             <span className="inline-block text-blue-500">
               <TbMailFast />
             </span>
             Everything  &nbsp;
-            <TiPlus className="TiPlus " /> <TiPlus className="TiPlus " />
+            <TiPlus className="TiPlus text-green-400 " /> <TiPlus className="TiPlus text-green-400 " />
             &nbsp;Secure Web-Mail to Gmail Integration.
             </div>
             
@@ -221,7 +221,7 @@ const TopSection = () => {
           </p>
         
           <div id="emailPros"  className="pb-2 scroll-mt-[12rem] text-center text-4xl  
-           font-LibreBaskerville-Bold text-amber-200 underline">
+           font-LibreBaskerville-Bold text-green-400 underline">
             <span className="landingPage underline1">
               Email Template Pros:{" "}
             </span>
@@ -231,7 +231,7 @@ const TopSection = () => {
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-3xl text-amber-200 underline">
+            <span className="text-3xl text-green-400 underline">
              Templates Ensure:
             </span>
             <br /> Your emails will maintain a consistent brand tone and
@@ -242,7 +242,7 @@ const TopSection = () => {
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-3xl text-amber-200 underline">
+            <span className="text-3xl text-green-400 underline">
             &nbsp;Using templates:
             </span>
             <br /> Helps you appear polished and proficient. Despite spending
@@ -252,7 +252,7 @@ const TopSection = () => {
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-3xl text-amber-200 underline">
+            <span className="text-3xl text-green-400 underline">
             &nbsp;Conversion Rates:
             </span>
             <br /> Well-designed, visually appealing emails can increase
@@ -262,7 +262,7 @@ const TopSection = () => {
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-3xl text-amber-200 underline">
+            <span className="text-3xl text-green-400 underline">
             &nbsp;Brand Identity:
             </span>
             <br /> Templates keep your messaging on brand, reinforcing your
@@ -272,7 +272,7 @@ const TopSection = () => {
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
-            <span className="text-3xl text-amber-200 underline">
+            <span className="text-3xl text-green-400 underline">
             &nbsp;Efficiency:
             </span>
             <br /> Email templates save time by allowing you to reuse
@@ -282,7 +282,7 @@ const TopSection = () => {
             globally, having efficient communication is essential.
             <br />
           </div>
-          <div id="landingPagePros" className=" scroll-mt-[12rem] pb-2 text-center text-4xl font-bold text-amber-200 underline">
+          <div id="landingPagePros" className=" scroll-mt-[12rem] pb-2 text-center text-4xl font-bold text-green-400 underline">
             <span className="landingPagePros underline1 font-LibreBaskerville-Bold">Landing Page Pros: </span>
           </div>
           <div className="p-8 text-center text-5xl">
