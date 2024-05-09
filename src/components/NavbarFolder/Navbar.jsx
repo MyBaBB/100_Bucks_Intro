@@ -9,7 +9,7 @@ import { GrBaby } from "react-icons/gr";
 import { BsPersonVcard } from "react-icons/bs";
 import { LiaHourglassHalfSolid } from "react-icons/lia";
 import { SiTestinglibrary } from "react-icons/si";
- 
+
 const Navbar = () => {
   //to change burger classes
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
@@ -78,13 +78,7 @@ const Navbar = () => {
                 id="mobile-menu "
                 className="relative my-auto flex-row justify-center"
               >
-              
-
-
-                <a
-                  href="#"
-                  onClick={hideMobileMenu}
-                >
+                <a href="#" onClick={hideMobileMenu}>
                   {" "}
                   <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
                     <div className="relative inline-block pl-4 ">
@@ -106,7 +100,6 @@ const Navbar = () => {
                     <span className="menuButtonWords    pr-6 ">About</span>
                   </div>
                 </a>
-
 
                 <a
                   href="https://mybabb.github.io/BetterMcTransport/"
@@ -131,7 +124,6 @@ const Navbar = () => {
                   </div>
                 </a>
 
-
                 <a href="https://mybabb.com" onClick={hideMobileMenu}>
                   {" "}
                   {/* xxxxxxx the mobile buttons xxxxxxxxx */}
@@ -144,9 +136,6 @@ const Navbar = () => {
                     </span>
                   </div>
                 </a>
-
-
-
 
                 <a
                   href="https://mybabb.github.io/My_Introduction/"
@@ -162,8 +151,6 @@ const Navbar = () => {
                     </span>
                   </div>
                 </a>
-
-
 
                 <a href="https://mybabb.github.io/Franken-Timer/">
                   <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
@@ -191,7 +178,10 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <a href="https://resume-hub.mybabb.com/" onClick={hideMobileMenu}>
+                <a
+                  href="https://resume-hub.mybabb.com/"
+                  onClick={hideMobileMenu}
+                >
                   {" "}
                   <div className="buttonStyles   origin-top animate-open-menu text-gray-100 ">
                     <div className="relative inline-block pl-4 ">

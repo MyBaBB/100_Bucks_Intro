@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   margin: 0 auto;
   position: relative;
   padding: 1rem;
@@ -41,16 +41,13 @@
 }
 .TiEqualsOutline {
   display: inline-block;
-   
 }
 .TiPlus {
   display: inline-block;
-  
 }
 
 .span1 {
   display: inline-block;
-  
 }
 
 .reObjective,
@@ -133,8 +130,6 @@
   color: rgb(109, 235, 132);
 }
 
-
-
 @media screen and (max-height: 413px) and (max-width: 760px) and (orientation: landscape) {
   .buttonStyles {
     margin-top: 4px;
@@ -162,7 +157,6 @@
   src: url(../GoogleFonts/Blackbeard-ld7V.ttf);
 }
 
-
 @font-face {
   font-family: "BlackOpsOne-Regular";
   src: url(../GoogleFonts/BlackOpsOne-Regular.ttf);
@@ -187,7 +181,6 @@
   font-family: "ChunkFive-Regular";
   src: url(../GoogleFonts/ChunkFive-Regular.otf);
 }
-
 
 @font-face {
   font-family: "Creepster-Regular";
