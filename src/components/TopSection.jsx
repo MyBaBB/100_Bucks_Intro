@@ -19,20 +19,26 @@ import { TbMailFast } from "react-icons/tb";
 import { FaEye } from "react-icons/fa";
 import ScubaMask from "./ScubaManFolder/ScubaMask";
 import ContactButton from "./ContactButton";
+import ToolBox from "./ToolBoxFolder/ToolBox";
+import { PiCrosshairSimpleFill } from "react-icons/pi";
 const TopSection = () => {
   return (
     <div>
+      < ToolBox />
       <section>
+      
         <div
-          className="objectiveWrapper  mx-18 mt-[6rem] from-gray-700
-        to-gray-800 shadow-stone-950 sm:mt-[7rem] pt-14 dark:bg-gradient-to-b"
+          className="objectiveWrapper z-[500]  mx-18 mt-[6rem] from-gray-700
+        to-gray-800 shadow-stone-950 sm:mt-[8rem] pt-14 dark:bg-gradient-to-b"
         >
+         
+
           <ContactButton />
         <br />
           <ScubaMask />
           <br />
           <a href="#gotoLevel1" >
-            <div className="scroll-mt-[19rem] relative m-auto w-fit text-blue-200 hover:text-opacity-50">
+            <div className="scroll-mt-[19rem]  relative m-auto w-fit text-blue-200 hover:text-opacity-50">
               <h2 className="text-center  font-Kingthings_Petrock   xs:text-7xl ">
                 <u>Beginner&apos;s Kit</u>
               </h2>
@@ -40,7 +46,7 @@ const TopSection = () => {
           </a>
 
           <p
-            className="objectiveParagraph 
+            className="objectiveParagraph w-[90%] m-auto  text-justify
         p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
         md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px] "
           >
@@ -74,20 +80,26 @@ const TopSection = () => {
             multiple landing pages targeted toward segmented customer
             populations.
           </p>
+          <p className="relative text-5xl font-Changa-Regular text-center text-green-300 ">
+           <span className="whitespace-nowrap"><RiDoubleQuotesL className="mb-6 inline-block
+           text-blue-400  " />
+            &nbsp;What</span> you will get for 
+            <span className="whitespace-nowrap">&nbsp;$100&nbsp;
+           <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
+           </span>
+           </p>
           <p
-            className="objectiveParagraph mt-[-3rem]
+            className="objectiveParagraph mt-[-3rem] w-[90%] m-auto  text-justify
         p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
         md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px]"
           >
-            <RiDoubleQuotesL className="mb-6 inline-block text-blue-400" />
-            What you will get for $100
-            <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
-            <br />
-            <TbDiamond className="inline-block text-blue-400 " />
+           
+           
+           <div className="my-1"> <TbDiamond className="inline-block text-blue-400 " />
             &nbsp;
             <span
               id="gotoLevel1"
-              className="scroll-mt-[14rem] underline decoration-[#85bb65]"
+              className="scroll-mt-[16rem] underline decoration-[#85bb65]"
             >
               Level 1
             </span>
@@ -98,7 +110,9 @@ const TopSection = () => {
               <TbMailFast />
             </span>
             Quick-Send Pro Email Template.
-            <br />
+            </div>
+            
+            <div className="my-1"></div>
             <TbDiamond className="inline-block text-blue-400 " />
             &nbsp;
             <span className="underline decoration-[#85bb65]">Level 2</span>
@@ -111,7 +125,9 @@ const TopSection = () => {
             Quick Send Pro Email Template &nbsp;
             <TiPlus className="TiPlus " />
             &nbsp;Social Media Links.
-            <br />
+            
+
+            <div className="my-1">
             <TbDiamond className="inline-block text-blue-400 " />
             &nbsp;
             <span className="underline decoration-[#85bb65]">Level 3</span>
@@ -121,12 +137,14 @@ const TopSection = () => {
             <span className="inline-block text-blue-500">
               <TbMailFast />
             </span>
-            Quick-Send Pro Email Template &nbsp;
+            All of  Above
             <TiPlus className="TiPlus " />
-            &nbsp;Social Media Links. &nbsp;
+            
             <TiPlus className="TiPlus " />
             &nbsp;Custom Landing Page.
-            <br />
+            </div>
+
+            <div className="mt-1 mb-4">
             <TbDiamond className="inline-block text-blue-400 " />
             &nbsp;
             <span className="underline decoration-[#85bb65]">Level 4</span>
@@ -136,44 +154,47 @@ const TopSection = () => {
             <span className="inline-block text-blue-500">
               <TbMailFast />
             </span>
-            Everything Above &nbsp;
-            <TiPlus className="TiPlus " />
+            Everything  &nbsp;
+            <TiPlus className="TiPlus " /> <TiPlus className="TiPlus " />
             &nbsp;Secure Web-Mail to Gmail Integration.
-            <br />
-            <br />
-            <span className="block text-center">
+            </div>
+            
+            <div className="my-1">  
+              <span className="block text-center">
               <GiDiamonds className="GiDiamonds" />
               &nbsp;Integrating Web-Mail with Gmail streamlines your email
               management, enhances security, and provides a seamless experience
               across devices.
             </span>
-            <span className="mt-4 block text-center  text-2xl text-green-300 md:text-5xl">
-              <span className="whitespace-nowrap">
-                <GiDiamonds className="GiDiamonds" />
-              </span>
-              &nbsp;Advanced Custom Web Parts Require Negotiation.
-            </span>
+            </div>
+
+            
           </p>
+          <div className="text-center text-4xl font-LibreBaskerville-Bold text-amber-200">
+          <span className="whitespace-normal">
+            <RiDoubleQuotesL className="-mt-4   inline-block text-blue-400" />
+            &nbsp;
+        
+              A Good</span> landing page is great for Capturing Attention
+               <span className="whitespace-nowrap"> Quickly.
+              &nbsp;
+           
+            <RiDoubleQuotesR className=" -mt-4 inline-block text-blue-400" />
+            </span>
+            </div>
 
           <p
             className="objectiveParagraph mt-[-4rem]   p-[12px]
-        
-        text-center text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
-        md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px] "
-          >
-            <RiDoubleQuotesL className="-mt-4   inline-block text-blue-400" />
-            &nbsp;
-            <span>
-              A Good landing page is great for Capturing Attention Quickly.
-              &nbsp;
-            </span>
-            <RiDoubleQuotesR className=" -mt-4 inline-block text-blue-400" />
-            <br />
+                   text-center text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
+                   md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px] "
+           >
             <br />
             {/* custom google button  */}
-            <p className="text-left lg:translate-x-[22%]">
+            
+          <div className="googleDiv relative flex justify-center m-auto  ">
+            <p className="text-left ">
               <SiGooglechrome className="inline-block text-blue-400" />
-              &nbsp;<span className="googleG1 text-red-600">G</span>
+              &nbsp;&nbsp;<span className="googleG1 text-red-600">G</span>
               <span className="googleO1 text-green-600">o</span>
               <span className="googleO2 text-yellow-600">o</span>
               <span className="googleG2 text-blue-600">g</span>
@@ -184,7 +205,8 @@ const TopSection = () => {
               lightning fast for&nbsp;
               <span className="underline">(SEO)</span>
               <br />
-              <SlEyeglass className="inline-block text-blue-400" /> I can make
+              <SlEyeglass className="inline-block text-blue-400" />
+              &nbsp;&nbsp; I can make
               it look great on all devices.(Mobile Responsive)
               <br />
               <MdOutlineTimer className="inline-block text-blue-400" />
@@ -195,19 +217,22 @@ const TopSection = () => {
               business.
               <br />
             </p>
+           </div>
           </p>
-
-          <div className="pb-2 text-center text-4xl font-bold text-amber-200 underline">
+        
+          <div id="emailPros"  className="pb-2 scroll-mt-[12rem] text-center text-4xl  
+           font-LibreBaskerville-Bold text-amber-200 underline">
             <span className="landingPage underline1">
               Email Template Pros:{" "}
             </span>
           </div>
-          <div className="p-8 text-2xl ">
+         
+          <div className="p-8 text-3xl mx-[4rem] text-justify">
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
             <span className="text-3xl text-amber-200 underline">
-              Templates Ensure:
+             Templates Ensure:
             </span>
             <br /> Your emails will maintain a consistent brand tone and
             message. Every team member communicates with the same professional
@@ -218,7 +243,7 @@ const TopSection = () => {
               <GiDiamonds />
             </span>
             <span className="text-3xl text-amber-200 underline">
-              Using templates:
+            &nbsp;Using templates:
             </span>
             <br /> Helps you appear polished and proficient. Despite spending
             only a few minutes crafting an email, you&apos;ll still convey a
@@ -228,7 +253,7 @@ const TopSection = () => {
               <GiDiamonds />
             </span>
             <span className="text-3xl text-amber-200 underline">
-              Conversion Rates:
+            &nbsp;Conversion Rates:
             </span>
             <br /> Well-designed, visually appealing emails can increase
             click-through rates by up to 14% and conversion rates by 10%.
@@ -238,7 +263,7 @@ const TopSection = () => {
               <GiDiamonds />
             </span>
             <span className="text-3xl text-amber-200 underline">
-              Brand Identity:
+            &nbsp;Brand Identity:
             </span>
             <br /> Templates keep your messaging on brand, reinforcing your
             company&apos;s identity. Whether it&apos;s a sales pitch or a
@@ -248,7 +273,7 @@ const TopSection = () => {
               <GiDiamonds />
             </span>
             <span className="text-3xl text-amber-200 underline">
-              Efficiency:
+            &nbsp;Efficiency:
             </span>
             <br /> Email templates save time by allowing you to reuse
             professionally designed emails. Whether it&apos;s invitations, sales
@@ -257,87 +282,97 @@ const TopSection = () => {
             globally, having efficient communication is essential.
             <br />
           </div>
-          <div className="pb-2 text-center text-4xl font-bold text-amber-200 underline">
-            <span className="landingPage underline1">Landing Page Pros: </span>
+          <div id="landingPagePros" className=" scroll-mt-[12rem] pb-2 text-center text-4xl font-bold text-amber-200 underline">
+            <span className="landingPagePros underline1 font-LibreBaskerville-Bold">Landing Page Pros: </span>
           </div>
-          <div className="p-8 text-2xl">
-            <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
-            </span>
-            &nbsp;&nbsp;It Serves a single and focused purpose.
+          <div className="p-8 text-center text-5xl">
+            
+             
+
+          <span className="whitespace-nowrap inline-flex my-1   ">
+            <PiCrosshairSimpleFill className="text-blue-400" />
+            &nbsp;&nbsp;Serves<span></span>&nbsp;a single and focused purpose.</span>
             <br />
-            <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
-            </span>
-            &nbsp;&nbsp;Helps Visitors to Become Customers.
+
+            <span className="whitespace-nowrap inline-flex my-1 ">
+              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;<span>
+                Helps</span>&nbsp;Visitors to Become Customers.</span>
             <br />
-            <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
-            </span>
-            &nbsp;&nbsp;Can be click-through or lead generation based.
+             
+            <span className="whitespace-nowrap inline-flex my-1 ">
+              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;<span>
+                Can be</span>&nbsp;click-through or lead generation based.</span>
             <br />
-            <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
-            </span>
-            &nbsp;&nbsp;It Can be customized to appeal to different types of
-            Buyers.
+            
+            <span className="whitespace-nowrap inline-flex my-1 ">
+              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;<span>
+                It Can</span>&nbsp;be customized to appeal to different types of
+            Buyers.</span>
+            <br />          
+            
+            <span className="whitespace-nowrap inline-flex my-1 ">
+              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;<span>
+                It helps</span>&nbsp;to Target a Specific Type of Customer</span>
             <br />
-            <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
-            </span>
-            &nbsp;&nbsp;It Can be focused on drawing customers from a specific
-            location, demographic, or individuals looking at price and quality.
+          
+            <span className="whitespace-nowrap inline-flex my-1 ">
+              <PiCrosshairSimpleFill className="text-blue-400"/>&nbsp;&nbsp;<span>
+                 Allows</span>&nbsp;for easier testing and optimization </span>
             <br />
-            <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
-            </span>
-            &nbsp;&nbsp;Allow for easier testing and optimization by creating
-            multiple landing pages targeted toward segmented customer
-            populations.
+            <div className="my-1">
+            <span className="mt-10 block text-center  text-2xl text-green-300 md:text-5xl">
+              <span className="whitespace-nowrap">
+                 
+              </span>
+              <span className=" font-LibreBaskerville-Bold">Advanced Custom Web Parts Require Negotiation.</span>
+               </span>
+            </div>
+
+
+            <div className="relative flex justify-center">
             <p
               className="objectiveParagraph mt-[0rem]
               p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
                md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px]"
             >
-              <span className="block text-left underline decoration-[#85bb65]">
-                Levels&nbsp;1 - 2&nbsp;
-              </span>
-              <span>
+              <span className="block text-left mb-2 ">
+                <u className="underline decoration-green-400">Levels&nbsp;1 - 2</u>&nbsp;
+                < TiEqualsOutline className="inline-block text-green-400" />
+               
                 &nbsp; Do Not require a Domain and have No Monthly Charge.
               </span>
 
-              <span className="block text-left underline decoration-[#85bb65]">
-                Levels&nbsp;3 - 4
-              </span>
-              <span>&nbsp; Do Require a Domain and a Monthly Charge.</span>
-              <br />
-              <br />
               <span className="block text-left ">
-                <span className="underline decoration-[#85bb65]">
-                  New Domain
-                </span>{" "}
-                is $50 plus Domain Name cost and $25 a month
+                <u className="underline decoration-green-400">
+                  Levels&nbsp;3 - 4</u>&nbsp;
+                  < TiEqualsOutline className="inline-block text-green-400" />
+                  &nbsp;&nbsp;Do Require a Domain and a Monthly Charge.</span>
+              <br />
+               
+              <span className="block text-left "> 
+                <u className="underline decoration-green-400">A&nbsp;New&nbsp;&nbsp;Domain</u>&nbsp;
+                &nbsp;< TiEqualsOutline className="inline-block text-green-400" />&nbsp;is $50 plus Domain Name cost and $25 a month
               </span>
-              <span className="block text-center"></span>
-              <span>
-                <span className="underline decoration-[#85bb65] ">
-                  Domain Transfer
-                </span>{" "}
-                to MyBaBB is a flat rate of $100 and $25 a month.
+              <span className="block text-left"> 
+                
+                  <u className="underline decoration-green-400">Domain Transfer</u>&nbsp;
+               
+                  < TiEqualsOutline className="inline-block text-green-400" /> a flat rate of $100 and $25 a month.
               </span>
             </p>
+            </div>
             <br />
             <p className="mb-4 mt-[-3rem] text-center">
               Monthly Charges for Web Hosting Services include:
               <br />
               &nbsp;
-              <GrVmMaintenance className="inline-block text-blue-400" />
+              <GrVmMaintenance className="inline-block text-green-400" />
               &nbsp;Maintenance &nbsp;
-              <MdOutlineSupportAgent className="inline-block text-blue-400" />
+              <MdOutlineSupportAgent className="inline-block text-green-400" />
               &nbsp;Support &nbsp;
-              <MdAddShoppingCart className="inline-block text-blue-400" />
+              <MdAddShoppingCart className="inline-block text-green-400" />
               &nbsp;Bonuses &nbsp;
-              <TfiLock className="inline-block text-blue-400" />
+              <TfiLock className="inline-block text-green-400" />
               &nbsp;SSL Certificate
               <br />
             </p>

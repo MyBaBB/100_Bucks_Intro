@@ -13,7 +13,7 @@ const App = () => {
     <div className="w-{88%] relative flex h-full items-center justify-center  dark:bg-gray-900 ">
       <div>
         <Header />
-        <ContactButton />
+       
         <TopSection />
 
         <ThirdSection />

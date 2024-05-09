@@ -4,9 +4,9 @@ import  Beginner from  ".././img/beginner.svg";
 import  BeginnerFlip  from   ".././img/beginnerFlip.svg";
 const ContactButton = () => {
   return (
-    <div>
-      <a href="https://resume-hub.mybabb.com/">
-        <div className="reContactButtonWrapper ">
+    <div className=" w-[25%] m-auto">
+      <a href="https://resume-hub.mybabb.com/ "    >
+        <div className="reContactButtonWrapper  ">
           <div
             className=" reContactButton   mt-2 
             relative flex items-center justify-center  

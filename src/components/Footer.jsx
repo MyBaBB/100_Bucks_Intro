@@ -19,7 +19,7 @@ const Footer = () => {
           {" "}
           <ScubaMan />
         </span>
-        <span
+        <span id="contactMe"
           className=" absolute bottom-[-1.7rem] left-[13%] z-[5] 
        text-center text-red-700"
         >
