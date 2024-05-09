@@ -38,8 +38,8 @@ const TopSection = () => {
           <ScubaMask />
           <br />
           <a href="#gotoLevel1" >
-            <div className="scroll-mt-[19rem]  relative m-auto w-fit text-blue-200 hover:text-opacity-50">
-              <h2 className="text-center  font-Kingthings_Petrock   xs:text-7xl ">
+            <div className="scroll-mt-[19rem] mt-[3rem]  relative m-auto w-fit text-blue-200 hover:text-opacity-50">
+              <h2 className="text-center  font-Kingthings_Petrock text-5xl  xs:text-7xl ">
                 <u className="decoration-green-400">Beginner&apos;s Kit</u>
               </h2>
             </div>
@@ -80,7 +80,7 @@ const TopSection = () => {
             multiple landing pages targeted toward segmented customer
             populations.
           </p>
-          <p className="relative text-5xl font-Changa-Regular text-center text-green-300 ">
+          <p className="relative mb-4 text-3xl sm:text-5xl font-Changa-Regular text-center text-green-300 ">
            <span className="whitespace-nowrap"><RiDoubleQuotesL className="mb-6 inline-block
            text-blue-400  " />
             &nbsp;What</span> you will get for 
@@ -170,7 +170,7 @@ const TopSection = () => {
 
             
           </p>
-          <div className="text-center text-4xl font-LibreBaskerville-Bold text-amber-200">
+          <div className="text-center mb-8 text-2xl xs:text-4xl font-LibreBaskerville-Bold text-amber-200">
           <span className="whitespace-normal">
             <RiDoubleQuotesL className="-mt-4   inline-block text-blue-400" />
             &nbsp;
@@ -227,7 +227,7 @@ const TopSection = () => {
             </span>
           </div>
          
-          <div className="p-8 text-3xl mx-[4rem] text-justify">
+          <div className="p-8 text-3xl  sm:mx-[4rem] text-justify">
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
             </span>
@@ -282,10 +282,12 @@ const TopSection = () => {
             globally, having efficient communication is essential.
             <br />
           </div>
-          <div id="landingPagePros" className=" scroll-mt-[12rem] pb-2 text-center text-4xl font-bold text-green-400 underline">
+          <div id="landingPagePros"
+                  className=" scroll-mt-[12rem] pt-2  text-center text-4xl font-bold
+                text-green-400 underline">
             <span className="landingPagePros underline1 font-LibreBaskerville-Bold">Landing Page Pros: </span>
           </div>
-           <div className="p-8 text-center text-5xl">
+           <div   className="p-8 text-center text-3xl sm:text-5xl">
             
              
 

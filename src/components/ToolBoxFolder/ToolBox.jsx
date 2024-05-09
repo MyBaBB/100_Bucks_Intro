@@ -9,7 +9,7 @@ function DropDown() {
   return (
     <div
       className="sm:[95%] absolute
-    right-6 top-[10.8rem]  z-0 hidden sm:block"
+    right-6 top-[10.8rem]  z-0 block"
     >
       <div className="tools relative flex h-[40px] w-[150px] flex-col items-center rounded-lg">
         <button

@@ -4,7 +4,7 @@ import  Beginner from  ".././img/beginner.svg";
 import  BeginnerFlip  from   ".././img/beginnerFlip.svg";
 const ContactButton = () => {
   return (
-    <div className=" w-[55%] sm:w-[25%] m-auto">
+    <div className=" w-[55%] sm:w-[30%] m-auto hidden sm:block">
       <a href="https://resume-hub.mybabb.com/ "    >
         <div className="reContactButtonWrapper  ">
           <div
