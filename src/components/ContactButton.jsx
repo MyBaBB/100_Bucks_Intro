@@ -17,7 +17,7 @@ const ContactButton = () => {
           >
             <span className="span1">
               <img
-                src={BeginnerFlip}
+                src={Beginner}
                 alt="Beginner"
                 className="w-8 h-8 inline-block"/>
              </span>
@@ -26,8 +26,8 @@ const ContactButton = () => {
             </span>
             <span className="span1">
               <img
-                src={Beginner}
-                alt="Beginner"
+                src={BeginnerFlip}
+                alt="Beginner Flip"
                 className="w-8 h-8 inline-block"/>
              </span>
           </div>
