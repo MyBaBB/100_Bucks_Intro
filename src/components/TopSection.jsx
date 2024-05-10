@@ -27,7 +27,7 @@ const TopSection = () => {
       <ToolBox />
       <section>
         <div
-          className="objectiveWrapper mx-18  z-[500] mt-[6rem] from-gray-700
+          className="objectiveWrapper mx-18  z-[1] mt-[6rem] from-gray-700
         to-gray-800 pt-14 shadow-stone-950 sm:mt-[8rem] dark:bg-gradient-to-b"
         >
           <ContactButton />
