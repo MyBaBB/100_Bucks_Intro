@@ -216,7 +216,7 @@ const TopSection = () => {
               </p>
             </div>
           </p>
-
+           <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
           <div
             id="emailPros"
             className="scroll-mt-[12rem] pb-2 text-center font-LibreBaskerville-Bold  
@@ -226,7 +226,7 @@ const TopSection = () => {
               Email Template Pros:{" "}
             </span>
           </div>
-
+          </a>
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
@@ -282,6 +282,7 @@ const TopSection = () => {
             globally, having efficient communication is essential.
             <br />
           </div>
+          <a href="https://mybabb.github.io/BetterMcTransport/">
           <div
             id="landingPagePros"
             className=" scroll-mt-[12rem] pt-2  text-center text-4xl font-bold
@@ -291,6 +292,7 @@ const TopSection = () => {
               Landing Page Pros:{" "}
             </span>
           </div>
+          </a>
           <div className="p-8 text-center text-3xl sm:text-5xl">
             <span className="my-1 inline-flex whitespace-nowrap   ">
               <PiCrosshairSimpleFill className="text-blue-400" />
