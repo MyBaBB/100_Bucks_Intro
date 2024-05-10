@@ -35,10 +35,11 @@ const TopSection = () => {
           <ScubaMask />
           <br />
           <a href="#gotoLevel1">
-            <div className="relative m-auto  mt-[3rem] w-fit scroll-mt-[19rem] text-blue-200 hover:text-opacity-50">
+            <div className="relative m-auto  mt-[2rem] w-fit scroll-mt-[19rem] text-blue-200 hover:text-opacity-50">
               <h2 className="text-center  font-Kingthings_Petrock text-5xl  xs:text-7xl ">
-                <u className="decoration-green-400">Beginner&apos;s Kit</u>
+                <u className="decoration-green-400">Free Branding Service</u>
               </h2>
+               <span className="relative flex justify-center">(with purchase of a Custom Starter Kit)</span>
             </div>
           </a>
 

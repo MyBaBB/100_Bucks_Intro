@@ -11,6 +11,7 @@ const Header = () => {
     <div>
       <Navbar />
       <div className="headerWrapper fixed">
+        <div className="w-fit   m-auto pl-4">
         <a href="https://mybabb.com">
           <div className="outerNewMeWrapper hidden md:block">
             <div className="newMeWrapper">
@@ -28,14 +29,18 @@ const Header = () => {
             </div>
           </div>
         </a>
-        <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
+       
+        <a href="https://mybabb.github.io/BetterMcTransport/">
+     
           <p
-            className=" headerCenterTextBox text-[16px]   w-fit 
+            className="headerCenterTextBox font-Kingthings_Petrock  text-[16px]   w-fit 
          text-amber-100  hover:text-opacity-50  md:text-[20px] lg:text-[25px] xl:text-[30px]  "
           >
-            <h1>Web Starter</h1>
+            <h1>Custom Starter Kit</h1>
           </p>
+        
         </a>
+        
         <a href="https://resume-hub.mybabb.com/">
           <div className="outerOctoglassesWrapper hidden md:block">
             <div className="dataToolTip82" data-tool-tip="To Kraken">
@@ -54,6 +59,7 @@ const Header = () => {
           </div>
         </a>
       </div>
+    </div>
     </div>
   );
 };
