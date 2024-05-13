@@ -59,7 +59,7 @@
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
 }
 .outerOctoglassesWrapper:hover {
-  box-shadow: 0px 0px 22px rgb(238, 238, 60);
+  box-shadow: 0px 0px 22px #6a5555;
 }
 
 .outerNewMeWrapper {
@@ -88,8 +88,8 @@
 }
 .dataToolTip82::before {
   content: attr(data-tool-tip);
-  background: radial-gradient(black, #492407);
-  font-family: "black ops one", sans-serif;
+  background: radial-gradient(#6a5555, #492407);
+  
   color: #fef3c7;
   width: max-content;
   position: absolute;
@@ -100,7 +100,7 @@
   transition: ease-in 0.25s;
   top: 2.9rem;
   right: 5.3rem;
-  border: 1px solid rgba(6, 135, 186);
+  border: 1px solid #867575;
   border-radius: 10px;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -110,26 +110,25 @@
   z-index: 3;
 }
 
-/* .dataToolTip82:after {
+.dataToolTip82:after {
   content: "";
   width: 15px;
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.1em 0.1em;
   
-  transform: translateX(-50%) scale(var(--scale));   firefox problems here
-
+  transform: translateX(-50%) scale(var(--scale));   
   transform-origin: left;
   transition: 0.35s;
   top: 2.75rem;
   right: 7.45rem;
   border: 15px solid transparent;
-  border-left: green 10px solid;
+  border-left: #6a5555 10px solid;
   border-radius: 15px;
-  color: #492407;
+  color: #6a5555;
   --scale: 0;
   z-index: 1;
-} */
+}  
 
 .dataToolTip81:hover:before,
 .dataToolTip81:hover:after {
@@ -137,11 +136,11 @@
 }
 .dataToolTip81:before {
   content: attr(data-tool-tip);
-  background: radial-gradient(black, #492407);
+  background: radial-gradient(#6a5555, #492407);
   color: #fef3c7;
   width: max-content;
   position: absolute;
-  font-family: "black ops one", sans-serif;
+   
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
   top: 2.95rem;
@@ -150,7 +149,7 @@
   transform-origin: left;
   transition: ease-in 0.25s;
   border-radius: 10px;
-  border: 1px solid rgb(6, 135, 186);
+  border: 1px solid #867575;
 
   padding-left: 2rem;
   padding-right: 2rem;
@@ -160,7 +159,7 @@
   z-index: 3;
 }
 
-/*  .dataToolTip81:after {     
+ .dataToolTip81:after {     
   content: "";
 
   width: 15px;
@@ -170,15 +169,15 @@
   transform: translateX(-50%) scale(var(--scale)); 
   transform-origin: right;
   transition: 0.35s;
-  top: 2.9rem;
+  top: 2.7rem;
   left: 8.85rem;
   bottom: 0.8rem;
   border: 15px solid transparent;
-  border-right: green 10px solid;
+  border-right: #6a5555 10px solid;
   border-radius: 15px;
 
-  color: #492407;
+  color: #6a5555;
   --scale: 0;
   z-index: 1;
 } 
- */
+

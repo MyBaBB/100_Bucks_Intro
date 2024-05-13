@@ -7,7 +7,7 @@
 }
 .dataToolTip3::before {
   content: "";
-  background: radial-gradient(black, #492407);
+  background: radial-gradient(#6a5555, #492407);
   color: #dbeafe;
   width: max-content;
   position: absolute;
@@ -15,9 +15,9 @@
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: top left;
   transition: ease-in 0.25s;
-  left: 12rem;
+  left: 14rem;
   bottom: -3.15rem;
-  background: radial-gradient(black, #492407);
+  border: 1px solid #867575;
   border-radius: 10px;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -39,7 +39,7 @@
   transform-origin: bottom center;
   transition: 0.25s;
   border: 15px solid transparent;
-  border-bottom: #492407 10px solid;
+  border-bottom: #6a5555 10px solid;
   --scale: 0;
   z-index: 1;
 }
@@ -55,7 +55,7 @@
 }
 .dataToolTip13::before {
   content: "";
-  background: radial-gradient(black, #492407);
+  background: radial-gradient(#6a5555, #492407);
   color: #dbeafe;
   width: max-content;
   position: absolute;
@@ -65,11 +65,11 @@
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: bottom left;
   transition: ease-in 0.25s;
-  left: 9.1rem;
+  left: 12.1rem;
   bottom: 5.75rem;
-  background: radial-gradient(black, #492407);
+  background: radial-gradient(#6a5555, #492407);
   border-radius: 10px;
-
+  border:1px solid #867575;
   padding-left: 2rem;
   padding-right: 2rem;
   --scale: 0;
@@ -89,7 +89,7 @@
   transition: 0.25s;
 
   border: 15px solid transparent;
-  border-top: #492407 10px solid;
+  border-top: #6a5555 10px solid;
   color: #fff9d7;
   --scale: 0;
   z-index: 1;

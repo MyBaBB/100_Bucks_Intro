@@ -36,12 +36,12 @@ function DropDown() {
           >
             {ToolBoxList.map((item, i) => (
               // eslint-disable-next-line react/jsx-key
-              <div className=" outerOpenDrawer my-1 bg-[#1e5873] ">
+              <div className=" outerOpenDrawer my-1 bg-[#6a5555] ">
               <div onClick={() => setIsOpen((prev) => !prev)}
                 className=" relative flex w-full cursor-pointer flex-col  justify-between 
                 rounded-r-lg pr-2 pb-1 border-l-2 font-l border-l-transparent hover:border-l-gray-400 hover:bg-gray-800"
                 key={i}
-              >
+              > 
                 <a href="#gotoLevel1">
                   <div
                     className=" pl-2 relative flex w-full flex-row justify-between

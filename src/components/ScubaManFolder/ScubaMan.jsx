@@ -9,7 +9,7 @@ const ScubaMan = () => {
     <div id="ScubaMan" className=" absolute bottom-2 left-4 ml-4 flex  ">
       <a href="#">
         <div
-          className="dataToolTip13 Libre_Baskerville"
+          className="dataToolTip13 font-Aclonica-Regular z-50"
           data-tool-tip="Back To Top"
         >
           <div

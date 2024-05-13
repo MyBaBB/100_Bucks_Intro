@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import ScubaMan from "./ScubaManFolder/ScubaMan";
-import { GiSadCrab } from "react-icons/gi";
+ 
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
           className=" absolute bottom-[-1.7rem] left-[13%] z-[5] 
        text-center text-red-700"
         >
-          <GiSadCrab size={25} />
+         
         </span>
       </div>
       <hr className="hrBottom"></hr>

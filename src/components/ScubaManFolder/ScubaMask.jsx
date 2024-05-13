@@ -11,7 +11,7 @@ const ScubaMask = () => {
                   "
       >
         <div
-          className="dataToolTip3 Libre_Baskerville z-50"
+          className="dataToolTip3 font-Aclonica-Regular z-50"
           data-tool-tip="To The Bottom"
         >
           <a href="#ScubaMan">

@@ -9,7 +9,7 @@
 .dataToolTip9::before {
   content: "";
   color: #dbeafe;
-  background: radial-gradient(black, #492407);
+  background: radial-gradient(#6a5555, #492407);
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
@@ -18,7 +18,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
   transition: ease-in 0.25s;
-
+  border:1px solid #867575;
   border-radius: 10px;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -41,7 +41,7 @@
   transition: 0.25s;
 
   border: 15px solid transparent;
-  border-top: lightblue 10px solid;
+  border-top: #6a5555 10px solid;
 
   --scale: 0;
   z-index: 2;

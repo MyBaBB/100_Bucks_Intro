@@ -15,7 +15,7 @@ const Header = () => {
         <a href="https://mybabb.com">
           <div className="outerNewMeWrapper hidden md:block">
             <div className="newMeWrapper">
-              <div className="dataToolTip81 " data-tool-tip="To My Homepage">
+              <div className="dataToolTip81 font-Aclonica-Regular " data-tool-tip="To My Homepage">
                 <div className=" relative ">
                   <img
                     id="newMew"
@@ -43,7 +43,7 @@ const Header = () => {
         
         <a href="https://resume-hub.mybabb.com/">
           <div className="outerOctoglassesWrapper hidden md:block">
-            <div className="dataToolTip82" data-tool-tip="To Kraken">
+            <div className="dataToolTip82 font-Aclonica-Regular" data-tool-tip="To Kraken">
               <div className="octoglassesWrapper ">
                 <div className=" relative">
                   <img
