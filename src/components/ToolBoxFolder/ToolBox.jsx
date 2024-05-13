@@ -35,6 +35,8 @@ function DropDown() {
           rounded-lg bg-[#24558d] p-1 text-blue-200"
           >
             {ToolBoxList.map((item, i) => (
+              // eslint-disable-next-line react/jsx-key
+              <div className=" outerOpenDrawer my-1 bg-[#1e5873] ">
               <div onClick={() => setIsOpen((prev) => !prev)}
                 className=" relative flex w-full cursor-pointer flex-col  justify-between 
                 rounded-r-lg pr-2 pb-1 border-l-2 font-l border-l-transparent hover:border-l-gray-400 hover:bg-gray-800"
@@ -70,6 +72,7 @@ function DropDown() {
                     <h3 className="">{item.email}</h3>
                   </div>
                 </a>
+              </div>
               </div>
             ))}
           </div>
