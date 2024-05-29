@@ -95,9 +95,11 @@ const TopSection = () => {
               <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
             </span>
           </p>
+          <a href="#">
           <span  className="absolute right-8 -top-2">
              < ScubaSpear />
           </span>
+          </a>
       </div>
 
           <p
@@ -111,7 +113,7 @@ const TopSection = () => {
               &nbsp;
               <span
                 id="gotoLevel1"
-                className="scroll-mt-[16rem] underline decoration-green-400"
+                className="scroll-mt-[18rem] underline decoration-green-400"
               >
                 Level 1
               </span>
