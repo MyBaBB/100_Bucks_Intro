@@ -21,6 +21,8 @@ import ScubaMask from "./ScubaManFolder/ScubaMask";
 import ContactButton from "./ContactButton";
 import ToolBox from "./ToolBoxFolder/ToolBox";
 import { PiCrosshairSimpleFill } from "react-icons/pi";
+import ScubaSpear from "./ScubaManFolder/ScubaSpear";
+   
 const TopSection = () => {
   return (
     <div>
@@ -78,6 +80,7 @@ const TopSection = () => {
             multiple landing pages targeted toward segmented customer
             populations.
           </p>
+      <div className=" relative flex justify-center">
           <p className="relative mb-4 text-center font-Changa-Regular text-3xl text-green-300 sm:text-5xl ">
             <span className="whitespace-nowrap">
               <RiDoubleQuotesL
@@ -92,6 +95,11 @@ const TopSection = () => {
               <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
             </span>
           </p>
+          <span  className="absolute right-8 -top-2">
+             < ScubaSpear />
+          </span>
+      </div>
+
           <p
             className="objectiveParagraph m-auto mt-[-3rem] w-[90%]  p-[12px]
         text-justify text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
