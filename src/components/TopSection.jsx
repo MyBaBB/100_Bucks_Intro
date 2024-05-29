@@ -96,7 +96,7 @@ const TopSection = () => {
             </span>
           </p>
           <a href="#" >
-          <span className="dataToolTip14 font-Aclonica-Regular absolute right-8 -top-2  z-0"
+          <span className="dataToolTip14 lg:hidden font-Aclonica-Regular absolute right-8 -top-2  z-0"
         data-tool-tip="Back To Top">
              < ScubaSpear />
           </span>
@@ -238,7 +238,7 @@ const TopSection = () => {
             </span>
 
             <a href="#" >
-          <span className="dataToolTip15 z-0 font-Aclonica-Regular absolute right-8 -top-2  "
+          <span className="dataToolTip15 lg:hidden z-0 font-Aclonica-Regular absolute right-8 -top-2  "
         data-tool-tip="Back To Top">
              < ScubaSpear z-1 />
           </span>
