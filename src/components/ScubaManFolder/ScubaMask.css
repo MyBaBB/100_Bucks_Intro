@@ -15,7 +15,7 @@
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: top left;
   transition: ease-in 0.25s;
-  left: 14rem;
+  left: 13rem;
   bottom: -3.15rem;
   border: 1px solid #867575;
   border-radius: 10px;
@@ -65,7 +65,7 @@
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: bottom left;
   transition: ease-in 0.25s;
-  left: 12.1rem;
+  left: 10.8rem;
   bottom: 5.75rem;
   background: radial-gradient(#6a5555, #492407);
   border-radius: 10px;

@@ -120,8 +120,8 @@
   transform: translateX(-50%) scale(var(--scale));   
   transform-origin: left;
   transition: 0.35s;
-  top: 2.75rem;
-  right: 7.45rem;
+  top: 2.55rem;
+  right: 6.65rem;
   border: 15px solid transparent;
   border-left: #6a5555 10px solid;
   border-radius: 15px;
@@ -169,8 +169,8 @@
   transform: translateX(-50%) scale(var(--scale)); 
   transform-origin: right;
   transition: 0.35s;
-  top: 2.7rem;
-  left: 8.85rem;
+  top: 2.5rem;
+  left: 10.4rem;
   bottom: 0.8rem;
   border: 15px solid transparent;
   border-right: #6a5555 10px solid;

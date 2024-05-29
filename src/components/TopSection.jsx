@@ -95,8 +95,9 @@ const TopSection = () => {
               <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
             </span>
           </p>
-          <a href="#">
-          <span  className="absolute right-8 -top-2">
+          <a href="#" >
+          <span className="dataToolTip14 font-Aclonica-Regular absolute right-8 -top-2  z-0"
+        data-tool-tip="Back To Top">
              < ScubaSpear />
           </span>
           </a>
@@ -229,12 +230,20 @@ const TopSection = () => {
            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
           <div
             id="emailPros"
-            className="scroll-mt-[12rem] pb-2 text-center font-LibreBaskerville-Bold  
+            className=" relative flex justify-center scroll-mt-[12rem] pb-2 text-center font-LibreBaskerville-Bold  
            text-4xl text-green-400 underline"
           >
             <span className="landingPage underline1">
               Email Template Pros:{" "}
             </span>
+
+            <a href="#" >
+          <span className="dataToolTip15 z-0 font-Aclonica-Regular absolute right-8 -top-2  "
+        data-tool-tip="Back To Top">
+             < ScubaSpear z-1 />
+          </span>
+          </a>
+
           </div>
           </a>
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
@@ -295,12 +304,20 @@ const TopSection = () => {
           <a href="https://mybabb.github.io/BetterMcTransport/">
           <div
             id="landingPagePros"
-            className=" scroll-mt-[12rem] pt-2  text-center text-4xl font-bold
+            className="relative flex justify-center scroll-mt-[12rem] pt-2  text-center text-4xl font-bold
                 text-green-400 underline"
           >
             <span className="landingPagePros underline1 font-LibreBaskerville-Bold">
               Landing Page Pros:{" "}
             </span>
+
+            <a href="#" >
+          <span className="dataToolTip16 font-Aclonica-Regular absolute right-8 -top-2  z-0"
+        data-tool-tip="Back To Top">
+             < ScubaSpear />
+          </span>
+          </a>
+
           </div>
           </a>
           <div className="p-8 text-center text-3xl sm:text-5xl">
