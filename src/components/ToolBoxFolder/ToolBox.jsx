@@ -66,7 +66,7 @@ function DropDown() {
                   </div>
                 </a>
 
-                <a href="#contactMe">
+                <a href="#ScubaMan">
                   <div className="pl-2 flex w-full  flex-row justify-between hover:rounded-lg hover:bg-gray-800  ">
                     <h3 className="font-bold">{item.Contact}</h3>
                     <h3 className="">{item.email}</h3>

@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import ScubaMan from "./ScubaManFolder/ScubaMan";
- 
+import ScubaSpear from "../components/ScubaManFolder/ScubaSpear";
+import "../components/ScubaManFolder/ScubaSpear.css";
 
 const Footer = () => {
   return (
@@ -15,17 +15,18 @@ const Footer = () => {
         >
           Contact@MyBaBB.com
         </a>
-        <span>
-          {" "}
-          <ScubaMan />
-        </span>
-        <span
-          id="contactMe"
-          className=" absolute bottom-[-1.7rem] left-[13%] z-[5] 
-       text-center text-red-700"
+        <div
+          className="dataToolTip13 font-Aclonica-Regular z-50"
+          data-tool-tip="Back To Top"
         >
+          <a href="#">
+        <div id='ScubaMan' className="scubaSpearWrapper absolute left-8 bottom-0">
          
-        </span>
+          <ScubaSpear />
+        </div>
+        </a>
+        </div>
+     
       </div>
       <hr className="hrBottom"></hr>
     </div>
