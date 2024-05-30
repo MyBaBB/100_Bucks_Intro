@@ -80,7 +80,8 @@ const TopSection = () => {
             multiple landing pages targeted toward segmented customer
             populations.
           </p>
-      <div className=" relative flex justify-center">
+          <div className="anchorWrapper relative flex justify-center ">
+      <div className="text-center  ">
           <p className="relative mb-4 text-center font-Changa-Regular text-3xl text-green-300 sm:text-5xl ">
             <span className="whitespace-nowrap">
               <RiDoubleQuotesL
@@ -94,13 +95,15 @@ const TopSection = () => {
               &nbsp;$100&nbsp;
               <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
             </span>
-          </p>
+          </p>                            
+          {/*make  lg:hidden */}
           <a href="#" >
-          <span className="dataToolTip14 lg:hidden font-Aclonica-Regular absolute right-8 -top-2  z-0"
+          <span className="dataToolTip14 scubaSpearWrapper lg:hidden   font-Aclonica-Regular absolute right-20 -top-2  z-0"
         data-tool-tip="Back To Top">
              < ScubaSpear />
           </span>
           </a>
+      </div>
       </div>
 
           <p
@@ -227,18 +230,19 @@ const TopSection = () => {
               </p>
             </div>
           </p>
+          <div className="anchorWrapper relative flex justify-center ">
            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
           <div
             id="emailPros"
-            className=" relative flex justify-center scroll-mt-[12rem] pb-2 text-center font-LibreBaskerville-Bold  
+            className="   justify-center scroll-mt-[12rem] pb-2 text-center font-LibreBaskerville-Bold  
            text-4xl text-green-400 underline"
           >
             <span className="landingPage underline1">
               Email Template Pros:{" "}
             </span>
-
+           {/* make lg:hidden */}
             <a href="#" >
-          <span className="dataToolTip15 lg:hidden z-0 font-Aclonica-Regular absolute right-8 -top-2  "
+          <span className="dataToolTip15 scubaSpearWrapper lg:hidden   z-0 font-Aclonica-Regular absolute right-20 -top-2  "
         data-tool-tip="Back To Top">
              < ScubaSpear z-1 />
           </span>
@@ -246,6 +250,7 @@ const TopSection = () => {
 
           </div>
           </a>
+          </div>
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
             <span className="IoDiamondSharp inline-block pb-1">
               <GiDiamonds />
@@ -301,18 +306,19 @@ const TopSection = () => {
             globally, having efficient communication is essential.
             <br />
           </div>
+          <div className="anchorWrapper relative flex justify-center  placeholder:">
           <a href="https://mybabb.github.io/BetterMcTransport/">
           <div
             id="landingPagePros"
-            className="relative flex justify-center scroll-mt-[12rem] pt-2  text-center text-4xl font-bold
+            className="text-center scroll-mt-[12rem] pt-2   text-4xl font-bold
                 text-green-400 underline"
           >
-            <span className="landingPagePros underline1 font-LibreBaskerville-Bold">
+            <span className="landingPagePros   underline1 font-LibreBaskerville-Bold">
               Landing Page Pros:{" "}
             </span>
 
             <a href="#" >
-          <span className="dataToolTip16 font-Aclonica-Regular absolute right-8 -top-2  z-0"
+          <span className="dataToolTip16 scubaSpearWrapper font-Aclonica-Regular absolute right-20 -top-2  z-0"
         data-tool-tip="Back To Top">
              < ScubaSpear />
           </span>
@@ -320,6 +326,7 @@ const TopSection = () => {
 
           </div>
           </a>
+          </div>
           <div className="p-8 text-center text-3xl sm:text-5xl">
             <span className="my-1 inline-flex whitespace-nowrap   ">
               <PiCrosshairSimpleFill className="text-blue-400" />

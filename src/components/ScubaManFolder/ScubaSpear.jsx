@@ -5,7 +5,7 @@ import "./ScubaSpear.css"
 const ScubaSpearComponent = () => {
     return (
         <div >
-           <img src={ScubaSpear1}   alt="scuba Spear" width={40} height={40}/> 
+           <img src={ScubaSpear1}   alt="scuba Spear" width={55} height={55} className='scubaSpear'/> 
         </div>
     )
 }
