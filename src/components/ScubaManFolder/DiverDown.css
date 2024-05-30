@@ -50,7 +50,7 @@
   top: 5.9rem;
   left: 2.5rem;
   transform: translateX(-35%) scale(var(--scale));
-  transform-origin: bottom center;
+  transform-origin: bottom left;
   transition: 0.25s;
   border: 15px solid transparent;
   border-bottom: #6a5555 10px solid;

@@ -30,7 +30,8 @@ const TopSection = () => {
     <div>
        <a href="#ScubaMan">
             
-            <div className=" dataToolTip3 diverDownWrapper absolute w-fit left-[2.5rem] top-[12rem]"  data-tool-tip="To The Bottom">
+            <div className=" dataToolTip3 diverDownWrapper absolute w-fit left-[2.5rem] top-[12rem]
+            font-Aclonica-Regular"  data-tool-tip="To The Bottom">
             <DiverDown />
             </div>
             </a>
