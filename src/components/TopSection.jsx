@@ -332,7 +332,8 @@ const TopSection = () => {
 
                 <a href="#">
                   <span
-                    className="dataToolTip16 scubaSpearWrapper absolute -top-2 right-20 z-0  font-Aclonica-Regular"
+                    className="dataToolTip16 scubaSpearWrapper absolute -top-2 right-20 z-0 
+                     font-Aclonica-Regular"
                     data-tool-tip="Back To Top"
                   >
                     <ScubaSpear />

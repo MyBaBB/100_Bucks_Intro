@@ -10,7 +10,7 @@ const ScubaSpearComponent = () => {
         alt="scuba Spear"
         width={55}
         height={55}
-        className="scubaSpear"
+        className="scubaSpear  "
       />
     </div>
   );
