@@ -16,17 +16,18 @@ const Footer = () => {
           Contact@MyBaBB.com
         </a>
         <div
-          className="dataToolTip13 font-Aclonica-Regular z-50"
+          className="dataToolTip13 z-50 font-Aclonica-Regular"
           data-tool-tip="Back To Top"
         >
           <a href="#">
-        <div id='ScubaMan' className="scubaSpearWrapper absolute left-8 bottom-0">
-         
-          <ScubaSpear />
+            <div
+              id="ScubaMan"
+              className="scubaSpearWrapper absolute bottom-0 left-8"
+            >
+              <ScubaSpear />
+            </div>
+          </a>
         </div>
-        </a>
-        </div>
-     
       </div>
       <hr className="hrBottom"></hr>
     </div>

@@ -22,7 +22,7 @@ const ContactButton = () => {
                 className="inline-block h-8 w-8"
               />
             </span>
-            <span className="z-50 mb-2 font-Aclonica-Regular text-green-400 ">
+            <span className="z-50 mb-2 -mt-4 font-Aclonica-Regular text-green-400 ">
               &nbsp;Portfolio Hub&nbsp;
             </span>
             <span className="span1">

@@ -18,7 +18,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
   transition: ease-in 0.25s;
-  border:1px solid #867575;
+  border: 1px solid #867575;
   border-radius: 10px;
   padding-top: 3px;
   padding-bottom: 3px;

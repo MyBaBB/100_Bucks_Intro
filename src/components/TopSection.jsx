@@ -17,15 +17,23 @@ import { MdAddShoppingCart } from "react-icons/md";
 import { TfiLock } from "react-icons/tfi";
 import { TbMailFast } from "react-icons/tb";
 import { PiLinkBold } from "react-icons/pi";
-import ScubaMask from "./ScubaManFolder/ScubaMask";
+ 
 import ContactButton from "./ContactButton";
 import ToolBox from "./ToolBoxFolder/ToolBox";
 import { PiCrosshairSimpleFill } from "react-icons/pi";
 import ScubaSpear from "./ScubaManFolder/ScubaSpear";
-   
+import DiverDown from "./ScubaManFolder/DiverDown";
+import "./ScubaManFolder/DiverDown.css";
+  
 const TopSection = () => {
   return (
     <div>
+       <a href="#ScubaMan">
+            
+            <div className=" dataToolTip3 diverDownWrapper absolute w-fit left-[2.5rem] top-[12rem]"  data-tool-tip="To The Bottom">
+            <DiverDown />
+            </div>
+            </a>
       <ToolBox />
       <section>
         <div
@@ -34,14 +42,16 @@ const TopSection = () => {
         >
           <ContactButton />
           <br />
-          <ScubaMask />
+          
           <br />
           <a href="#gotoLevel1">
             <div className="relative m-auto  mt-[2rem] w-fit scroll-mt-[19rem] text-blue-200 hover:text-opacity-50">
               <h2 className="text-center  font-Kingthings_Petrock text-5xl  xs:text-7xl ">
                 <u className="decoration-green-400">Free Branding Service</u>
               </h2>
-               <span className="relative flex justify-center">(with purchase of a Custom Starter Kit)</span>
+              <span className="relative flex justify-center">
+                (with purchase of a Custom Starter Kit)
+              </span>
             </div>
           </a>
 
@@ -81,30 +91,32 @@ const TopSection = () => {
             populations.
           </p>
           <div className="anchorWrapper relative flex justify-center ">
-      <div className="text-center  ">
-          <p className="relative mb-4 text-center font-Changa-Regular text-3xl text-green-300 sm:text-5xl ">
-            <span className="whitespace-nowrap">
-              <RiDoubleQuotesL
-                className="mb-6 inline-block
+            <div className="text-center  ">
+              <p className="relative mb-4 text-center font-Changa-Regular text-3xl text-green-300 sm:text-5xl ">
+                <span className="whitespace-nowrap">
+                  <RiDoubleQuotesL
+                    className="mb-6 inline-block
            text-blue-400  "
-              />
-              &nbsp;What
-            </span>{" "}
-            you will get for
-            <span className="whitespace-nowrap">
-              &nbsp;$100&nbsp;
-              <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
-            </span>
-          </p>                            
-          {/*make  lg:hidden */}
-          <a href="#" >
-          <span className="dataToolTip14 scubaSpearWrapper lg:hidden   font-Aclonica-Regular absolute right-20 -top-2  z-0"
-        data-tool-tip="Back To Top">
-             < ScubaSpear />
-          </span>
-          </a>
-      </div>
-      </div>
+                  />
+                  &nbsp;What
+                </span>{" "}
+                you will get for
+                <span className="whitespace-nowrap">
+                  &nbsp;$100&nbsp;
+                  <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
+                </span>
+              </p>
+              {/*make  lg:hidden */}
+              <a href="#">
+                <span
+                  className="dataToolTip14 scubaSpearWrapper absolute   -top-2 right-20 z-0 font-Aclonica-Regular  lg:hidden"
+                  data-tool-tip="Back To Top"
+                >
+                  <ScubaSpear />
+                </span>
+              </a>
+            </div>
+          </div>
 
           <p
             className="objectiveParagraph m-auto mt-[-3rem] w-[90%]  p-[12px]
@@ -231,25 +243,26 @@ const TopSection = () => {
             </div>
           </p>
           <div className="anchorWrapper relative flex justify-center ">
-           <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
-          <div
-            id="emailPros"
-            className="   justify-center scroll-mt-[12rem] pb-2 text-center font-LibreBaskerville-Bold  
+            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
+              <div
+                id="emailPros"
+                className="   scroll-mt-[12rem] justify-center pb-2 text-center font-LibreBaskerville-Bold  
            text-4xl text-green-400 underline"
-          >
-            <span className="landingPage underline1">
-              Email Template Pros:{" "}
-            </span>
-           {/* make lg:hidden */}
-            <a href="#" >
-          <span className="dataToolTip15 scubaSpearWrapper lg:hidden   z-0 font-Aclonica-Regular absolute right-20 -top-2  "
-        data-tool-tip="Back To Top">
-             < ScubaSpear z-1 />
-          </span>
-          </a>
-
-          </div>
-          </a>
+              >
+                <span className="landingPage underline1">
+                  Email Template Pros:{" "}
+                </span>
+                {/* make lg:hidden */}
+                <a href="#">
+                  <span
+                    className="dataToolTip15 scubaSpearWrapper absolute   -top-2 right-20 z-0 font-Aclonica-Regular lg:hidden  "
+                    data-tool-tip="Back To Top"
+                  >
+                    <ScubaSpear z-1 />
+                  </span>
+                </a>
+              </div>
+            </a>
           </div>
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
             <span className="IoDiamondSharp inline-block pb-1">
@@ -306,26 +319,27 @@ const TopSection = () => {
             globally, having efficient communication is essential.
             <br />
           </div>
-          <div className="anchorWrapper relative flex justify-center  placeholder:">
-          <a href="https://mybabb.github.io/BetterMcTransport/">
-          <div
-            id="landingPagePros"
-            className="text-center scroll-mt-[12rem] pt-2   text-4xl font-bold
+          <div className="anchorWrapper placeholder: relative flex  justify-center">
+            <a href="https://mybabb.github.io/BetterMcTransport/">
+              <div
+                id="landingPagePros"
+                className="scroll-mt-[12rem] pt-2 text-center   text-4xl font-bold
                 text-green-400 underline"
-          >
-            <span className="landingPagePros   underline1 font-LibreBaskerville-Bold">
-              Landing Page Pros:{" "}
-            </span>
+              >
+                <span className="landingPagePros   underline1 font-LibreBaskerville-Bold">
+                  Landing Page Pros:{" "}
+                </span>
 
-            <a href="#" >
-          <span className="dataToolTip16 scubaSpearWrapper font-Aclonica-Regular absolute right-20 -top-2  z-0"
-        data-tool-tip="Back To Top">
-             < ScubaSpear />
-          </span>
-          </a>
-
-          </div>
-          </a>
+                <a href="#">
+                  <span
+                    className="dataToolTip16 scubaSpearWrapper absolute -top-2 right-20 z-0  font-Aclonica-Regular"
+                    data-tool-tip="Back To Top"
+                  >
+                    <ScubaSpear />
+                  </span>
+                </a>
+              </div>
+            </a>
           </div>
           <div className="p-8 text-center text-3xl sm:text-5xl">
             <span className="my-1 inline-flex whitespace-nowrap   ">

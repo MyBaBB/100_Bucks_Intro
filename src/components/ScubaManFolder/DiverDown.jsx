@@ -1,16 +1,17 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import ScubaSpear1 from "./ScubaSpear1.svg";
-import "./ScubaSpear.css";
+import DiverDown from "./DiverDown.svg";
+import "./DiverDown.css"
 const ScubaSpearComponent = () => {
   return (
     <div>
+
       <img
-        src={ScubaSpear1}
-        alt="scuba Spear"
+        src={DiverDown}
+        alt="Diver Down"
         width={55}
         height={55}
-        className="scubaSpear"
+        className="diverDown"
       />
     </div>
   );
