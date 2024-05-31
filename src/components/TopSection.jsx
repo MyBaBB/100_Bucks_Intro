@@ -30,7 +30,9 @@ const TopSection = () => {
     <div>
        <a href="#ScubaMan">
             
-            <div className=" dataToolTip3 diverDownWrapper absolute w-fit left-[2.5rem] top-[12rem]
+            <div className=" dataToolTip3 diverDownWrapper absolute w-fit
+             left-[1rem] xxxs:left-[2rem]
+             top-[9rem] sm:top-[10.5rem]
             font-Aclonica-Regular"  data-tool-tip="To The Bottom">
             <DiverDown />
             </div>
@@ -107,10 +109,11 @@ const TopSection = () => {
                   <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
                 </span>
               </p>
-              {/*make  lg:hidden */}
+              {/*make tricky lg:hidden */}
               <a href="#">
                 <span
-                  className="dataToolTip14 scubaSpearWrapper absolute   -top-2 right-20 z-0 font-Aclonica-Regular  lg:hidden"
+                  className="dataToolTip14 scubaSpearWrapper absolute   -top-2 right-20 z-0 font-Aclonica-Regular 
+                   hidden sm:block lg:hidden"
                   data-tool-tip="Back To Top"
                 >
                   <ScubaSpear />
@@ -253,10 +256,11 @@ const TopSection = () => {
                 <span className="landingPage underline1">
                   Email Template Pros:{" "}
                 </span>
-                {/* make lg:hidden */}
+                {/* make tricky lg:hidden */}
                 <a href="#">
                   <span
-                    className="dataToolTip15 scubaSpearWrapper absolute   -top-2 right-20 z-0 font-Aclonica-Regular lg:hidden  "
+                    className="dataToolTip15   scubaSpearWrapper absolute   -top-2 right-20 z-0 
+                    font-Aclonica-Regular hidden sm:block lg:hidden  "
                     data-tool-tip="Back To Top"
                   >
                     <ScubaSpear z-1 />
@@ -333,7 +337,7 @@ const TopSection = () => {
 
                 <a href="#">
                   <span
-                    className="dataToolTip16 scubaSpearWrapper absolute -top-2 right-20 z-0 
+                    className="dataToolTip16 hidden sm:block scubaSpearWrapper absolute -top-2 right-20 z-0 
                      font-Aclonica-Regular"
                     data-tool-tip="Back To Top"
                   >

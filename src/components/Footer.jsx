@@ -16,7 +16,7 @@ const Footer = () => {
           Contact@MyBaBB.com
         </a>
         <div
-          className="dataToolTip13 z-50 font-Aclonica-Regular"
+          className="dataToolTip13 z-50 hidden  font-Aclonica-Regular xxs:block"
           data-tool-tip="Back To Top"
         >
           <a href="#">

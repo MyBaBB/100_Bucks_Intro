@@ -1,8 +1,7 @@
 .scubaSpear {
   border: 0px solid #60a5fa;
   border-radius: 50%;
- 
- 
+
   padding: 0.4rem;
 }
 .scubaSpearWrapper :hover {
@@ -29,7 +28,7 @@
   transform-origin: bottom left;
   transition: ease-in 0.25s;
   left: 14rem;
-  bottom: 7.35rem;
+  bottom: 7rem;
   background: radial-gradient(#6a5555, #492407);
   border-radius: 10px;
   border: 1px solid #867575;
@@ -204,6 +203,3 @@
   --scale: 0;
   z-index: 0;
 }
-
- 
-  

@@ -3,18 +3,18 @@ import React from "react";
 import NewMe from "./MeImg.png";
 import OctoArmy from "./OctoGlasses.png";
 import "../NavbarFolder/Navbar.css";
- 
- 
+
 import "./Header.css";
 import Navbar from "../NavbarFolder/Navbar";
 const Header = () => {
   return (
-    <div >
+    <div>
       <Navbar />
-      <div className="headerWrapper fixed
-      ">
+      <div
+        className="headerWrapper fixed
+      "
+      >
         <div className="m-auto   w-fit pl-4">
-       
           <a href="https://mybabb.com">
             <div className="outerNewMeWrapper hidden md:block">
               <div className="newMeWrapper">
