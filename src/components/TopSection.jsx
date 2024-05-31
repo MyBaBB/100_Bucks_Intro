@@ -7,7 +7,9 @@ import { SlEyeglass } from "react-icons/sl";
 import { SiGooglechrome } from "react-icons/si";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
-import { TbDiamond } from "react-icons/tb";
+import { GiTropicalFish } from "react-icons/gi";
+import { TbFishHook } from "react-icons/tb";
+
 import { GiDiamonds } from "react-icons/gi";
 import { TiEqualsOutline } from "react-icons/ti";
 import { TiPlus } from "react-icons/ti";
@@ -20,7 +22,7 @@ import { PiLinkBold } from "react-icons/pi";
  
 import ContactButton from "./ContactButton";
 import ToolBox from "./ToolBoxFolder/ToolBox";
-import { PiCrosshairSimpleFill } from "react-icons/pi";
+import { GiAnglerFish } from "react-icons/gi";
 import ScubaSpear from "./ScubaManFolder/ScubaSpear";
 import DiverDown from "./ScubaManFolder/DiverDown";
 import "./ScubaManFolder/DiverDown.css";
@@ -129,7 +131,7 @@ const TopSection = () => {
           >
             <div className="my-1">
               {" "}
-              <TbDiamond className="inline-block text-blue-400 " />
+              <GiTropicalFish  className="inline-block text-green-400 " />
               &nbsp;
               <span
                 id="gotoLevel1"
@@ -140,32 +142,32 @@ const TopSection = () => {
               &nbsp;
               <TiEqualsOutline className="TiEqualsOutline text-green-400" />
               &nbsp;$100&nbsp;
-              <span className="inline-block text-blue-500">
+              <span className="inline-block text-green-500">
                 <TbMailFast />
               </span>
               Quick-Send Pro Email Template.
             </div>
             <div className="my-1"></div>
-            <TbDiamond className="inline-block text-blue-400 " />
+            <GiTropicalFish  className="inline-block text-green-400 " />
             &nbsp;
             <span className="underline decoration-green-400">Level 2</span>
             &nbsp;
             <TiEqualsOutline className="TiEqualsOutline text-green-400" />
             &nbsp;$200&nbsp;
-            <span className="inline-block text-blue-500">
+            <span className="inline-block text-green-500">
               <TbMailFast />
             </span>
             Quick Send Pro Email Template &nbsp;
             <TiPlus className="TiPlus " />
             &nbsp;Social Media Links.
             <div className="my-1">
-              <TbDiamond className="inline-block text-blue-400 " />
+              <GiTropicalFish  className="inline-block text-green-400 " />
               &nbsp;
               <span className="underline decoration-green-400">Level 3</span>
               &nbsp;
               <TiEqualsOutline className="TiEqualsOutline text-green-400" />
               &nbsp;$500&nbsp;
-              <span className="inline-block text-blue-500">
+              <span className="inline-block text-green-500">
                 <TbMailFast />
               </span>
               All of Above
@@ -174,13 +176,13 @@ const TopSection = () => {
               &nbsp;Custom Landing Page.
             </div>
             <div className="mb-4 mt-1">
-              <TbDiamond className="inline-block text-blue-400 " />
+              <GiTropicalFish  className="inline-block text-green-400 " />
               &nbsp;
               <span className="underline decoration-green-400">Level 4</span>
               &nbsp;
               <TiEqualsOutline className="TiEqualsOutline text-green-400" />
               &nbsp;$700&nbsp;
-              <span className="inline-block text-blue-500">
+              <span className="inline-block text-green-500">
                 <TbMailFast />
               </span>
               Everything &nbsp;
@@ -271,7 +273,7 @@ const TopSection = () => {
           </div>
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
             <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
+              <TbFishHook  />
             </span>
             <span className="text-3xl text-green-400 underline">
               Templates Ensure:
@@ -282,7 +284,7 @@ const TopSection = () => {
             interaction.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
+              <TbFishHook  />
             </span>
             <span className="text-3xl text-green-400 underline">
               &nbsp;Using templates:
@@ -292,7 +294,7 @@ const TopSection = () => {
             professional image.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
+              <TbFishHook  />
             </span>
             <span className="text-3xl text-green-400 underline">
               &nbsp;Conversion Rates:
@@ -302,7 +304,7 @@ const TopSection = () => {
             Templates provide the foundation for creating compelling content.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
+              <TbFishHook  />
             </span>
             <span className="text-3xl text-green-400 underline">
               &nbsp;Brand Identity:
@@ -312,7 +314,7 @@ const TopSection = () => {
             customer service response, consistency matters.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
-              <GiDiamonds />
+              <TbFishHook  />
             </span>
             <span className="text-3xl text-green-400 underline">
               &nbsp;Efficiency:
@@ -349,47 +351,34 @@ const TopSection = () => {
           </div>
           <div className="p-8 text-center text-3xl sm:text-5xl">
             <span className="my-1 inline-flex whitespace-nowrap   ">
-              <PiCrosshairSimpleFill className="text-blue-400" />
-              &nbsp;&nbsp;Serves
-            </span>
-            <span>&nbsp;a single and focused purpose.</span>
+              <GiAnglerFish  size={18} className="text-blue-300" />
+              &nbsp;&nbsp;Serves a single and focused purpose.</span>
             <br />
 
             <span className="my-1 inline-flex whitespace-nowrap ">
-              <PiCrosshairSimpleFill className="text-blue-400" />
-              &nbsp;&nbsp; Helps
-            </span>
-            <span>&nbsp;Visitors to Become Customers.</span>
+              <GiAnglerFish  size={18} className="text-blue-300" />
+              &nbsp;&nbsp; Helps Visitors to Become Customers.</span>
             <br />
 
             <span className="my-1 inline-flex whitespace-nowrap ">
-              <PiCrosshairSimpleFill className="text-blue-400" />
-              &nbsp;&nbsp; Can be
-            </span>
-            <span>&nbsp;click-through or lead generation based.</span>
+              <GiAnglerFish  size={18} className="text-blue-300" />
+              &nbsp;&nbsp; Can be click-through or lead generation based.</span>
             <br />
 
             <span className="my-1 inline-flex whitespace-nowrap ">
-              <PiCrosshairSimpleFill className="text-blue-400" />
-              &nbsp;&nbsp; It Can
-            </span>
-            <span>
-              &nbsp;be customized to appeal to different types of Buyers.
+              <GiAnglerFish  size={18} className="text-blue-300" />
+              &nbsp;&nbsp; It Can be customized to appeal to different types of Buyers.
             </span>
             <br />
 
             <span className="my-1 inline-flex whitespace-nowrap ">
-              <PiCrosshairSimpleFill className="text-blue-400" />
-              &nbsp;&nbsp; It helps
-            </span>
-            <span>&nbsp;to Target a Specific Type of Customer</span>
+              <GiAnglerFish  size={18} className="text-blue-300" />
+              &nbsp;&nbsp; It helps to Target a Specific Type of Customer</span>
             <br />
 
             <span className="my-1 inline-flex whitespace-nowrap ">
-              <PiCrosshairSimpleFill className="text-blue-400" />
-              &nbsp;&nbsp; Allows
-            </span>
-            <span>&nbsp;for easier testing and optimization </span>
+              <GiAnglerFish  size={18} className="text-blue-300" />
+              &nbsp;&nbsp; Allows for easier testing and optimization </span>
             <br />
             <div className="my-1">
               <span className="mt-10 block text-center  text-2xl text-green-300 md:text-5xl">
