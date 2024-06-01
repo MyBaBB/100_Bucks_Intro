@@ -19,26 +19,28 @@ import { MdAddShoppingCart } from "react-icons/md";
 import { TfiLock } from "react-icons/tfi";
 import { TbMailFast } from "react-icons/tb";
 import { PiLinkBold } from "react-icons/pi";
- 
+
 import ContactButton from "./ContactButton";
 import ToolBox from "./ToolBoxFolder/ToolBox";
 import { GiAnglerFish } from "react-icons/gi";
 import ScubaSpear from "./ScubaManFolder/ScubaSpear";
 import DiverDown from "./ScubaManFolder/DiverDown";
 import "./ScubaManFolder/DiverDown.css";
-  
+
 const TopSection = () => {
   return (
     <div>
-       <a href="#ScubaMan">
-            
-            <div className=" dataToolTip3 diverDownWrapper absolute w-fit
-             left-[1rem] xxxs:left-[2rem]
-             top-[9rem] sm:top-[10.5rem]
-            font-Aclonica-Regular"  data-tool-tip="To The Bottom">
-            <DiverDown />
-            </div>
-            </a>
+      <a href="#ScubaMan">
+        <div
+          className=" dataToolTip3 diverDownWrapper absolute left-[1rem]
+             top-[9rem] w-fit
+             font-Aclonica-Regular sm:top-[10.5rem]
+            xxxs:left-[2rem]"
+          data-tool-tip="To The Bottom"
+        >
+          <DiverDown />
+        </div>
+      </a>
       <ToolBox />
       <section>
         <div
@@ -47,7 +49,7 @@ const TopSection = () => {
         >
           <ContactButton />
           <br />
-          
+
           <br />
           <a href="#gotoLevel1">
             <div className="relative m-auto  mt-[2rem] w-fit scroll-mt-[19rem] text-blue-200 hover:text-opacity-50">
@@ -114,8 +116,8 @@ const TopSection = () => {
               {/*make tricky lg:hidden */}
               <a href="#">
                 <span
-                  className="dataToolTip14 scubaSpearWrapper absolute   -top-2 right-20 z-0 font-Aclonica-Regular 
-                   hidden sm:block lg:hidden"
+                  className="dataToolTip14 scubaSpearWrapper absolute   -top-2 right-20 z-0 hidden 
+                   font-Aclonica-Regular sm:block lg:hidden"
                   data-tool-tip="Back To Top"
                 >
                   <ScubaSpear />
@@ -131,7 +133,7 @@ const TopSection = () => {
           >
             <div className="my-1">
               {" "}
-              <GiTropicalFish  className="inline-block text-green-400 " />
+              <GiTropicalFish className="inline-block text-green-400 " />
               &nbsp;
               <span
                 id="gotoLevel1"
@@ -148,7 +150,7 @@ const TopSection = () => {
               Quick-Send Pro Email Template.
             </div>
             <div className="my-1"></div>
-            <GiTropicalFish  className="inline-block text-green-400 " />
+            <GiTropicalFish className="inline-block text-green-400 " />
             &nbsp;
             <span className="underline decoration-green-400">Level 2</span>
             &nbsp;
@@ -161,7 +163,7 @@ const TopSection = () => {
             <TiPlus className="TiPlus " />
             &nbsp;Social Media Links.
             <div className="my-1">
-              <GiTropicalFish  className="inline-block text-green-400 " />
+              <GiTropicalFish className="inline-block text-green-400 " />
               &nbsp;
               <span className="underline decoration-green-400">Level 3</span>
               &nbsp;
@@ -176,7 +178,7 @@ const TopSection = () => {
               &nbsp;Custom Landing Page.
             </div>
             <div className="mb-4 mt-1">
-              <GiTropicalFish  className="inline-block text-green-400 " />
+              <GiTropicalFish className="inline-block text-green-400 " />
               &nbsp;
               <span className="underline decoration-green-400">Level 4</span>
               &nbsp;
@@ -262,7 +264,7 @@ const TopSection = () => {
                 <a href="#">
                   <span
                     className="dataToolTip15   scubaSpearWrapper absolute   -top-2 right-20 z-0 
-                    font-Aclonica-Regular hidden sm:block lg:hidden  "
+                    hidden font-Aclonica-Regular sm:block lg:hidden  "
                     data-tool-tip="Back To Top"
                   >
                     <ScubaSpear z-1 />
@@ -273,7 +275,7 @@ const TopSection = () => {
           </div>
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
             <span className="IoDiamondSharp inline-block pb-1">
-              <TbFishHook  />
+              <TbFishHook />
             </span>
             <span className="text-3xl text-green-400 underline">
               Templates Ensure:
@@ -284,7 +286,7 @@ const TopSection = () => {
             interaction.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
-              <TbFishHook  />
+              <TbFishHook />
             </span>
             <span className="text-3xl text-green-400 underline">
               &nbsp;Using templates:
@@ -294,7 +296,7 @@ const TopSection = () => {
             professional image.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
-              <TbFishHook  />
+              <TbFishHook />
             </span>
             <span className="text-3xl text-green-400 underline">
               &nbsp;Conversion Rates:
@@ -304,7 +306,7 @@ const TopSection = () => {
             Templates provide the foundation for creating compelling content.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
-              <TbFishHook  />
+              <TbFishHook />
             </span>
             <span className="text-3xl text-green-400 underline">
               &nbsp;Brand Identity:
@@ -314,7 +316,7 @@ const TopSection = () => {
             customer service response, consistency matters.
             <br />
             <span className="IoDiamondSharp inline-block pb-1">
-              <TbFishHook  />
+              <TbFishHook />
             </span>
             <span className="text-3xl text-green-400 underline">
               &nbsp;Efficiency:
@@ -339,8 +341,8 @@ const TopSection = () => {
 
                 <a href="#">
                   <span
-                    className="dataToolTip16 hidden sm:block scubaSpearWrapper absolute -top-2 right-20 z-0 
-                     font-Aclonica-Regular"
+                    className="dataToolTip16 scubaSpearWrapper absolute -top-2 right-20 z-0 hidden font-Aclonica-Regular 
+                     sm:block"
                     data-tool-tip="Back To Top"
                   >
                     <ScubaSpear />
@@ -349,106 +351,111 @@ const TopSection = () => {
               </div>
             </a>
           </div>
-          <div className="p-8 text-center text-3xl sm:text-5xl">
-            <span className="my-1 inline-flex whitespace-nowrap   ">
-              <GiAnglerFish  size={18} className="text-blue-300" />
-              &nbsp;&nbsp;Serves a single and focused purpose.</span>
-            <br />
 
-            <span className="my-1 inline-flex whitespace-nowrap ">
-              <GiAnglerFish  size={18} className="text-blue-300" />
-              &nbsp;&nbsp; Helps Visitors to Become Customers.</span>
-            <br />
-
-            <span className="my-1 inline-flex whitespace-nowrap ">
-              <GiAnglerFish  size={18} className="text-blue-300" />
-              &nbsp;&nbsp; Can be click-through or lead generation based.</span>
-            <br />
-
-            <span className="my-1 inline-flex whitespace-nowrap ">
-              <GiAnglerFish  size={18} className="text-blue-300" />
-              &nbsp;&nbsp; It Can be customized to appeal to different types of Buyers.
+          <div className="p-8 text-center text-3xl sm:text-4xl">
+            <span className="my-4 inline-flex    ">
+              <GiAnglerFish size={18} className="text-blue-300" />
             </span>
+            &nbsp;&nbsp;Serves a single and focused purpose.
             <br />
+            <span className="my-4 inline-flex  ">
+              <GiAnglerFish size={18} className="text-blue-300" />
+            </span>
+            &nbsp;&nbsp;Helps Visitors to Become Customers.
+            <br />
+            <span className="my-4 inline-flex  ">
+              <GiAnglerFish size={18} className="text-blue-300" />
+            </span>
+            &nbsp;&nbsp;Can be click-through or lead generation based.
+            <br />
+            <span className="my-4 inline-flex  ">
+              <GiAnglerFish size={18} className="text-blue-300" />
+            </span>
+            &nbsp;&nbsp;It Can be customized to appeal to different types of
+            Buyers.
+            <br />
+            <span className="my-4 inline-flex  ">
+              <GiAnglerFish size={18} className="text-blue-300" />
+            </span>
+            &nbsp;&nbsp;It helps to Target a Specific Type of Customer
+            <br />
+            <span className="my-4 inline-flex  ">
+              <GiAnglerFish size={18} className="text-blue-300" />
+            </span>
+            &nbsp;&nbsp;Allows for easier testing and optimization
+            <br />
+          </div>
 
-            <span className="my-1 inline-flex whitespace-nowrap ">
-              <GiAnglerFish  size={18} className="text-blue-300" />
-              &nbsp;&nbsp; It helps to Target a Specific Type of Customer</span>
-            <br />
-
-            <span className="my-1 inline-flex whitespace-nowrap ">
-              <GiAnglerFish  size={18} className="text-blue-300" />
-              &nbsp;&nbsp; Allows for easier testing and optimization </span>
-            <br />
-            <div className="my-1">
-              <span className="mt-10 block text-center  text-2xl text-green-300 md:text-5xl">
-                <span className="whitespace-nowrap"></span>
-                <span className=" font-LibreBaskerville-Bold">
-                  Advanced Custom Web Parts Require Negotiation.
-                </span>
+          <div className="my-1">
+            <span className="mt-10 block text-center  text-2xl text-green-300 md:text-5xl">
+              <span className=" font-LibreBaskerville-Bold">
+                Advanced Custom Web Parts Require Negotiation.
               </span>
-            </div>
+            </span>
+          </div>
 
-            <div className="relative flex justify-center">
-              <p
-                className="objectiveParagraph mt-[0rem]
-              p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
-               md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px]"
-              >
-                <span className="mb-2 block text-left ">
-                  <u className="underline decoration-green-400">
-                    Levels&nbsp;1 - 2
-                  </u>
-                  &nbsp;
-                  <TiEqualsOutline className="inline-block text-green-400" />
-                  &nbsp; Do Not require a Domain and have No Monthly Charge.
-                </span>
+          <div className="relative flex justify-center p-8 text-center text-3xl sm:text-5xl">
+            <p
+              className="objectiveParagraph mt-[0rem]
+                
+               p-[12px]  text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
 
-                <span className="block text-left ">
-                  <u className="underline decoration-green-400">
-                    Levels&nbsp;3 - 4
-                  </u>
-                  &nbsp;
-                  <TiEqualsOutline className="inline-block text-green-400" />
-                  &nbsp;&nbsp;Do Require a Domain and a Monthly Charge.
-                </span>
-                <br />
+               md:text-[32px]  lg:p-[52px]  xxs:p-[22px] xxs:text-[12px]  xs:p-[32px]  xs:text-[14px]"
+            >
+              <span className="mb-2 block text-left ">
+                <u className="underline decoration-green-400">
+                  Levels&nbsp;1 - 2
+                </u>
+                &nbsp;
+                <TiEqualsOutline className="inline-block text-green-400" />
+                &nbsp; Do Not require a Domain and have No Monthly Charge.
+              </span>
 
-                <span className="block text-left ">
-                  <u className="underline decoration-green-400">
-                    A&nbsp;New&nbsp;&nbsp;Domain
-                  </u>
-                  &nbsp; &nbsp;
-                  <TiEqualsOutline className="inline-block text-green-400" />
-                  &nbsp;is $50 plus Domain Name cost and $25 a month
-                </span>
-                <span className="block text-left">
-                  <u className="underline decoration-green-400">
-                    Domain Transfer
-                  </u>
-                  &nbsp;
-                  <TiEqualsOutline className="inline-block text-green-400" /> a
-                  flat rate of $100 and $25 a month.
-                </span>
-              </p>
-            </div>
-            <br />
-            <p className="mb-4 mt-[-3rem] text-center">
-              Monthly Charges for Web Hosting Services include:
+              <span className="block text-left ">
+                <u className="underline decoration-green-400">
+                  Levels&nbsp;3 - 4
+                </u>
+                &nbsp;
+                <TiEqualsOutline className="inline-block text-green-400" />
+                &nbsp;&nbsp;Do Require a Domain and a Monthly Charge.
+              </span>
               <br />
-              &nbsp;
-              <GrVmMaintenance className="inline-block text-green-400" />
-              &nbsp;Maintenance &nbsp;
-              <MdOutlineSupportAgent className="inline-block text-green-400" />
-              &nbsp;Support &nbsp;
-              <MdAddShoppingCart className="inline-block text-green-400" />
-              &nbsp;Bonuses &nbsp;
-              <TfiLock className="inline-block text-green-400" />
-              &nbsp;SSL Certificate
-              <br />
+
+              <span className="block text-left ">
+                <u className="underline decoration-green-400">
+                  A&nbsp;New&nbsp;&nbsp;Domain
+                </u>
+                &nbsp; &nbsp;
+                <TiEqualsOutline className="inline-block text-green-400" />
+                &nbsp;is $50 plus Domain Name cost and $25 a month
+              </span>
+              <span className="block text-left">
+                <u className="underline decoration-green-400">
+                  Domain Transfer
+                </u>
+                &nbsp;
+                <TiEqualsOutline className="inline-block text-green-400" /> a
+                flat rate of $100 and $25 a month.
+              </span>
             </p>
           </div>
+          <br />
+          <p className="mb-4 mt-[-3rem] text-center">
+            Monthly Charges for Web Hosting Services include:
+            <br />
+            &nbsp;
+            <GrVmMaintenance className="inline-block text-green-400" />
+            &nbsp;Maintenance &nbsp;
+            <MdOutlineSupportAgent className="inline-block text-green-400" />
+            &nbsp;Support &nbsp;
+            <MdAddShoppingCart className="inline-block text-green-400" />
+            &nbsp;Bonuses &nbsp;
+            <TfiLock className="inline-block text-green-400" />
+            &nbsp;SSL Certificate
+            <br />
+          </p>
         </div>
+
         <hr className="objectiveDivider" />
       </section>
     </div>
