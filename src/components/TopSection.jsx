@@ -116,7 +116,7 @@ const TopSection = () => {
               {/*make tricky lg:hidden */}
               <a href="#">
                 <span
-                  className="dataToolTip14 scubaSpearWrapper absolute   -top-2 right-20 z-0 hidden 
+                  className="dataToolTip14 scubaSpearWrapper absolute -top-2 right-20 z-0 hidden 
                    font-Aclonica-Regular sm:block lg:hidden"
                   data-tool-tip="Back To Top"
                 >
@@ -125,12 +125,7 @@ const TopSection = () => {
               </a>
             </div>
           </div>
-
-          <p
-            className="objectiveParagraph m-auto mt-[-3rem] w-[90%]  p-[12px]
-        text-justify text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
-        md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px]"
-          >
+<section className="tropicalFish  mx-32 text-[8px] xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
             <div className="my-1">
               {" "}
               <GiTropicalFish className="inline-block text-green-400 " />
@@ -149,7 +144,7 @@ const TopSection = () => {
               </span>
               Quick-Send Pro Email Template.
             </div>
-            <div className="my-1"></div>
+            
             <GiTropicalFish className="inline-block text-green-400 " />
             &nbsp;
             <span className="underline decoration-green-400">Level 2</span>
@@ -192,15 +187,17 @@ const TopSection = () => {
               <TiPlus className="TiPlus text-green-400 " />
               &nbsp;Secure Web-Mail to Gmail Integration.
             </div>
+            </section>
             <div className="my-1">
-              <span className="block text-center">
-                <GiDiamonds className="GiDiamonds" />
+              <span className="inline-block text-center mb-4">
+               
+                <span className=" xxxs:text-[10px] xxs:text-[12px] xs:text-[20px]  ">
                 &nbsp;Integrating Web-Mail with Gmail streamlines your email
                 management, enhances security, and provides a seamless
                 experience across devices.
-              </span>
+              </span></span>
             </div>
-          </p>
+         
           <div className="mb-8 text-center font-LibreBaskerville-Bold text-2xl text-amber-200 xs:text-4xl">
             <span className="whitespace-normal">
               <RiDoubleQuotesL className="-mt-4   inline-block text-blue-400" />

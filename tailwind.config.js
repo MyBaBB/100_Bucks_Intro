@@ -91,19 +91,19 @@ export default {
             
   },
  
-     screens: {
-     'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
-     'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
-      xxxs: '340px',
-      xxs: '440px',
-      xs: '540px',
-      sm: '640px',
-      md: '740px',
-      lg: '1024px',
-      xl: '1280px',
-      xxl: '1536px',
-      xxxl: '1920px',
-     },
+  screens: {
+    'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
+    'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
+     xxxs: '340px',
+     xxs: '440px',
+     xs: '540px',
+     sm: '640px',
+     md: '768px',
+     lg: '1024px',
+     xl: '1280px',
+     xxl: '1536px',
+     xxxl: '1920px',
+    },
  
      keyframes: {
      'open-menu': {
