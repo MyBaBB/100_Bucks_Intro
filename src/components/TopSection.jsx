@@ -10,7 +10,7 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 import { GiTropicalFish } from "react-icons/gi";
 import { TbFishHook } from "react-icons/tb";
 
-import { GiDiamonds } from "react-icons/gi";
+import { FaPlusCircle } from "react-icons/fa";
 import { TiEqualsOutline } from "react-icons/ti";
 import { TiPlus } from "react-icons/ti";
 import { GrVmMaintenance } from "react-icons/gr";
@@ -71,10 +71,10 @@ const TopSection = () => {
             &nbsp;
             <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
               <h1 className="inline-block text-4xl text-green-400 underline hover:text-blue-300">
-                Email templates:
+                Email template:
               </h1>
             </a>
-            &nbsp;save time by allowing you to reuse professionally designed
+            &nbsp;Save time by allowing you to reuse professionally designed
             emails. Whether it&apos;s invitations, sales messages, thank-you
             notes, or holiday greetings, templates streamline the process. With
             over 4.1 billion active email users globally, having efficient
@@ -85,10 +85,10 @@ const TopSection = () => {
             &nbsp;
             <a href="https://mybabb.github.io/BetterMcTransport/">
               <h2 className="inline-block text-4xl text-green-400 underline hover:text-blue-300">
-                Custom Landing Pages:
+                Custom Landing Page:
               </h2>
             </a>
-            &nbsp;can be created to appeal to different types of customers. The
+            &nbsp;Created to appeal to different types of customers. The
             content, page style, advertising, and offer it contains will
             determine its impact on the targeted customer group. Landing pages
             can be focused on drawing customers from a specific location,
@@ -188,28 +188,18 @@ const TopSection = () => {
               &nbsp;Secure Web-Mail to Gmail Integration.
             </div>
             </section>
-            <div className="my-1">
-              <span className="inline-block text-center mb-4">
+            <div className="mt-8 w-[80%] m-auto font-Itim-Regular text-green-300">
+              <span className="inline-block text-center ">
                
-                <span className=" xxxs:text-[10px] xxs:text-[12px] xs:text-[20px]  ">
-                &nbsp;Integrating Web-Mail with Gmail streamlines your email
-                management, enhances security, and provides a seamless
-                experience across devices.
+                <span className=" xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
+                &nbsp;Integrating A  Custom Landing Page &nbsp; 
+                <span className="inline-block  text-green-100"> <FaPlusCircle size={10} /></span> 
+                 &nbsp;&nbsp;Web-Mail  will streamline 
+                management, enhance security, and provide a seamless experience across devices.
               </span></span>
             </div>
          
-          <div className="mb-8 text-center font-LibreBaskerville-Bold text-2xl text-amber-200 xs:text-4xl">
-            <span className="whitespace-normal">
-              <RiDoubleQuotesL className="-mt-4   inline-block text-blue-400" />
-              &nbsp; A Good
-            </span>{" "}
-            landing page is great for Capturing Attention
-            <span className="whitespace-nowrap">
-              {" "}
-              Quickly. &nbsp;
-              <RiDoubleQuotesR className=" -mt-4 inline-block text-blue-400" />
-            </span>
-          </div>
+         
 
           <p
             className="objectiveParagraph mt-[-4rem]   p-[12px]
