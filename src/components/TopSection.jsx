@@ -192,9 +192,9 @@ const TopSection = () => {
               <span className="inline-block text-center ">
                
                 <span className=" xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
-                &nbsp;Integrating A  Custom Landing Page &nbsp; 
-                <span className="inline-block  text-green-100"> <FaPlusCircle size={10} /></span> 
-                 &nbsp;&nbsp;Web-Mail  will streamline 
+                &nbsp;Integrating A  <span className="text-green-200">Custom Landing Page</span> &nbsp; 
+                <span className="inline-block  text-green-400"> <FaPlusCircle size={10} /></span> 
+                 &nbsp;&nbsp;<span className="text-green-200">Web-Mail</span>  will streamline 
                 management, enhance security, and provide a seamless experience across devices.
               </span></span>
             </div>
