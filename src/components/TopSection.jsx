@@ -110,10 +110,10 @@ const TopSection = () => {
                 you will get for
                 <span className="whitespace-nowrap">
                   &nbsp;$100&nbsp;
-                  <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
+                  <RiDoubleQuotesR className="Quotes mb-6 inline-block text-blue-400" />
                 </span>
               </p>
-              {/*make tricky lg:hidden */}
+              {/*make tricky lg:hidden  */}
               <a href="#">
                 <span
                   className="dataToolTip14 scubaSpearWrapper absolute -top-2 right-20 z-0 hidden 
