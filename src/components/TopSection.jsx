@@ -112,6 +112,7 @@ const TopSection = () => {
                   &nbsp;$100&nbsp;
                   <RiDoubleQuotesR className="Quotes mb-6 inline-block text-blue-400" />
                 </span>
+                <p className="text-lg">Commission Available for $100 See Below</p>
               </p>
               {/*make tricky lg:hidden  */}
               <a href="#">
@@ -378,6 +379,26 @@ const TopSection = () => {
               <span className=" font-LibreBaskerville-Bold">
                 Advanced Custom Web Parts Require Negotiation.
               </span>
+              <p className="w-2/3 text-3xl m-auto mt-2">If your on Commission - I take care of everything.
+                - All Custom<br />
+                  I will be an Affiliate of your Company and will receive a commission
+                   based sales created by my leads.
+                   <br /> You will keep your Wordpress Website and I will run my
+                   variant on my Domain. I will sent you customers. </p>
+                 <p className="w-2/3 text-3xl m-auto mt-2">Are you struggling to attract customers to your website? Are you tired of investing
+                   in websites that yield no results, or have you spent valuable time creating a website that 
+                   falls short of your expectations and looks generic?
+                   While your website may function well for sales and inventory management,
+                    are your sales still lacking?</p> 
+                    <p className="w-2/3 text-3xl m-auto mt-2">
+                    I can help drive sales and bring customers your way. I work on commission, 
+                    meaning you only pay a small percentage of your sales.
+                     I specialize in creating effective landing pages that boost sales without costing you 
+                     thousands upfront.</p>
+                    <p className="w-2/3 text-3xl m-auto mt-2">
+                    If, in the future, you decide you no longer wish to pay commission, you can purchase your advertising campaign from me and continue independently.
+                     My expertise lies in helping struggling businesses achieve full stride with only a $100 budget.
+                     </p> 
             </span>
           </div>
 
