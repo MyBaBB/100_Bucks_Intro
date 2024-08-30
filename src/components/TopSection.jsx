@@ -99,6 +99,12 @@ const TopSection = () => {
           </p>
           <div className="anchorWrapper relative flex justify-center ">
             <div className="text-center  ">
+              <span className="font-LibreBaskerville-Bold text-2xl text-green-300 ">
+                Advanced Custom Web Parts Require Negotiation.
+              </span>
+              <p className="text-2xl">
+                Unless your Commission Based - See Below
+              </p>
               <p className="relative mb-4 text-center font-Changa-Regular text-3xl text-green-300 sm:text-5xl ">
                 <span className="whitespace-nowrap">
                   <RiDoubleQuotesL
@@ -112,7 +118,6 @@ const TopSection = () => {
                   &nbsp;$100&nbsp;
                   <RiDoubleQuotesR className="Quotes mb-6 inline-block text-blue-400" />
                 </span>
-                <p className="text-lg">Commission Available for $100 See Below</p>
               </p>
               {/*make tricky lg:hidden  */}
               <a href="#">
@@ -126,7 +131,7 @@ const TopSection = () => {
               </a>
             </div>
           </div>
-<section className="tropicalFish  mx-32 text-[8px] xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
+          <section className="tropicalFish  mx-32 text-[8px] xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
             <div className="my-1">
               {" "}
               <GiTropicalFish className="inline-block text-green-400 " />
@@ -145,7 +150,6 @@ const TopSection = () => {
               </span>
               Quick-Send Pro Email Template.
             </div>
-            
             <GiTropicalFish className="inline-block text-green-400 " />
             &nbsp;
             <span className="underline decoration-green-400">Level 2</span>
@@ -188,19 +192,23 @@ const TopSection = () => {
               <TiPlus className="TiPlus text-green-400 " />
               &nbsp;Secure Web-Mail to Gmail Integration.
             </div>
-            </section>
-            <div className="mt-8 w-[80%] m-auto font-Itim-Regular text-green-300">
-              <span className="inline-block text-center ">
-               
-                <span className=" xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
-                &nbsp;Integrating A  <span className="text-green-200">Custom Landing Page</span> &nbsp; 
-                <span className="inline-block  text-green-400"> <FaPlusCircle size={10} /></span> 
-                 &nbsp;&nbsp;<span className="text-green-200">Web-Mail</span>  will streamline 
-                management, enhance security, and provide a seamless experience across devices.
-              </span></span>
-            </div>
-         
-         
+          </section>
+          <div className="m-auto mt-8 w-[80%] font-Itim-Regular text-green-300">
+            <span className="inline-block text-center ">
+              <span className=" xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
+                &nbsp;Integrating A{" "}
+                <span className="text-green-200">Custom Landing Page</span>{" "}
+                &nbsp;
+                <span className="inline-block  text-green-400">
+                  {" "}
+                  <FaPlusCircle size={10} />
+                </span>
+                &nbsp;&nbsp;<span className="text-green-200">Web-Mail</span>{" "}
+                will streamline management, enhance security, and provide a
+                seamless experience across devices.
+              </span>
+            </span>
+          </div>
 
           <p
             className="objectiveParagraph mt-[-4rem]   p-[12px]
@@ -374,33 +382,7 @@ const TopSection = () => {
             <br />
           </div>
 
-          <div className="my-1">
-            <span className="mt-10 block text-center  text-2xl text-green-300 md:text-5xl">
-              <span className=" font-LibreBaskerville-Bold">
-                Advanced Custom Web Parts Require Negotiation.
-              </span>
-              <p className="w-2/3 text-3xl m-auto mt-2">If your on Commission - I take care of everything.
-                - All Custom<br />
-                  I will be an Affiliate of your Company and will receive a commission
-                   based sales created by my leads.
-                   <br /> You will keep your Wordpress Website and I will run my
-                   variant on my Domain. I will sent you customers. </p>
-                 <p className="w-2/3 text-3xl m-auto mt-2">Are you struggling to attract customers to your website? Are you tired of investing
-                   in websites that yield no results, or have you spent valuable time creating a website that 
-                   falls short of your expectations and looks generic?
-                   While your website may function well for sales and inventory management,
-                    are your sales still lacking?</p> 
-                    <p className="w-2/3 text-3xl m-auto mt-2">
-                    I can help drive sales and bring customers your way. I work on commission, 
-                    meaning you only pay a small percentage of your sales.
-                     I specialize in creating effective landing pages that boost sales without costing you 
-                     thousands upfront.</p>
-                    <p className="w-2/3 text-3xl m-auto mt-2">
-                    If, in the future, you decide you no longer wish to pay commission, you can purchase your advertising campaign from me and continue independently.
-                     My expertise lies in helping struggling businesses achieve full stride with only a $100 budget.
-                     </p> 
-            </span>
-          </div>
+          
 
           <div className="relative flex justify-center p-8 text-center text-3xl sm:text-5xl">
             <p
@@ -465,6 +447,46 @@ const TopSection = () => {
         </div>
 
         <hr className="objectiveDivider" />
+        <div className="my-1 m-auto w-[80%]">
+          <div className="text-white mt-4 text-center font-Changa-Regular">Commission Service</div>
+            <span className="mt-4 block text-center  text-2xl text-green-300 md:text-5xl">
+              <p className="m-auto mt-2 text-base xs:text-3xl">
+                If your on Commission - I take care of everything for only{" "}
+                <span className="text-green-100"><span className="whitespace-nowrap">$100 earnest money.</span></span>
+                <br />
+                Upon approval of your product, I will become an Affiliate of
+                your Wordpress Website.
+                <br />
+                I will receive a commission based on your sales that I send your
+                way.
+                <br /> I will send you customers from my SEO optimized Landing website
+                and use various other optical techniques to increase 
+                <span className="whitespace-nowrap"> Organic Viewers</span>
+              </p>
+              <p className="m-auto mt-2 text-base xs:text-3xl">
+                Are you struggling to attract customers to your website? Are you
+                tired of investing in websites that yield no results, or have
+                you spent valuable time creating a website that falls short of
+                your expectations and looks generic? While your website may
+                function well for sales and inventory management, are your sales
+                still lacking?
+              </p>
+             
+              <p className="m-auto mt-2 text-base xs:text-3xl">
+                I can help drive sales and bring customers your way. I work on
+                commission, meaning you only pay a small percentage of your
+                sales. I specialize in creating effective landing pages that
+                boost sales without costing you thousands upfront.
+              </p>
+              <p className="m-auto mt-2  text-base xs:text-3xl">
+                If, in the future, you decide you no longer wish to pay
+                commission, you can purchase your advertising campaign from me
+                and continue independently or just tell me to stop at any time. My expertise lies in helping
+                struggling businesses achieve full stride with only a $100
+                budget. 
+              </p>
+            </span>
+          </div>
       </section>
     </div>
   );
