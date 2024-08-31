@@ -102,9 +102,11 @@ const TopSection = () => {
               <span className="font-LibreBaskerville-Bold text-2xl text-green-300 ">
                 Advanced Custom Web Parts Require Negotiation.
               </span>
-              <p className="text-2xl">
-                Unless your Commission Based - See Below
+              <a href="#commissionService">
+              <p className="text-4xl my-4 text-amber-200 hover:opacity-70 transition duration-300">
+                 <u>Unless your Commission Based - See Below/click</u>
               </p>
+              </a>
               <p className="relative mb-4 text-center font-Changa-Regular text-3xl text-green-300 sm:text-5xl ">
                 <span className="whitespace-nowrap">
                   <RiDoubleQuotesL
@@ -250,7 +252,7 @@ const TopSection = () => {
             <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
               <div
                 id="emailPros"
-                className="   scroll-mt-[12rem] justify-center pb-2 text-center font-LibreBaskerville-Bold  
+                className="scroll-mt-[12rem] justify-center pb-2 text-center font-LibreBaskerville-Bold  
            text-4xl text-green-400 underline"
               >
                 <span className="landingPage underline1">
@@ -448,7 +450,7 @@ const TopSection = () => {
 
         <hr className="objectiveDivider" />
         <div className="my-1 m-auto w-[80%]">
-          <div className="text-white mt-4 text-center font-Changa-Regular">Commission Service</div>
+          <div id='commissionService' className="scroll-mt-[15rem] text-white mt-4 text-2xl sm:text-3xl text-center font-Changa-Regular">Commissioned Service</div>
             <span className="mt-4 block text-center  text-2xl text-green-300 md:text-5xl">
               <p className="m-auto mt-2 text-base xs:text-3xl">
                 If your on Commission - I take care of everything for only{" "}
