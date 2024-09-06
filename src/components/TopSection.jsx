@@ -26,6 +26,7 @@ import { GiAnglerFish } from "react-icons/gi";
 import ScubaSpear from "./ScubaManFolder/ScubaSpear";
 import DiverDown from "./ScubaManFolder/DiverDown";
 import "./ScubaManFolder/DiverDown.css";
+import FreeKindleBook from "./FreeKindlebook/FreeKindleBook";
 
 const TopSection = () => {
   return (
@@ -61,14 +62,7 @@ const TopSection = () => {
               </span>
             </div>
           </a>
-          <p className="PersonalBrandkWordsButton rounded-3xl py-1 px-3 mt-2 w-fit m-auto
-                                bg-gradient-to-b from-red-400 to-red-900 hover:from-red-900 hover:to-red-400   ">          
-                          <a href="https://amzn.to/3XniQUG" >
-                          <button className="PersonalBrandkWords  relative flex text-lg  ">
-                        Free Kindle Book 
-                          </button>
-                          </a>
-                   </p>
+                < FreeKindleBook />  
           <p
             className="objectiveParagraph m-auto w-[90%]  p-[12px]
         text-justify text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
