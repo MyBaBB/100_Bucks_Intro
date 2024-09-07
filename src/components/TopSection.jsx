@@ -196,7 +196,7 @@ const TopSection = () => {
               &nbsp;Secure Web-Mail to Gmail Integration.
             </div>
           </section>
-          <div className="m-auto mt-8 w-[80%] font-Itim-Regular text-green-300">
+          <div className="m-auto mt-8 mb-[2rem] w-[80%] font-Itim-Regular text-green-300">
             <span className="inline-block text-center ">
               <span className=" xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
                 &nbsp;Integrating A{" "}
