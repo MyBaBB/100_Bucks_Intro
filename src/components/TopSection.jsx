@@ -451,14 +451,15 @@ const TopSection = () => {
 
         <hr className="objectiveDivider" />
         <div className="my-1 m-auto w-[80%]">
-          <div id='commissionService' className="scroll-mt-[15rem] text-white mt-4 text-2xl sm:text-3xl text-center font-Changa-Regular">Commissioned Service</div>
+          <div id='commissionService' className="scroll-mt-[12rem] text-white mt-4 text-2xl
+               sm:text-3xl text-center font-Changa-Regular">Commission Service</div>
             <span className="mt-4 block text-center  text-2xl text-green-300 md:text-5xl">
               <p className="m-auto mt-2 text-base xs:text-3xl">
                 If your on Commission - I take care of everything for only{" "}
                 <span className="text-green-100"><span className="whitespace-nowrap">$100 earnest money.</span></span>
                 <br />
                 Upon approval of your product, I will become an Affiliate of
-                your Wordpress Website.
+                your Wordpress/Woo-Commerce Website.
                 <br />
                 I will receive a commission based on your sales that I send your
                 way.

@@ -73,6 +73,13 @@ function DropDown() {
                       <h3 className="">{item.email}</h3>
                     </div>
                   </a>
+
+                  <a href="#commissionService">
+                    <div className="flex w-full flex-row  justify-between pl-2 hover:rounded-lg hover:bg-gray-800  ">
+                      <h3 className="font-bold">{item.Commission}</h3>
+                      <h3 className="">{item.Money}</h3>
+                    </div>
+                  </a>
                 </div>
               </div>
             ))}
