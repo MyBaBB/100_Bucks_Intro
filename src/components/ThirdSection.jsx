@@ -8,7 +8,7 @@ const ThirdSection = () => {
     <div>
       <section className="pl-8    m-auto w-fit">
       <p className="text-center"> <h2 className="reSkills text-[3rem]">Skills</h2></p>
-       <div className="relative flex md:flex-col "> 
+       <div className="relative  md:flex  "> 
         <div className="relative">
         <ul
           className="reUnOrderedList2
@@ -40,7 +40,7 @@ const ThirdSection = () => {
          </div>
 
          <div className="relative">
-          <ul className="reUnOrderedList2
+          <ul className="reUnOrderedList2 mb-[2rem]
             text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   ">
             <li>
             <IoBookSharp className="inline-block text-blue-400" />
