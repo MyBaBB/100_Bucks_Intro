@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import { AiOutlineCaretUp, AiOutlineCaretDown } from "react-icons/ai";
+import { Link } from "react-router-dom"; // Add this line
 import ToolBoxList from "./ToolBoxList.json";
 import "./ToolBox.css";
 
@@ -43,7 +44,7 @@ function DropDown() {
                 justify-between rounded-r-lg border-l-2 border-l-transparent pb-1 pr-2 hover:border-l-gray-400 hover:bg-gray-800"
                   key={i}
                 >
-                  <a href="#gotoLevel1">
+                  <Link to="#gotoLevel1"> 
                     <div
                       className=" relative flex w-full flex-row justify-between py-1
                    pl-2 hover:rounded-lg hover:bg-gray-800"
@@ -51,35 +52,35 @@ function DropDown() {
                       <h3 className="font-bold ">{item.Thingy}</h3>
                       <h3>{item.Emoji}</h3>
                     </div>
-                  </a>
+                  </Link>
 
-                  <a href="#emailPros">
+                  <Link to="#emailPros"> 
                     <div className="flex w-full flex-row justify-between pl-2 hover:rounded-lg  hover:bg-gray-800   ">
                       <h3 className="font-bold">{item.Other}</h3>
                       <h3 className="">{item.Stuff}</h3>
                     </div>
-                  </a>
+                  </Link>
 
-                  <a href="#landingPagePros">
+                  <Link to="#landingPagePros">
                     <div className="flex w-full flex-row  justify-between pl-2 hover:rounded-lg hover:bg-gray-800   ">
                       <h3 className="font-bold">{item.landingPagePros}</h3>
                       <h3 className="">{item.Shark}</h3>
                     </div>
-                  </a>
+                  </Link>
 
-                  <a href="#ScubaMan">
+                  <Link to="#ScubaMan"> 
                     <div className="flex w-full flex-row  justify-between pl-2 hover:rounded-lg hover:bg-gray-800  ">
                       <h3 className="font-bold">{item.Contact}</h3>
                       <h3 className="">{item.email}</h3>
                     </div>
-                  </a>
+                  </Link>
 
-                  <a href="#commissionService">
+                  <Link to="#commissionService"> 
                     <div className="flex w-full flex-row  justify-between pl-2 hover:rounded-lg hover:bg-gray-800  ">
                       <h3 className="font-bold">{item.Commission}</h3>
                       <h3 className="">{item.Money}</h3>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}
