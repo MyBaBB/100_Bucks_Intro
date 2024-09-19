@@ -62,7 +62,7 @@ const TopSection = () => {
               </span>
             </div>
           </a>
-                < FreeKindleBook />  
+          <FreeKindleBook />
           <p
             className="objectiveParagraph m-auto w-[90%]  p-[12px]
         text-justify text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
@@ -70,7 +70,7 @@ const TopSection = () => {
           >
             <PiLinkBold className="-mt-1 inline-block text-blue-400" />
             &nbsp;
-            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
+            <a href="https://mybabb.github.io/New-Email-Template/">
               <h1 className="inline-block text-4xl text-green-400 underline hover:text-blue-300">
                 Email template:
               </h1>
@@ -104,9 +104,9 @@ const TopSection = () => {
                 Advanced Custom Web Parts Require Negotiation.
               </span>
               <a href="#commissionService">
-              <p className="text-4xl my-4 text-amber-200 hover:opacity-70 transition duration-300">
-                 <u>Unless your Commission Based - See Below/click</u>
-              </p>
+                <p className="my-4 text-4xl text-amber-200 transition duration-300 hover:opacity-70">
+                  <u>Unless your Commission Based - See Below/click</u>
+                </p>
               </a>
               <p className="relative mb-4 text-center font-Changa-Regular text-3xl text-green-300 sm:text-5xl ">
                 <span className="whitespace-nowrap">
@@ -196,7 +196,7 @@ const TopSection = () => {
               &nbsp;Secure Web-Mail to Gmail Integration.
             </div>
           </section>
-          <div className="m-auto mt-8 mb-[2rem] w-[80%] font-Itim-Regular text-green-300">
+          <div className="m-auto mb-[2rem] mt-8 w-[80%] font-Itim-Regular text-green-300">
             <span className="inline-block text-center ">
               <span className=" xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
                 &nbsp;Integrating A{" "}
@@ -256,9 +256,9 @@ const TopSection = () => {
                 className="scroll-mt-[12rem] justify-center pb-2 text-center font-LibreBaskerville-Bold  
            text-4xl text-green-400 underline"
               >
-                <span className="landingPage underline1">
-                  Email Template Pros:{" "}
-                </span>
+                <span className="landingPage ">Email Template Pros: </span>
+                <button></button>
+
                 {/* make tricky lg:hidden */}
                 <a href="#">
                   <span
@@ -266,10 +266,37 @@ const TopSection = () => {
                     hidden font-Aclonica-Regular sm:block lg:hidden  "
                     data-tool-tip="Back To Top"
                   >
-                    <ScubaSpear z-1 />
+                    <ScubaSpear />
                   </span>
                 </a>
               </div>
+            </a>
+          </div>
+          <div className="relative m-auto mt-4  flex justify-center   ">
+            <a href=" https://mybabb.github.io/New-Email-Template/">
+              <button
+                className="
+                     relative mr-8 inline-flex items-center justify-center rounded-md
+                     bg-gradient-to-r from-green-400 to-blue-500   px-4 py-2 text-2xl
+                     font-medium text-white shadow-sm hover:bg-gradient-to-br focus:outline-none focus:ring-2
+                     focus:ring-green-500 focus:ring-offset-2 
+                  "
+              >
+                Example #1
+              </button>
+            </a>
+
+            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
+              <button
+                className="
+                     relative ml-8 inline-flex items-center justify-center
+                     rounded-md bg-gradient-to-r from-green-400 to-blue-500  px-4 py-2 text-2xl
+                     font-medium text-white shadow-sm hover:bg-gradient-to-br focus:outline-none focus:ring-2
+                     focus:ring-green-500 focus:ring-offset-2 
+                  "
+              >
+                Example #2
+              </button>
             </a>
           </div>
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
@@ -385,8 +412,6 @@ const TopSection = () => {
             <br />
           </div>
 
-          
-
           <div className="relative flex justify-center p-8 text-center text-3xl sm:text-5xl">
             <p
               className="objectiveParagraph mt-[0rem]
@@ -450,47 +475,54 @@ const TopSection = () => {
         </div>
 
         <hr className="objectiveDivider" />
-        <div className="my-1 m-auto w-[80%]">
-          <div id='commissionService' className="scroll-mt-[12rem] text-white mt-4 text-2xl
-               sm:text-3xl text-center font-Changa-Regular">Commission Service</div>
-            <span className="mt-4 block text-center  text-2xl text-green-300 md:text-5xl">
-              <p className="m-auto mt-2 text-base xs:text-3xl">
-                If your on Commission - I take care of everything for only{" "}
-                <span className="text-green-100"><span className="whitespace-nowrap">$100 earnest money.</span></span>
-                <br />
-                Upon approval of your product, I will become an Affiliate of
-                your Wordpress/Woo-Commerce Website.
-                <br />
-                I will receive a commission based on your sales that I send your
-                way.
-                <br /> I will send you customers from my SEO optimized Landing website
-                and use various other optical techniques to increase 
-                <span className="whitespace-nowrap"> Organic Viewers</span>
-              </p>
-              <p className="m-auto mt-2 text-base xs:text-3xl">
-                Are you struggling to attract customers to your website? Are you
-                tired of investing in websites that yield no results, or have
-                you spent valuable time creating a website that falls short of
-                your expectations and looks generic? While your website may
-                function well for sales and inventory management, are your sales
-                still lacking?
-              </p>
-             
-              <p className="m-auto mt-2 text-base xs:text-3xl">
-                I can help drive sales and bring customers your way. I work on
-                commission, meaning you only pay a small percentage of your
-                sales. I specialize in creating effective landing pages that
-                boost sales without costing you thousands upfront.
-              </p>
-              <p className="m-auto mt-2  text-base xs:text-3xl">
-                If, in the future, you decide you no longer wish to pay
-                commission, you can purchase your advertising campaign from me
-                and continue independently or just tell me to stop at any time. My expertise lies in helping
-                struggling businesses achieve full stride with only a $100
-                budget. 
-              </p>
-            </span>
+        <div className="m-auto my-1 w-[80%]">
+          <div
+            id="commissionService"
+            className="mt-4 scroll-mt-[12rem] text-center font-Changa-Regular
+               text-2xl text-white sm:text-3xl"
+          >
+            Commission Service
           </div>
+          <span className="mt-4 block text-center  text-2xl text-green-300 md:text-5xl">
+            <p className="m-auto mt-2 text-base xs:text-3xl">
+              If your on Commission - I take care of everything for only{" "}
+              <span className="text-green-100">
+                <span className="whitespace-nowrap">$100 earnest money.</span>
+              </span>
+              <br />
+              Upon approval of your product, I will become an Affiliate of your
+              Wordpress/Woo-Commerce Website.
+              <br />
+              I will receive a commission based on your sales that I send your
+              way.
+              <br /> I will send you customers from my SEO optimized Landing
+              website and use various other optical techniques to increase
+              <span className="whitespace-nowrap"> Organic Viewers</span>
+            </p>
+            <p className="m-auto mt-2 text-base xs:text-3xl">
+              Are you struggling to attract customers to your website? Are you
+              tired of investing in websites that yield no results, or have you
+              spent valuable time creating a website that falls short of your
+              expectations and looks generic? While your website may function
+              well for sales and inventory management, are your sales still
+              lacking?
+            </p>
+
+            <p className="m-auto mt-2 text-base xs:text-3xl">
+              I can help drive sales and bring customers your way. I work on
+              commission, meaning you only pay a small percentage of your sales.
+              I specialize in creating effective landing pages that boost sales
+              without costing you thousands upfront.
+            </p>
+            <p className="m-auto mt-2  text-base xs:text-3xl">
+              If, in the future, you decide you no longer wish to pay
+              commission, you can purchase your advertising campaign from me and
+              continue independently or just tell me to stop at any time. My
+              expertise lies in helping struggling businesses achieve full
+              stride with only a $100 budget.
+            </p>
+          </span>
+        </div>
       </section>
     </div>
   );

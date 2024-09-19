@@ -6,66 +6,68 @@ import "./AquariumFolder/AquariumStand.css";
 const ThirdSection = () => {
   return (
     <div>
-      <section className="pl-8    m-auto w-fit">
-      <p className="text-center"> <h2 className="reSkills text-[3rem]">Skills</h2></p>
-       <div className="relative  md:flex  "> 
-        <div className="relative">
-        <ul
-          className="reUnOrderedList2
+      <section className="m-auto    w-fit pl-8">
+        <p className="text-center">
+          {" "}
+          <h2 className="reSkills text-[3rem]">Skills</h2>
+        </p>
+        <div className="relative  md:flex  ">
+          <div className="relative">
+            <ul
+              className="reUnOrderedList2
             text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   "
-        >
-          <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;React Js.
-          </li>
-          <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;JavaScript
-          </li>
-          <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Tailwind CSS
-          </li>
-          
-          <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;CSS3
-          </li>
-          <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Vite with Firebase
-          </li>
-          
-         </ul>
-         </div>
+            >
+              <li>
+                <IoBookSharp className="inline-block text-blue-400" />
+                &nbsp;&nbsp;&nbsp;React Js.
+              </li>
+              <li>
+                <IoBookSharp className="inline-block text-blue-400" />
+                &nbsp;&nbsp;&nbsp;JavaScript
+              </li>
+              <li>
+                <IoBookSharp className="inline-block text-blue-400" />
+                &nbsp;&nbsp;&nbsp;Tailwind CSS
+              </li>
 
-         <div className="relative">
-          <ul className="reUnOrderedList2 mb-[2rem]
-            text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   ">
-            <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Figma
-          </li>  
-          <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Adobe Photo-Shop
-          </li>
-          <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Adobe Illustrator
-          </li>
+              <li>
+                <IoBookSharp className="inline-block text-blue-400" />
+                &nbsp;&nbsp;&nbsp;CSS3
+              </li>
+              <li>
+                <IoBookSharp className="inline-block text-blue-400" />
+                &nbsp;&nbsp;&nbsp;Vite with Firebase
+              </li>
+            </ul>
+          </div>
 
-          <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Stable Diffusion
-          </li>
-          
-          
-        </ul>
-        </div>
+          <div className="relative">
+            <ul
+              className="reUnOrderedList2 mb-[2rem]
+            text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   "
+            >
+              <li>
+                <IoBookSharp className="inline-block text-blue-400" />
+                &nbsp;&nbsp;&nbsp;Figma
+              </li>
+              <li>
+                <IoBookSharp className="inline-block text-blue-400" />
+                &nbsp;&nbsp;&nbsp;Adobe Photo-Shop
+              </li>
+              <li>
+                <IoBookSharp className="inline-block text-blue-400" />
+                &nbsp;&nbsp;&nbsp;Adobe Illustrator
+              </li>
+
+              <li>
+                <IoBookSharp className="inline-block text-blue-400" />
+                &nbsp;&nbsp;&nbsp;Stable Diffusion
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-     
+
       <div className="  relative m-auto flex w-screen justify-center">
         <AquariumDataTip />
       </div>
