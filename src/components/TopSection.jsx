@@ -62,6 +62,30 @@ const TopSection = () => {
             </div>
           </a>
           <FreeKindleBook />
+          <div className="anchorWrapper relative flex justify-center ">
+            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
+              <div
+                id="emailPros"
+                className="scroll-mt-[7rem] mt-4 justify-center pb-2 text-center font-LibreBaskerville-Bold  
+           text-4xl text-green-400 underline"
+              >
+                <span className="landingPage ">Email Template Pros: </span>
+                <button></button>
+
+                {/* make tricky lg:hidden */}
+                <a href="#">
+                  <span
+                    className="dataToolTip15   scubaSpearWrapper absolute   -top-2 right-20 z-0 
+                    hidden font-Aclonica-Regular sm:block lg:hidden  "
+                    data-tool-tip="Back To Top"
+                  >
+                    <ScubaSpear />
+                  </span>
+                </a>
+              </div>
+            </a>
+          </div>
+          < ExampleButton />
           <p
             className="objectiveParagraph m-auto w-[90%]  p-[12px]
         text-justify text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
@@ -248,30 +272,7 @@ const TopSection = () => {
               </p>
             </div>
           </p>
-          <div className="anchorWrapper relative flex justify-center ">
-            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
-              <div
-                id="emailPros"
-                className="scroll-mt-[12rem] justify-center pb-2 text-center font-LibreBaskerville-Bold  
-           text-4xl text-green-400 underline"
-              >
-                <span className="landingPage ">Email Template Pros: </span>
-                <button></button>
-
-                {/* make tricky lg:hidden */}
-                <a href="#">
-                  <span
-                    className="dataToolTip15   scubaSpearWrapper absolute   -top-2 right-20 z-0 
-                    hidden font-Aclonica-Regular sm:block lg:hidden  "
-                    data-tool-tip="Back To Top"
-                  >
-                    <ScubaSpear />
-                  </span>
-                </a>
-              </div>
-            </a>
-          </div>
-          < ExampleButton />
+         
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
             <span className="IoDiamondSharp inline-block pb-1">
               <TbFishHook />
