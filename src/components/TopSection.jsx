@@ -9,7 +9,6 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import { GiTropicalFish } from "react-icons/gi";
 import { TbFishHook } from "react-icons/tb";
-
 import { FaPlusCircle } from "react-icons/fa";
 import { TiEqualsOutline } from "react-icons/ti";
 import { TiPlus } from "react-icons/ti";
@@ -19,7 +18,6 @@ import { MdAddShoppingCart } from "react-icons/md";
 import { TfiLock } from "react-icons/tfi";
 import { TbMailFast } from "react-icons/tb";
 import { PiLinkBold } from "react-icons/pi";
-
 import ContactButton from "./ContactButton";
 import ToolBox from "./ToolBoxFolder/ToolBox";
 import { GiAnglerFish } from "react-icons/gi";
@@ -27,6 +25,7 @@ import ScubaSpear from "./ScubaManFolder/ScubaSpear";
 import DiverDown from "./ScubaManFolder/DiverDown";
 import "./ScubaManFolder/DiverDown.css";
 import FreeKindleBook from "./FreeKindlebook/FreeKindleBook";
+import ExampleButton from "./ExampleButton";
 
 const TopSection = () => {
   return (
@@ -272,33 +271,7 @@ const TopSection = () => {
               </div>
             </a>
           </div>
-          <div className="relative m-auto mt-4  flex justify-center   ">
-            <a href=" https://mybabb.github.io/New-Email-Template/">
-              <button
-                className="
-                     relative mr-8 inline-flex items-center justify-center rounded-md
-                     bg-gradient-to-r from-green-400 to-blue-500   px-4 py-2 text-2xl
-                     font-medium text-white shadow-sm hover:bg-gradient-to-br focus:outline-none focus:ring-2
-                     focus:ring-green-500 focus:ring-offset-2 
-                  "
-              >
-                Example #1
-              </button>
-            </a>
-
-            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
-              <button
-                className="
-                     relative ml-8 inline-flex items-center justify-center
-                     rounded-md bg-gradient-to-r from-green-400 to-blue-500  px-4 py-2 text-2xl
-                     font-medium text-white shadow-sm hover:bg-gradient-to-br focus:outline-none focus:ring-2
-                     focus:ring-green-500 focus:ring-offset-2 
-                  "
-              >
-                Example #2
-              </button>
-            </a>
-          </div>
+          < ExampleButton />
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
             <span className="IoDiamondSharp inline-block pb-1">
               <TbFishHook />
