@@ -73,9 +73,9 @@ const ExampleButton = () => {
                 ref={el => (Example1 = el)}
                 className="exampleButton1
                      relative   inline-flex items-center justify-center rounded-md
-                     bg-gradient-to-r from-green-400 to-blue-500 mx-4  px-4 py-2 text:xs xs:text-2xl
-                     font-medium text-white shadow-sm hover:bg-gradient-to-br focus:outline-none focus:ring-2
-                     focus:ring-green-500 focus:ring-offset-2 
+                     bg-gradient-to-b from-green-400 to-blue-500 mx-4  px-4 py-2 text:xs xs:text-2xl
+                     font-medium text-white shadow-sm hover:bg-gradient-to-t focus:outline-none focus:ring-2
+                     focus:ring-green-500 focus:ring-offset-2 hover:text-blue-900
                   "
               >
                 Example #1
@@ -84,12 +84,12 @@ const ExampleButton = () => {
 
             <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
               <button
-                ref={el => (Example2 = el)}
+                // ref={el => (Example2 = el)}
                 className="exampleButton2
                      relative   inline-flex items-center justify-center
-                     rounded-md bg-gradient-to-r from-green-400 to-blue-500 mx-4 px-4 py-2 text:xs xs:text-2xl
-                     font-medium text-white shadow-sm hover:bg-gradient-to-br focus:outline-none focus:ring-2
-                     focus:ring-green-500 focus:ring-offset-2 
+                     rounded-md bg-gradient-to-b from-green-400 to-blue-500 mx-4 px-4 py-2 text:xs xs:text-2xl
+                     font-medium text-white shadow-sm hover:bg-gradient-to-t focus:outline-none focus:ring-2
+                     focus:ring-green-500 focus:ring-offset-2 hover:text-blue-900
                   "
               >
                 Example #2
@@ -97,12 +97,12 @@ const ExampleButton = () => {
             </a>
             <a href="https://mybabb.github.io/Pergola-Email/ ">
               <button
-                ref={el => (Example3 = el)}
+                // ref={el => (Example3 = el)}
                 className="exampleButton3
                      relative   inline-flex items-center justify-center
-                     rounded-md bg-gradient-to-r from-green-400 to-blue-500 mx-4 px-4 py-2 text:xs xs:text-2xl
-                     font-medium text-white shadow-sm hover:bg-gradient-to-br focus:outline-none focus:ring-2
-                     focus:ring-green-500 focus:ring-offset-2 
+                     rounded-md bg-gradient-to-b from-green-400 to-blue-500 mx-4 px-4 py-2 text:xs xs:text-2xl
+                     font-medium text-white shadow-sm hover:bg-gradient-to-t focus:outline-none focus:ring-2
+                     focus:ring-green-500 focus:ring-offset-2 hover:text-blue-900 
                   "
               >
                 Example #3
