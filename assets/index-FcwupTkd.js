@@ -75,12 +75,12 @@ Error generating stack: `+l.message+`
                      bg-gradient-to-b from-green-400 to-blue-500 mx-4  px-4 py-2 text:xs xs:text-2xl\r
                      font-medium text-white shadow-sm hover:bg-gradient-to-t focus:outline-none focus:ring-2\r
                      focus:ring-green-500 focus:ring-offset-2 hover:text-blue-900\r
-                  `,children:"Example #1"})}),c.jsx("a",{href:"https://mybabb.github.io/BasicEmail_gh_pages/",children:c.jsx("button",{className:`exampleButton2\r
+                  `,children:"Example #1"})}),c.jsx("a",{href:"https://mybabb.github.io/BasicEmail_gh_pages/",children:c.jsx("button",{ref:r=>e=r,className:`exampleButton2\r
                      relative   inline-flex items-center justify-center\r
                      rounded-md bg-gradient-to-b from-green-400 to-blue-500 mx-4 px-4 py-2 text:xs xs:text-2xl\r
                      font-medium text-white shadow-sm hover:bg-gradient-to-t focus:outline-none focus:ring-2\r
                      focus:ring-green-500 focus:ring-offset-2 hover:text-blue-900\r
-                  `,children:"Example #2"})}),c.jsx("a",{href:"https://mybabb.github.io/Pergola-Email/ ",children:c.jsx("button",{className:`exampleButton3\r
+                  `,children:"Example #2"})}),c.jsx("a",{href:"https://mybabb.github.io/Pergola-Email/ ",children:c.jsx("button",{ref:r=>n=r,className:`exampleButton3\r
                      relative   inline-flex items-center justify-center\r
                      rounded-md bg-gradient-to-b from-green-400 to-blue-500 mx-4 px-4 py-2 text:xs xs:text-2xl\r
                      font-medium text-white shadow-sm hover:bg-gradient-to-t focus:outline-none focus:ring-2\r
