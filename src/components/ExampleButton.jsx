@@ -67,13 +67,13 @@ const ExampleButton = () => {
  
   return (
     <div>
-      <div className="relative m-auto mt-4  flex justify-between  w-[30%]  ">
+      <div className="relative m-auto mt-4  flex justify-center      ">
             <a href=" https://mybabb.github.io/New-Email-Template/">
               <button
                 ref={el => (Example1 = el)}
                 className="exampleButton1
                      relative   inline-flex items-center justify-center rounded-md
-                     bg-gradient-to-r from-green-400 to-blue-500   px-4 py-2 text-2xl
+                     bg-gradient-to-r from-green-400 to-blue-500 mx-4  px-4 py-2 text:xs xs:text-2xl
                      font-medium text-white shadow-sm hover:bg-gradient-to-br focus:outline-none focus:ring-2
                      focus:ring-green-500 focus:ring-offset-2 
                   "
@@ -87,7 +87,7 @@ const ExampleButton = () => {
                 ref={el => (Example2 = el)}
                 className="exampleButton2
                      relative   inline-flex items-center justify-center
-                     rounded-md bg-gradient-to-r from-green-400 to-blue-500  px-4 py-2 text-2xl
+                     rounded-md bg-gradient-to-r from-green-400 to-blue-500 mx-4 px-4 py-2 text:xs xs:text-2xl
                      font-medium text-white shadow-sm hover:bg-gradient-to-br focus:outline-none focus:ring-2
                      focus:ring-green-500 focus:ring-offset-2 
                   "
@@ -100,7 +100,7 @@ const ExampleButton = () => {
                 ref={el => (Example3 = el)}
                 className="exampleButton3
                      relative   inline-flex items-center justify-center
-                     rounded-md bg-gradient-to-r from-green-400 to-blue-500  px-4 py-2 text-2xl
+                     rounded-md bg-gradient-to-r from-green-400 to-blue-500 mx-4 px-4 py-2 text:xs xs:text-2xl
                      font-medium text-white shadow-sm hover:bg-gradient-to-br focus:outline-none focus:ring-2
                      focus:ring-green-500 focus:ring-offset-2 
                   "
