@@ -25,8 +25,8 @@ import ScubaSpear from "./ScubaManFolder/ScubaSpear";
 import DiverDown from "./ScubaManFolder/DiverDown";
 import "./ScubaManFolder/DiverDown.css";
 import FreeKindleBook from "./FreeKindlebook/FreeKindleBook";
-import ExampleButton from "./ExampleButton";
-
+import ExampleButton from "./ExampleButtonEmail";
+import ExampleButtonLandingPage from "./ExampleButtonLandingPage";
 const TopSection = () => {
   return (
     <div>
@@ -103,9 +103,12 @@ const TopSection = () => {
             notes, or holiday greetings, templates streamline the process. With
             over 4.1 billion active email users globally, having efficient
             communication is essential.
-            <br />
-            <br />
+           
+
+            
+            < ExampleButtonLandingPage />
             <PiLinkBold className="-mt-1 inline-block text-blue-400" />
+
             &nbsp;
             <a href="https://mybabb.github.io/BetterMcTransport/">
               <h2 className="inline-block text-4xl text-green-400 underline hover:text-blue-300">
