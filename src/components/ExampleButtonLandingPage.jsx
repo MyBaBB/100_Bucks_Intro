@@ -68,7 +68,7 @@ const ExampleButton = () => {
   return (
     <div>
       <div className="relative m-auto mt-4  flex justify-center      ">
-            <a href=" https://goody-button.onrender.com">
+            <a href=" https://goody-button.onrender.com" target="_blank" rel="noopener noreferrer">
               <button
                 ref={el => (Example1 = el)}
                 className="exampleButton1
@@ -82,7 +82,7 @@ const ExampleButton = () => {
               </button>
             </a>
 
-            <a href="https://tom-pergola-fine-art.onrender.com ">
+            <a href="https://tom-pergola-fine-art.onrender.com " target="_blank" rel="noopener noreferrer">
               <button
                 ref={el => (Example2 = el)}
                 className="exampleButton2

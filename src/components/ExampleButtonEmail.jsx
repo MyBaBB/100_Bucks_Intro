@@ -68,7 +68,7 @@ const ExampleButton = () => {
   return (
     <div>
       <div className="relative m-auto mt-4  flex justify-center      ">
-            <a href=" https://mybabb.github.io/New-Email-Template/">
+            <a href=" https://mybabb.github.io/New-Email-Template/" target="_blank" rel="noopener noreferrer">
               <button
                 ref={el => (Example1 = el)}
                 className="exampleButton1
@@ -82,7 +82,7 @@ const ExampleButton = () => {
               </button>
             </a>
 
-            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
+            <a href="https://mybabb.github.io/BasicEmail_gh_pages/" target="_blank" rel="noopener noreferrer">
               <button
                 ref={el => (Example2 = el)}
                 className="exampleButton2
@@ -95,7 +95,7 @@ const ExampleButton = () => {
                 Example #2
               </button>
             </a>
-            <a href="https://mybabb.github.io/Pergola-Email/ ">
+            <a href="https://mybabb.github.io/Pergola-Email/ " target="_blank" rel="noopener noreferrer">
               <button
                 ref={el => (Example3 = el)}
                 className="exampleButton3
