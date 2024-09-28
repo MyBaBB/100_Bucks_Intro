@@ -11,9 +11,9 @@ const ExampleButton = () => {
       Example1,
     
        { scale: 0,
-        ease: "bounce", 
+        ease: "circ.inOut", 
         duration: 2.2,
-        y: 100,
+        y: -200,
         x:-300,
         opacity: 1,
        });
@@ -29,9 +29,9 @@ const ExampleButton = () => {
       Example2,
     
       { scale: 0,
-        ease: "bounce", 
+        ease: "circ.inOut", 
         duration: 2.2,
-        y: 100,
+        y: -200,
         
         opacity: 1,
        });
@@ -47,9 +47,9 @@ const ExampleButton = () => {
       Example3,
     
       { scale: 0,
-        ease: "bounce", 
+        ease: "circ.inOut", 
         duration: 2.2,
-        y: 100,
+        y: -200,
         x: 300,
         opacity: 1,
        });
