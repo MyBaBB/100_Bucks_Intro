@@ -67,7 +67,7 @@ const ExampleButton = () => {
  
   return (
     <div>
-      <div className="relative m-auto mt-4  flex justify-center      ">
+      <div className="relative m-auto mt-4   flex justify-center      ">
             <a href=" https://mybabb.github.io/New-Email-Template/" target="_blank" rel="noopener noreferrer">
               <button
                 ref={el => (Example1 = el)}

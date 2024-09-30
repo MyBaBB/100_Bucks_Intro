@@ -87,9 +87,9 @@ const TopSection = () => {
           </div>
           < ExampleButton />
           <p
-            className="objectiveParagraph m-auto w-[90%]  p-[12px]
-        text-justify text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
-        md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px] "
+            className="objectiveParagraph m-auto w-[90%]   
+        text-justify text-[12px] p-4  sm:text-[24px]  
+        md:text-[28px]     xxs:text-[16px]  xs:text-[20px] "
           >
             <PiLinkBold className="-mt-1 inline-block text-blue-400" />
             &nbsp;
