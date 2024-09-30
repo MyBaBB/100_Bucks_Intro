@@ -24,7 +24,7 @@ import { GiAnglerFish } from "react-icons/gi";
 import ScubaSpear from "./ScubaManFolder/ScubaSpear";
 import DiverDown from "./ScubaManFolder/DiverDown";
 import "./ScubaManFolder/DiverDown.css";
-import FreeKindleBook from "./FreeKindlebook/FreeKindleBook";
+ ;
 import ExampleButton from "./ExampleButtonEmail";
 import ExampleButtonLandingPage from "./ExampleButtonLandingPage";
 const TopSection = () => {
@@ -61,7 +61,7 @@ const TopSection = () => {
               </span>
             </div>
           </a>
-          <FreeKindleBook />
+    
           <div className="anchorWrapper relative flex justify-center ">
             <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
               <div
