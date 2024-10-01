@@ -24,6 +24,7 @@ import "./ScubaManFolder/DiverDown.css";
 import ExampleButton from "./ExampleButtonEmail";
 import ExampleButtonLandingPage from "./ExampleButtonLandingPage";
 import { GiOctopus } from "react-icons/gi";
+import  Gorilla from "../Gorilla";
 const TopSection = () => {
   return (
     <div>
@@ -46,7 +47,7 @@ const TopSection = () => {
         >
           <ContactButton />
           <br />
-
+<Gorilla />
           <br />
           <a href="#gotoLevel1">
             <div className="relative m-auto  mt-[2rem] w-fit scroll-mt-[19rem] text-blue-200 hover:text-opacity-50">

@@ -1,4 +1,4 @@
-<!-- note to self npm run deploy for gh-pages -->
+<!-- note to self npm run deploy from the main branch for gh-pages -->
 
 # This is a price list. introductory offer.
 
