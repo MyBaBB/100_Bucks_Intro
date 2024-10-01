@@ -24,7 +24,7 @@ import "./ScubaManFolder/DiverDown.css";
 import ExampleButton from "./ExampleButtonEmail";
 import ExampleButtonLandingPage from "./ExampleButtonLandingPage";
 import { GiOctopus } from "react-icons/gi";
-import Gorilla from "../Gorilla";
+ 
 const TopSection = () => {
   return (
     <div>
@@ -47,7 +47,7 @@ const TopSection = () => {
         >
           <ContactButton />
           <br />
-          <Gorilla />
+          
           <br />
           <a href="#gotoLevel1">
             <div className="relative m-auto  mt-[2rem] w-fit scroll-mt-[19rem] text-blue-200 hover:text-opacity-50">
@@ -224,7 +224,7 @@ const TopSection = () => {
             </div>
             </div>
           </section>
-          <div className="relative m-auto border-2 border-lime-500 text-center  mb-[2rem] mt-8 flex w-[80%] justify-center p-4 ">
+          <div className="relative m-auto   text-center  mb-[2rem] mt-8 flex w-[80%] justify-center p-4 ">
             <span className="inline-block text-center ">
               <hr className="m-auto my-2 h-[3px] w-[15%] bg-blue-300" />
               <span className="font-changa-regular pb-4  text-amber-200 sm:text-4xl xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
@@ -248,7 +248,7 @@ const TopSection = () => {
                   A Pro Landing Page{" "}
                 </span>
                 </div>
-                <div className="mb-2 inline-block font-LibreBaskerville-Regular border-2 border-lime-500 text-center font-bold text-[aliceblue]">
+                <div className="mb-2 inline-block font-LibreBaskerville-Regular  text-center font-bold text-[aliceblue]">
                   With this technique, you can directly send Emails to your
                   prospects.
                   <br />
