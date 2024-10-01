@@ -38,7 +38,7 @@ const Header = () => {
 
           <a href="https://mybabb.github.io/BetterMcTransport/">
             <p
-              className="headerCenterTextBox w-fit mx-auto font-Kingthings_Petrock   text-[16px] 
+              className="headerCenterTextBox mx-auto w-fit font-Kingthings_Petrock   text-[16px] 
          text-amber-100  hover:text-opacity-50  md:text-[20px] lg:text-[25px] xl:text-[30px]  "
             >
               <h1>Web Starter Kit</h1>
