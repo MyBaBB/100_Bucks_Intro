@@ -12,9 +12,6 @@ import { TbFishHook } from "react-icons/tb";
 import { FaPlusCircle } from "react-icons/fa";
 import { TiEqualsOutline } from "react-icons/ti";
 import { TiPlus } from "react-icons/ti";
-import { GrVmMaintenance } from "react-icons/gr";
-import { MdOutlineSupportAgent } from "react-icons/md";
-import { MdAddShoppingCart } from "react-icons/md";
 import { TfiLock } from "react-icons/tfi";
 import { TbMailFast } from "react-icons/tb";
 import { PiLinkBold } from "react-icons/pi";
@@ -24,9 +21,9 @@ import { GiAnglerFish } from "react-icons/gi";
 import ScubaSpear from "./ScubaManFolder/ScubaSpear";
 import DiverDown from "./ScubaManFolder/DiverDown";
 import "./ScubaManFolder/DiverDown.css";
- ;
 import ExampleButton from "./ExampleButtonEmail";
 import ExampleButtonLandingPage from "./ExampleButtonLandingPage";
+import { GiOctopus } from "react-icons/gi";
 const TopSection = () => {
   return (
     <div>
@@ -61,12 +58,12 @@ const TopSection = () => {
               </span>
             </div>
           </a>
-    
+
           <div className="anchorWrapper relative flex justify-center ">
             <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
               <div
                 id="emailPros"
-                className="scroll-mt-[7rem] mt-4 justify-center pb-2 text-center font-LibreBaskerville-Bold  
+                className="mt-4 scroll-mt-[7rem] justify-center pb-2 text-center font-LibreBaskerville-Bold  
            text-4xl text-green-400 underline"
               >
                 <span className="landingPage ">Email Template Pros: </span>
@@ -85,36 +82,37 @@ const TopSection = () => {
               </div>
             </a>
           </div>
-          < ExampleButton />
+          <ExampleButton />
           <p
             className="objectiveParagraph m-auto w-[90%]   
-        text-justify text-[12px] p-4  sm:text-[24px]  
+        p-4 text-justify text-[12px]  sm:text-[24px]  
         md:text-[28px]     xxs:text-[16px]  xs:text-[20px] "
           >
+            <div className="text-center">
             <PiLinkBold className="-mt-1 inline-block text-blue-400" />
             &nbsp;
+            
             <a href="https://mybabb.github.io/New-Email-Template/">
               <h1 className="inline-block text-4xl text-green-400 underline hover:text-blue-300">
                 Email template:
               </h1>
             </a>
+            </div>
             &nbsp;Save time by allowing you to reuse professionally designed
             emails. Whether it&apos;s invitations, sales messages, thank-you
             notes, or holiday greetings, templates streamline the process. With
             over 4.1 billion active email users globally, having efficient
             communication is essential.
-           
-
-            
-            < ExampleButtonLandingPage />
+            <ExampleButtonLandingPage />
+           <div className="text-center">
             <PiLinkBold className="-mt-1 inline-block text-blue-400" />
-
             &nbsp;
             <a href="https://mybabb.github.io/BetterMcTransport/">
               <h2 className="inline-block text-4xl text-green-400 underline hover:text-blue-300">
                 Custom Landing Page:
               </h2>
-            </a>
+             </a>
+            </div>
             &nbsp;Created to appeal to different types of customers. The
             content, page style, advertising, and offer it contains will
             determine its impact on the targeted customer group. Landing pages
@@ -126,14 +124,8 @@ const TopSection = () => {
           </p>
           <div className="anchorWrapper relative flex justify-center ">
             <div className="text-center  ">
-              <span className="font-LibreBaskerville-Bold text-2xl text-green-300 ">
-                Advanced Custom Web Parts Require Negotiation.
-              </span>
-              <a href="#commissionService">
-                <p className="my-4 text-4xl text-amber-200 transition duration-300 hover:opacity-70">
-                  <u>Unless your Commission Based - See Below/click</u>
-                </p>
-              </a>
+             
+
               <p className="relative mb-4 text-center font-Changa-Regular text-3xl text-green-300 sm:text-5xl ">
                 <span className="whitespace-nowrap">
                   <RiDoubleQuotesL
@@ -160,7 +152,7 @@ const TopSection = () => {
               </a>
             </div>
           </div>
-          <section className="tropicalFish  mx-32 text-[8px] xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
+          <section className="tropicalFish  mx-4 text-[8px] xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
             <div className="my-1">
               {" "}
               <GiTropicalFish className="inline-block text-green-400 " />
@@ -177,7 +169,8 @@ const TopSection = () => {
               <span className="inline-block text-green-500">
                 <TbMailFast />
               </span>
-              Quick-Send Pro Email Template.
+              Quick-Send <u className="underline decoration-green-400">Basic</u>{" "}
+              Email Template.
             </div>
             <GiTropicalFish className="inline-block text-green-400 " />
             &nbsp;
@@ -188,59 +181,89 @@ const TopSection = () => {
             <span className="inline-block text-green-500">
               <TbMailFast />
             </span>
-            Quick Send Pro Email Template &nbsp;
-            <TiPlus className="TiPlus " />
-            &nbsp;Social Media Links.
+            Email&nbsp;<u className="underline decoration-green-400">Pro</u>{" "}
+            Template&nbsp;
+            <TiPlus className="TiPlus  text-green-400" />
+            &nbsp;Social Media Links, Image Gallery.
             <div className="my-1">
               <GiTropicalFish className="inline-block text-green-400 " />
               &nbsp;
               <span className="underline decoration-green-400">Level 3</span>
               &nbsp;
               <TiEqualsOutline className="TiEqualsOutline text-green-400" />
-              &nbsp;$500&nbsp;
+              &nbsp;$400&nbsp;
               <span className="inline-block text-green-500">
                 <TbMailFast />
               </span>
-              All of Above
-              <TiPlus className="TiPlus text-green-400 " />
-              <TiPlus className="TiPlus text-green-400" />
-              &nbsp;Custom Landing Page.
+              Custom Landing Page. <span className="text-green-400">(</span>
+              Custom Gateway to WebStore
+              <span className="text-green-400">)</span>
             </div>
-            <div className="mb-4 mt-1">
+            <div className="mb-1 mt-1">
               <GiTropicalFish className="inline-block text-green-400 " />
               &nbsp;
               <span className="underline decoration-green-400">Level 4</span>
               &nbsp;
               <TiEqualsOutline className="TiEqualsOutline text-green-400" />
-              &nbsp;$700&nbsp;
+              &nbsp;$500&nbsp;
               <span className="inline-block text-green-500">
                 <TbMailFast />
               </span>
-              Everything &nbsp;
-              <TiPlus className="TiPlus text-green-400 " />{" "}
-              <TiPlus className="TiPlus text-green-400 " />
-              &nbsp;Secure Web-Mail to Gmail Integration.
+              &apos;The Kit&apos;&nbsp;for direct <span className="font-Iceberg-Regular"><u>Cold Emailing</u></span> 
+              &nbsp;
             </div>
+
+            <div className=" ">
+             <GiOctopus  className="inline-block text-green-400 " />
+             &nbsp;
+              <span className="font-LibreBaskerville-Bold   text-green-300 ">
+             &nbsp;&nbsp;Advanced Super Custom Web Parts Require Negotiation.
+              </span>
+              &nbsp;
+            </div>
+
           </section>
-          <div className="m-auto mb-[2rem] mt-8 w-[80%] font-Itim-Regular text-green-300">
+          <div className="relative m-auto mb-[2rem] mt-8 flex w-[80%] p-4 justify-center ">
             <span className="inline-block text-center ">
-              <span className=" xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
-                &nbsp;Integrating A{" "}
-                <span className="text-green-200">Custom Landing Page</span>{" "}
+            <hr className="w-[15%] bg-blue-300 m-auto my-2 h-[3px]"/>
+              <span className="font-changa-regular pb-4  text-amber-200 xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] sm:text-4xl ">
+                &nbsp;<span className="text-[aliceblue] font-Iceberg-Regular font-bold text-base sm:text-2xl md:text-3xl lg:text-4xl ">
+                  Cold Emailing :
+              </span>
+                 <hr className="w-[15%] bg-blue-300 m-auto mt-2 h-[3px]"/>
+                <br />
+                <span className="text-white font-LibreBaskerville-Bold inline-block mb-2">
+                  A Pro Email Template
+                </span>{" "}
                 &nbsp;
                 <span className="inline-block  text-green-400">
                   {" "}
-                  <FaPlusCircle size={10} />
+                  <FaPlusCircle size={15} />
                 </span>
-                &nbsp;&nbsp;<span className="text-green-200">Web-Mail</span>{" "}
-                will streamline management, enhance security, and provide a
-                seamless experience across devices.
+                
+                &nbsp;&nbsp;
+                <span className="text-white font-LibreBaskerville-Bold inline-block mb-2">A Pro Landing Page </span>
+          
+              
+                <div className="text-[aliceblue] font-bold font-LibreBaskerville-Regular inline-block mb-2">
+                With this technique, you can directly send Emails to your
+                prospects.
+                <br />
+                This Email will contain a link to the Professional Custom
+                Landing Page.
+                <br />
+                This Attractive Landing Page will be linked to your Web-Store.
+                <br />
+                This is a great way to get your product in front of potential
+                customers.
+                </div>
               </span>
             </span>
           </div>
+          <hr className="w-[27%] bg-blue-300 m-auto   h-[3px]"/>
 
           <p
-            className="objectiveParagraph mt-[-4rem]   p-[12px]
+            className="objectiveParagraph     p-[12px]
                    text-center text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
                    md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px] "
           >
@@ -275,7 +298,7 @@ const TopSection = () => {
               </p>
             </div>
           </p>
-         
+
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
             <span className="IoDiamondSharp inline-block pb-1">
               <TbFishHook />
@@ -386,7 +409,7 @@ const TopSection = () => {
               <GiAnglerFish size={18} className="text-blue-300" />
             </span>
             &nbsp;&nbsp;Allows for easier testing and optimization
-            <br />
+             
           </div>
 
           <div className="relative flex justify-center p-8 text-center text-3xl sm:text-5xl">
@@ -403,7 +426,7 @@ const TopSection = () => {
                 </u>
                 &nbsp;
                 <TiEqualsOutline className="inline-block text-green-400" />
-                &nbsp; Do Not require a Domain and have No Monthly Charge.
+                &nbsp; Do Not require a Hosted Domain
               </span>
 
               <span className="block text-left ">
@@ -412,59 +435,39 @@ const TopSection = () => {
                 </u>
                 &nbsp;
                 <TiEqualsOutline className="inline-block text-green-400" />
-                &nbsp;&nbsp;Do Require a Domain and a Monthly Charge.
+                &nbsp;&nbsp;Do Require a Hosted Domain
               </span>
               <br />
-
-              <span className="block text-left ">
-                <u className="underline decoration-green-400">
-                  A&nbsp;New&nbsp;&nbsp;Domain
-                </u>
-                &nbsp; &nbsp;
-                <TiEqualsOutline className="inline-block text-green-400" />
-                &nbsp;is $50 plus Domain Name cost and $25 a month
-              </span>
-              <span className="block text-left">
-                <u className="underline decoration-green-400">
-                  Domain Transfer
-                </u>
-                &nbsp;
-                <TiEqualsOutline className="inline-block text-green-400" /> a
-                flat rate of $100 and $25 a month.
-              </span>
             </p>
           </div>
           <br />
           <p className="mb-4 mt-[-3rem] text-center">
-            Monthly Charges for Web Hosting Services include:
+            If you already have a Hosted Domain then we can set up a Subdomain
+            with your provider.
             <br />
             &nbsp;
-            <GrVmMaintenance className="inline-block text-green-400" />
-            &nbsp;Maintenance &nbsp;
-            <MdOutlineSupportAgent className="inline-block text-green-400" />
-            &nbsp;Support &nbsp;
-            <MdAddShoppingCart className="inline-block text-green-400" />
-            &nbsp;Bonuses &nbsp;
             <TfiLock className="inline-block text-green-400" />
-            &nbsp;SSL Certificate
+            &nbsp;Otherwise we can offer Secure Web Hosting at a reasonable
+            price.
             <br />
           </p>
         </div>
 
         <hr className="objectiveDivider" />
         <div className="m-auto my-1 w-[80%]">
-          <div
-            id="commissionService"
-            className="mt-4 scroll-mt-[12rem] text-center font-Changa-Regular
-               text-2xl text-white sm:text-3xl"
-          >
-            Commission Service
-          </div>
           <span className="mt-4 block text-center  text-2xl text-green-300 md:text-5xl">
             <p className="m-auto mt-2 text-base xs:text-3xl">
-              If your on Commission - I take care of everything for only{" "}
+              <a href="#commissionService">
+                <p className="my-4 text-4xl text-amber-200 transition duration-300 hover:opacity-70">
+                  Try Commission Based Service
+                </p>
+              </a>
               <span className="text-green-100">
-                <span className="whitespace-nowrap">$100 earnest money.</span>
+                <span className="whitespace-nowrap">
+                  $100 earnest money.
+                  <br />
+                  You will need to set up the Affiliate Plugin on your site.
+                </span>
               </span>
               <br />
               Upon approval of your product, I will become an Affiliate of your
@@ -492,11 +495,12 @@ const TopSection = () => {
               without costing you thousands upfront.
             </p>
             <p className="m-auto mt-2  text-base xs:text-3xl">
-              If, in the future, you decide you no longer wish to pay
-              commission, you can purchase your advertising campaign from me and
-              continue independently or just tell me to stop at any time. My
-              expertise lies in helping struggling businesses achieve full
-              stride with only a $100 budget.
+              Should you decide in the future that you no longer wish to pay a
+              commission, you have the option to purchase your advertising
+              campaign from me at a negotiated price. You can then continue
+              independently, or simply inform me to cease services at any time.
+              My expertise is in assisting struggling businesses to reach their
+              full potential with a budget of just $100.
             </p>
           </span>
         </div>
