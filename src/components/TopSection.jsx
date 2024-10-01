@@ -24,6 +24,7 @@ import "./ScubaManFolder/DiverDown.css";
 import ExampleButton from "./ExampleButtonEmail";
 import ExampleButtonLandingPage from "./ExampleButtonLandingPage";
 import { GiOctopus } from "react-icons/gi";
+ 
 const TopSection = () => {
   return (
     <div>
@@ -46,7 +47,7 @@ const TopSection = () => {
         >
           <ContactButton />
           <br />
-
+          
           <br />
           <a href="#gotoLevel1">
             <div className="relative m-auto  mt-[2rem] w-fit scroll-mt-[19rem] text-blue-200 hover:text-opacity-50">
@@ -89,14 +90,13 @@ const TopSection = () => {
         md:text-[28px]     xxs:text-[16px]  xs:text-[20px] "
           >
             <div className="text-center">
-            <PiLinkBold className="-mt-1 inline-block text-blue-400" />
-            &nbsp;
-            
-            <a href="https://mybabb.github.io/New-Email-Template/">
-              <h1 className="inline-block text-4xl text-green-400 underline hover:text-blue-300">
-                Email template:
-              </h1>
-            </a>
+              <PiLinkBold className="-mt-1 inline-block text-blue-400" />
+              &nbsp;
+              <a href="https://mybabb.github.io/New-Email-Template/">
+                <h1 className="inline-block text-4xl text-green-400 underline hover:text-blue-300">
+                  Email template:
+                </h1>
+              </a>
             </div>
             &nbsp;Save time by allowing you to reuse professionally designed
             emails. Whether it&apos;s invitations, sales messages, thank-you
@@ -104,14 +104,14 @@ const TopSection = () => {
             over 4.1 billion active email users globally, having efficient
             communication is essential.
             <ExampleButtonLandingPage />
-           <div className="text-center">
-            <PiLinkBold className="-mt-1 inline-block text-blue-400" />
-            &nbsp;
-            <a href="https://mybabb.github.io/BetterMcTransport/">
-              <h2 className="inline-block text-4xl text-green-400 underline hover:text-blue-300">
-                Custom Landing Page:
-              </h2>
-             </a>
+            <div className="text-center">
+              <PiLinkBold className="-mt-1 inline-block text-blue-400" />
+              &nbsp;
+              <a href="https://mybabb.github.io/BetterMcTransport/">
+                <h2 className="inline-block text-4xl text-green-400 underline hover:text-blue-300">
+                  Custom Landing Page:
+                </h2>
+              </a>
             </div>
             &nbsp;Created to appeal to different types of customers. The
             content, page style, advertising, and offer it contains will
@@ -124,8 +124,6 @@ const TopSection = () => {
           </p>
           <div className="anchorWrapper relative flex justify-center ">
             <div className="text-center  ">
-             
-
               <p className="relative mb-4 text-center font-Changa-Regular text-3xl text-green-300 sm:text-5xl ">
                 <span className="whitespace-nowrap">
                   <RiDoubleQuotesL
@@ -152,8 +150,9 @@ const TopSection = () => {
               </a>
             </div>
           </div>
-          <section className="tropicalFish  mx-4 text-[8px] xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
-            <div className="my-1">
+          <section className="tropicalFish relative flex-col  mx-4 text-[8px] xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
+            <div className="levelWrapper relative m-auto flex-col  w-fit items-center justify-center">
+            <div className="my-1 ">
               {" "}
               <GiTropicalFish className="inline-block text-green-400 " />
               &nbsp;
@@ -209,30 +208,34 @@ const TopSection = () => {
               <span className="inline-block text-green-500">
                 <TbMailFast />
               </span>
-              &apos;The Kit&apos;&nbsp;for direct <span className="font-Iceberg-Regular"><u>Cold Emailing</u></span> 
+              &apos;The Kit&apos;&nbsp;for direct{" "}
+              <span className="font-Iceberg-Regular">
+                <u>Cold Emailing</u>
+              </span>
               &nbsp;
             </div>
-
             <div className=" ">
-             <GiOctopus  className="inline-block text-green-400 " />
-             &nbsp;
+              <GiOctopus className="inline-block text-green-400 " />
+              &nbsp;
               <span className="font-LibreBaskerville-Bold   text-green-300 ">
-             &nbsp;&nbsp;Advanced Super Custom Web Parts Require Negotiation.
+                &nbsp;&nbsp;Advanced Super Custom Web Parts Require Negotiation.
               </span>
               &nbsp;
             </div>
-
+            </div>
           </section>
-          <div className="relative m-auto mb-[2rem] mt-8 flex w-[80%] p-4 justify-center ">
+          <div className="relative m-auto   text-center  mb-[2rem] mt-8 flex w-[80%] justify-center p-4 ">
             <span className="inline-block text-center ">
-            <hr className="w-[15%] bg-blue-300 m-auto my-2 h-[3px]"/>
-              <span className="font-changa-regular pb-4  text-amber-200 xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] sm:text-4xl ">
-                &nbsp;<span className="text-[aliceblue] font-Iceberg-Regular font-bold text-base sm:text-2xl md:text-3xl lg:text-4xl ">
+              <hr className="m-auto my-2 h-[3px] w-[15%] bg-blue-300" />
+              <span className="font-changa-regular pb-4  text-amber-200 sm:text-4xl xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
+                &nbsp;
+                <span className="font-Iceberg-Regular text-base text-center font-bold text-[aliceblue] sm:text-2xl md:text-3xl lg:text-4xl ">
                   Cold Emailing :
-              </span>
-                 <hr className="w-[15%] bg-blue-300 m-auto mt-2 h-[3px]"/>
+                </span>
+                <hr className="m-auto mt-2 h-[3px] w-[15%] bg-blue-300" />
                 <br />
-                <span className="text-white font-LibreBaskerville-Bold inline-block mb-2">
+                <div className="   w-fit m-auto ">
+                <span className="mb-2 inline-block font-LibreBaskerville-Bold text-white">
                   A Pro Email Template
                 </span>{" "}
                 &nbsp;
@@ -240,27 +243,27 @@ const TopSection = () => {
                   {" "}
                   <FaPlusCircle size={15} />
                 </span>
-                
                 &nbsp;&nbsp;
-                <span className="text-white font-LibreBaskerville-Bold inline-block mb-2">A Pro Landing Page </span>
-          
-              
-                <div className="text-[aliceblue] font-bold font-LibreBaskerville-Regular inline-block mb-2">
-                With this technique, you can directly send Emails to your
-                prospects.
-                <br />
-                This Email will contain a link to the Professional Custom
-                Landing Page.
-                <br />
-                This Attractive Landing Page will be linked to your Web-Store.
-                <br />
-                This is a great way to get your product in front of potential
-                customers.
+                <span className="mb-2 inline-block font-LibreBaskerville-Bold  text-white">
+                  A Pro Landing Page{" "}
+                </span>
+                </div>
+                <div className="mb-2 inline-block font-LibreBaskerville-Regular  text-center font-bold text-[aliceblue]">
+                  With this technique, you can directly send Emails to your
+                  prospects.
+                  <br />
+                  This Email will contain a link to the Professional Custom
+                  Landing Page.
+                  <br />
+                  This Attractive Landing Page will be linked to your Web-Store.
+                  <br />
+                  This is a great way to get your product in front of potential
+                  customers.
                 </div>
               </span>
             </span>
           </div>
-          <hr className="w-[27%] bg-blue-300 m-auto   h-[3px]"/>
+          <hr className="m-auto h-[3px] w-[27%]   bg-blue-300" />
 
           <p
             className="objectiveParagraph     p-[12px]
@@ -409,7 +412,6 @@ const TopSection = () => {
               <GiAnglerFish size={18} className="text-blue-300" />
             </span>
             &nbsp;&nbsp;Allows for easier testing and optimization
-             
           </div>
 
           <div className="relative flex justify-center p-8 text-center text-3xl sm:text-5xl">
