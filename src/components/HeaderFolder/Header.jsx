@@ -41,7 +41,7 @@ const Header = () => {
               className="headerCenterTextBox w-fit mx-auto font-Kingthings_Petrock   text-[16px] 
          text-amber-100  hover:text-opacity-50  md:text-[20px] lg:text-[25px] xl:text-[30px]  "
             >
-              <h1>Custom Starter Kit</h1>
+              <h1>Web Starter Kit</h1>
             </p>
           </a>
 
