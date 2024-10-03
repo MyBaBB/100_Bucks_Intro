@@ -11,7 +11,7 @@ const Header = () => {
     <div>
       <Navbar />
       <div
-        className="headerWrapper fixed
+        className="headerWrapper  
       "
       >
         <div className="m-auto   w-fit pl-4">

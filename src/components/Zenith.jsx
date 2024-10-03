@@ -8,7 +8,8 @@ import ThirdSection from "./ThirdSection";
 import Footer from "./Footer";
 const App = () => {
   return (
-    <div className="w-{88%] relative flex h-full w-screen items-center justify-center   dark:bg-gray-900 ">
+    <div className="  relative flex h-full   items-center justify-center   dark:bg-gray-900
+     overflow-x-hidden">
       <div>
         <Header />
         <TopSection />
