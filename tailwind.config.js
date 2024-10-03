@@ -84,13 +84,15 @@ export default {
              'Rye-Regular': ['Rye-Regular', 'cursive'],
              'Sansita-Italic': ['Sansita-Italic', 'sans-serif'],
              'Sansita-Regular': ['Sansita-Regular', 'sans-serif'],
-              'Sixtyfour-Regular-VariableFont': ['Sixtyfour-Regular-VariableFont', 'cursive'],
-              'Sixtyfour-Regular': ['Sixtyfour-Regular', 'cursive'],
-              'Yellowtail-Regular': ['Yellowtail-Regular', 'cursive'],
-            
-            
-  },
- 
+             'Sixtyfour-Regular-VariableFont': ['Sixtyfour-Regular-VariableFont', 'cursive'],
+             'Sixtyfour-Regular': ['Sixtyfour-Regular', 'cursive'],
+             'Yellowtail-Regular': ['Yellowtail-Regular', 'cursive'],
+             'WHITC___': ['WHITC___', 'cursive'],
+             'FREEZER': ['FREEZER', 'cursive'],
+             'Krystal': ['Krystal', 'cursive'],
+             'WinterIce': ['WinterIce', 'cursive'],
+             'Freezing': ['Freezing', 'cursive'],
+        },
   screens: {
     'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
     'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },

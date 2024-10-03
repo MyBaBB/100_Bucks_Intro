@@ -209,7 +209,7 @@ const TopSection = () => {
                 <TbMailFast />
               </span>
               &apos;The Kit&apos;&nbsp;for direct{" "}
-              <span className="font-Iceberg-Regular">
+              <span className=" text-green-400">
                 <u>Cold Emailing</u>
               </span>
               &nbsp;
@@ -226,22 +226,22 @@ const TopSection = () => {
           </section>
           <div className="relative m-auto   text-center  mb-[2rem] mt-8 flex w-[80%] justify-center p-4 ">
             <span className="inline-block text-center ">
-              <hr className="m-auto my-2 h-[3px] w-[15%] bg-blue-300" />
+              
               <span className="font-changa-regular pb-4  text-amber-200 sm:text-4xl xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
                 &nbsp;
-                <span className="font-Iceberg-Regular text-base text-center font-bold text-[aliceblue] sm:text-2xl md:text-3xl lg:text-4xl ">
-                  Cold Emailing :
+                <span className="coldEmail font-Freezing   text-base  text-center    letter-spacing-1 sm:text-3xl md:text-4xl lg:text-5xl ">
+                Cold E-MaiL  
                 </span>
-                <hr className="m-auto mt-2 h-[3px] w-[15%] bg-blue-300" />
+                <hr className="m-auto mt-2 h-[5px] w-[15%] bg-[lightskyblue] border-[1px] border-black rounded-xl " />
                 <br />
                 <div className="   w-fit m-auto ">
                 <span className="mb-2 inline-block font-LibreBaskerville-Bold text-white">
                   A Pro Email Template
                 </span>{" "}
                 &nbsp;
-                <span className="inline-block  text-green-400">
+                <span className="inline-block  text-[lightskyblue]">
                   {" "}
-                  <FaPlusCircle size={15} />
+                  <FaPlusCircle size={17} />
                 </span>
                 &nbsp;&nbsp;
                 <span className="mb-2 inline-block font-LibreBaskerville-Bold  text-white">
@@ -263,7 +263,7 @@ const TopSection = () => {
               </span>
             </span>
           </div>
-          <hr className="m-auto h-[3px] w-[27%]   bg-blue-300" />
+          <hr className="m-auto h-[5px] w-[27%]   bg-[lightskyblue] border-[1px] border-black rounded-xl" />
 
           <p
             className="objectiveParagraph     p-[12px]
