@@ -18,50 +18,50 @@ const ThirdSection = () => {
             text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   "
             >
               <li>
-                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap  " />
-                &nbsp;&nbsp;&nbsp;React Js.
+                <IoBookSharp className="inline-block text-blue-400   " />
+                <span className="skillsSpan whitespace-nowrap">&nbsp;&nbsp;&nbsp;React Js.</span>
               </li>
               <li>
-                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
-                &nbsp;&nbsp;&nbsp;JavaScript
+                <IoBookSharp className="inline-block text-blue-400 " />
+                <span className="skillsSpan whitespace-nowrap">&nbsp;&nbsp;&nbsp;JavaScript</span>
               </li>
               <li>
-                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
-                &nbsp;&nbsp;&nbsp;Tailwind CSS
+                <IoBookSharp className="inline-block text-blue-400 " />
+                <span className="skillsSpan whitespace-nowrap">&nbsp;&nbsp;&nbsp;Tailwind CSS</span>
               </li>
 
               <li>
-                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
-                &nbsp;&nbsp;&nbsp;CSS3
+                <IoBookSharp className="inline-block text-blue-400 " />
+                <span className="skillsSpan whitespace-nowrap">&nbsp;&nbsp;&nbsp;CSS3</span>
               </li>
               <li>
-                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
-                &nbsp;&nbsp;&nbsp;Vite with Firebase
+                <IoBookSharp className="inline-block text-blue-400 " />
+                <span className="skillsSpan whitespace-nowrap">&nbsp;&nbsp;&nbsp;Vite with Firebase</span>
               </li>
             </ul>
           </div>
 
-          <div className="relative">
+          <div className="relative ">
             <ul
               className="reUnOrderedList2 mb-[2rem]
             text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   "
             >
               <li>
-                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
-                &nbsp;&nbsp;&nbsp;Figma
+                <IoBookSharp className="inline-block text-blue-400 " />
+                <span className="skillsSpan whitespace-nowrap">&nbsp;&nbsp;&nbsp;Figma</span>
               </li>
               <li>
-                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
-                &nbsp;&nbsp;&nbsp;Adobe Photo-Shop
+                <IoBookSharp className="inline-block text-blue-400 " />
+                <span className="skillsSpan whitespace-nowrap">&nbsp;&nbsp;&nbsp;Adobe Photo-Shop</span>
               </li>
               <li>
-                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
-                &nbsp;&nbsp;&nbsp;Adobe Illustrator
+                <IoBookSharp className="inline-block text-blue-400 " />
+                <span className="skillsSpan whitespace-nowrap">&nbsp;&nbsp;&nbsp;Adobe Illustrator</span>
               </li>
 
               <li>
-                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
-                &nbsp;&nbsp;&nbsp;Stable Diffusion
+                <IoBookSharp className="inline-block text-blue-400 " />
+                <span className="skillsSpan whitespace-nowrap">&nbsp;&nbsp;&nbsp;Stable Diffusion</span>
               </li>
             </ul>
           </div>
