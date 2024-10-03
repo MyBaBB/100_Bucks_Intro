@@ -39,7 +39,7 @@ const Navbar = () => {
       {" "}
       {/* to adjust hamburger  */}
       <nav className="">
-        <div className="burger-menu md:hidden " onClick={updateMenu}>
+        <div className="burger-menu md:hidden  " onClick={updateMenu}>
           <div
             className={burger_class}
             style={{
