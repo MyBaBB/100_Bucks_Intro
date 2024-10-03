@@ -18,24 +18,24 @@ const ThirdSection = () => {
             text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   "
             >
               <li>
-                <IoBookSharp className="inline-block text-blue-400 white-space-nowrap  " />
+                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap  " />
                 &nbsp;&nbsp;&nbsp;React Js.
               </li>
               <li>
-                <IoBookSharp className="inline-block text-blue-400 white-space-nowrap" />
+                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
                 &nbsp;&nbsp;&nbsp;JavaScript
               </li>
               <li>
-                <IoBookSharp className="inline-block text-blue-400 white-space-nowrap" />
+                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
                 &nbsp;&nbsp;&nbsp;Tailwind CSS
               </li>
 
               <li>
-                <IoBookSharp className="inline-block text-blue-400 white-space-nowrap" />
+                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
                 &nbsp;&nbsp;&nbsp;CSS3
               </li>
               <li>
-                <IoBookSharp className="inline-block text-blue-400 white-space-nowrap" />
+                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
                 &nbsp;&nbsp;&nbsp;Vite with Firebase
               </li>
             </ul>
@@ -47,20 +47,20 @@ const ThirdSection = () => {
             text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   "
             >
               <li>
-                <IoBookSharp className="inline-block text-blue-400 white-space-nowrap" />
+                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
                 &nbsp;&nbsp;&nbsp;Figma
               </li>
               <li>
-                <IoBookSharp className="inline-block text-blue-400 white-space-nowrap" />
+                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
                 &nbsp;&nbsp;&nbsp;Adobe Photo-Shop
               </li>
               <li>
-                <IoBookSharp className="inline-block text-blue-400 white-space-nowrap" />
+                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
                 &nbsp;&nbsp;&nbsp;Adobe Illustrator
               </li>
 
               <li>
-                <IoBookSharp className="inline-block text-blue-400 white-space-nowrap" />
+                <IoBookSharp className="inline-block text-blue-400 whitespace-nowrap" />
                 &nbsp;&nbsp;&nbsp;Stable Diffusion
               </li>
             </ul>
