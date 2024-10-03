@@ -1,27 +1,30 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
-import "./App.css";
-import Header from "./components/HeaderFolder/Header";
 
-import TopSection from "./components/TopSection";
 
-import CopyRight from "./components/Copyright";
-import ThirdSection from "./components/ThirdSection";
-import Footer from "./components/Footer";
-const App = () => {
+ 
+import Zenith from './components/Zenith';
+import { Routes, Route} from 'react-router-dom';
+
+
+ 
+
+
+function App() {
   return (
-    <div className="w-{88%] relative flex h-full w-screen items-center justify-center   dark:bg-gray-900 ">
-      <div>
-        <Header />
+    <Routes>
+      
+      <Route path="/" element={<Zenith />} />
+      <Route path="/Zenith" element={<Zenith />} />
+      <Route path="/*" element={< Zenith />} />
+      
+    </Routes>
+     
+           
+     
+      
+     
+  )
+}
 
-        <TopSection />
+export default App
 
-        <ThirdSection />
-        <Footer />
-        <CopyRight />
-      </div>
-    </div>
-  );
-};
-
-export default App;
