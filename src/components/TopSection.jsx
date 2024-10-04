@@ -229,7 +229,7 @@ const TopSection = () => {
               
               <span className="font-changa-regular pb-4  text-amber-200 sm:text-4xl xxxs:text-[10px] xxs:text-[12px] xs:text-[20px] ">
                 &nbsp;
-                <span className="coldEmail font-Freezing   text-base  text-center    letter-spacing-1 sm:text-3xl md:text-4xl lg:text-5xl ">
+                <span className="coldEmail font-Freezing   text-4xl  text-center    letter-spacing-1 sm:text-5xl md:text-5xl lg:text-6xl ">
                 Cold E-MaiL  
                 </span>
                 <hr className="m-auto mt-2 h-[5px] w-[15%] bg-[lightskyblue] border-[1px] border-black rounded-xl " />
