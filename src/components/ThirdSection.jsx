@@ -18,25 +18,35 @@ const ThirdSection = () => {
             text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   "
             >
               <li>
-                <span className="skillsSpan whitespace-nowrap"><IoBookSharp className="inline-block text-blue-400   " />
-                &nbsp;&nbsp;&nbsp;React Js.</span>
+                <span className="skillsSpan whitespace-nowrap">
+                  <IoBookSharp className="inline-block text-blue-400   " />
+                  &nbsp;&nbsp;&nbsp;React Js.
+                </span>
               </li>
               <li>
-                <span className="skillsSpan whitespace-nowrap"><IoBookSharp className="inline-block text-blue-400 " />
-                &nbsp;&nbsp;&nbsp;JavaScript</span>
+                <span className="skillsSpan whitespace-nowrap">
+                  <IoBookSharp className="inline-block text-blue-400 " />
+                  &nbsp;&nbsp;&nbsp;JavaScript
+                </span>
               </li>
               <li>
-                <span className="skillsSpan whitespace-nowrap"><IoBookSharp className="inline-block text-blue-400 " />
-                &nbsp;&nbsp;&nbsp;Tailwind CSS</span>
+                <span className="skillsSpan whitespace-nowrap">
+                  <IoBookSharp className="inline-block text-blue-400 " />
+                  &nbsp;&nbsp;&nbsp;Tailwind CSS
+                </span>
               </li>
 
               <li>
-                <span className="skillsSpan whitespace-nowrap"><IoBookSharp className="inline-block text-blue-400 " />
-                &nbsp;&nbsp;&nbsp;CSS3</span>
+                <span className="skillsSpan whitespace-nowrap">
+                  <IoBookSharp className="inline-block text-blue-400 " />
+                  &nbsp;&nbsp;&nbsp;CSS3
+                </span>
               </li>
               <li>
-                <span className="skillsSpan whitespace-nowrap"><IoBookSharp className="inline-block text-blue-400 " />
-                &nbsp;&nbsp;&nbsp;Vite with Firebase</span>
+                <span className="skillsSpan whitespace-nowrap">
+                  <IoBookSharp className="inline-block text-blue-400 " />
+                  &nbsp;&nbsp;&nbsp;Vite with Firebase
+                </span>
               </li>
             </ul>
           </div>
@@ -47,21 +57,29 @@ const ThirdSection = () => {
             text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   "
             >
               <li>
-                <span className="skillsSpan whitespace-nowrap"><IoBookSharp className="inline-block text-blue-400 " />
-                &nbsp;&nbsp;&nbsp;Figma</span>
+                <span className="skillsSpan whitespace-nowrap">
+                  <IoBookSharp className="inline-block text-blue-400 " />
+                  &nbsp;&nbsp;&nbsp;Figma
+                </span>
               </li>
               <li>
-                <span className="skillsSpan whitespace-nowrap"><IoBookSharp className="inline-block text-blue-400 " />
-                &nbsp;&nbsp;&nbsp;Adobe Photo-Shop</span>
+                <span className="skillsSpan whitespace-nowrap">
+                  <IoBookSharp className="inline-block text-blue-400 " />
+                  &nbsp;&nbsp;&nbsp;Adobe Photo-Shop
+                </span>
               </li>
               <li>
-                <span className="skillsSpan whitespace-nowrap"><IoBookSharp className="inline-block text-blue-400 " />
-                &nbsp;&nbsp;&nbsp;Adobe Illustrator</span>
+                <span className="skillsSpan whitespace-nowrap">
+                  <IoBookSharp className="inline-block text-blue-400 " />
+                  &nbsp;&nbsp;&nbsp;Adobe Illustrator
+                </span>
               </li>
 
               <li>
-                <span className="skillsSpan whitespace-nowrap"><IoBookSharp className="inline-block text-blue-400 " />
-                &nbsp;&nbsp;&nbsp;Stable Diffusion</span>
+                <span className="skillsSpan whitespace-nowrap">
+                  <IoBookSharp className="inline-block text-blue-400 " />
+                  &nbsp;&nbsp;&nbsp;Stable Diffusion
+                </span>
               </li>
             </ul>
           </div>
