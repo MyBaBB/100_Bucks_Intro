@@ -60,29 +60,10 @@ const TopSection = () => {
             </div>
           </a>
 
-          <div className="anchorWrapper relative flex justify-center ">
-            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
-              <div
-                id="emailPros"
-                className="mt-4 scroll-mt-[7rem] justify-center pb-2 text-center font-LibreBaskerville-Bold  
-           text-4xl text-green-400 underline"
-              >
-                <span className="landingPage ">Email Template Pros: </span>
-                <button></button>
+         
 
-                {/* make tricky lg:hidden */}
-                <a href="#">
-                  <span
-                    className="dataToolTip15   scubaSpearWrapper absolute   -top-2 right-20 z-0 
-                    hidden font-Aclonica-Regular sm:block lg:hidden  "
-                    data-tool-tip="Back To Top"
-                  >
-                    <ScubaSpear />
-                  </span>
-                </a>
-              </div>
-            </a>
-          </div>
+
+         
           <ExampleButton />
           <p
             className="objectiveParagraph m-auto w-[90%]   
@@ -232,7 +213,7 @@ const TopSection = () => {
                 <span className="coldEmail font-Freezing   text-4xl  text-center    letter-spacing-1 sm:text-5xl md:text-5xl lg:text-6xl ">
                 Cold E-MaiL  
                 </span>
-                <hr className="m-auto mt-2 h-[5px] w-[15%] bg-[lightskyblue] border-[1px] border-black rounded-xl " />
+                <hr className="m-auto  h-[5px] w-[15%] bg-transparent  border-transparent " />
                 <br />
                 <div className="   w-fit m-auto ">
                 <span className="mb-2 inline-block font-LibreBaskerville-Bold text-white">
@@ -241,7 +222,7 @@ const TopSection = () => {
                 &nbsp;
                 <span className="inline-block  text-[lightskyblue]">
                   {" "}
-                  <FaPlusCircle size={17} />
+                  <FaPlusCircle size={15} />
                 </span>
                 &nbsp;&nbsp;
                 <span className="mb-2 inline-block font-LibreBaskerville-Bold  text-white">
@@ -302,6 +283,26 @@ const TopSection = () => {
             </div>
           </p>
 
+          <div className="anchorWrapper relative flex justify-center   ">
+            <a href="https://mybabb.github.io/BasicEmail_gh_pages/">
+              <div
+                id="emailPros"
+                className="mt-4 scroll-mt-[7rem] justify-center pb-2 text-center font-LibreBaskerville-Bold  
+           text-4xl sm:text-7xl text-green-400 underline"
+              >
+                <span className="landingPage ">Email Template Pros: </span>
+                <button></button>
+
+               
+                
+              </div>
+            </a>
+          </div>
+
+
+
+
+
           <div className="p-8 text-justify  text-3xl sm:mx-[4rem]">
             <span className="IoDiamondSharp inline-block pb-1">
               <TbFishHook />
@@ -361,7 +362,7 @@ const TopSection = () => {
             <a href="https://mybabb.github.io/BetterMcTransport/">
               <div
                 id="landingPagePros"
-                className="scroll-mt-[12rem] pt-2 text-center   text-4xl font-bold
+                className="scroll-mt-[12rem] pt-2 text-center     text-4xl sm:text-7xl font-bold
                 text-green-400 underline"
               >
                 <span className="landingPagePros   underline1 font-LibreBaskerville-Bold">
