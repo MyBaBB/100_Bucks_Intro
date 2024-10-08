@@ -39,7 +39,7 @@ const ThirdSection = () => {
               <li>
                 <span className="skillsSpan whitespace-nowrap">
                   <IoBookSharp className="inline-block text-blue-400 " />
-                  &nbsp;&nbsp;&nbsp;CSS3
+                  &nbsp;&nbsp;&nbsp;GSAP
                 </span>
               </li>
               <li>
@@ -55,7 +55,13 @@ const ThirdSection = () => {
             <ul
               className="reUnOrderedList2 mb-[2rem]
             text-[1.2rem] sm:text-[2rem] md:text-[2.3rem]   "
-            >
+            > 
+            <li>
+                <IoBookSharp className="inline-block text-blue-400" />
+                &nbsp;&nbsp;&nbsp;Three Js.
+                <span className="hidden sm:inline-block">&nbsp;3d</span>{" "}
+                Animations
+              </li>
               <li>
                 <span className="skillsSpan whitespace-nowrap">
                   <IoBookSharp className="inline-block text-blue-400 " />
