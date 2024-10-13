@@ -9,6 +9,11 @@ import { GrBaby } from "react-icons/gr";
 import { BsPersonVcard } from "react-icons/bs";
 import { LiaHourglassHalfSolid } from "react-icons/lia";
 import { SiTestinglibrary } from "react-icons/si";
+const goBack = () => {
+  window.history.back();
+};
+
+
 
 const Navbar = () => {
   //to change burger classes
@@ -74,6 +79,14 @@ const Navbar = () => {
               className="mobileNav justify-top relative my-auto flex   min-h-screen flex-col xs:mt-8  "
               aria-label="mobile"
             >
+              <div className='ContactButtonWrapper relative mt-4  flex justify-center '>
+        <a href="https://contact.mybabb.com">
+        <button onClick={goBack} className="ContactMeButton w-fit 
+                  m-auto  border-[1px] border-[#419aff] p-2 rounded-2xl hover:bg-[#419aff]"  >
+        <span className="ContactMeButtonText text-blue-100 font-Itim-Regular  ">Contact Me</span>
+        </button>
+        </a>
+        </div>
               <p
                 id="mobile-menu "
                 className="relative my-auto flex-row justify-center"

@@ -24,7 +24,10 @@ import "./ScubaManFolder/DiverDown.css";
 import ExampleButton from "./ExampleButtonEmail";
 import ExampleButtonLandingPage from "./ExampleButtonLandingPage";
 import { GiOctopus } from "react-icons/gi";
- 
+const goBack = () => {
+  window.history.back();
+};
+
 const TopSection = () => {
   return (
     <div>
@@ -46,11 +49,22 @@ const TopSection = () => {
         to-gray-800 pt-14 shadow-stone-950 sm:mt-[8rem] dark:bg-gradient-to-b"
         >
           <ContactButton />
+
+
           <br />
-          
-          <br />
+          <div className='ContactButtonWrapper relative mt-12 sm:mt-8 mb-4 flex justify-center '>
+        <a href="https://contact.mybabb.com">
+        <button onClick={goBack} className="ContactMeButton w-fit 
+                  m-auto  border-[1px] border-[#419aff] p-2 rounded-2xl hover:bg-[#419aff]"  >
+        <span className="ContactMeButtonText text-blue-100 font-Itim-Regular  ">Contact Me</span>
+        </button>
+        </a>
+        </div>
+
+
+      
           <a href="#gotoLevel1">
-            <div className="relative m-auto  mt-[2rem] w-fit scroll-mt-[19rem] text-blue-200 hover:text-opacity-50">
+            <div className="relative m-auto    w-fit scroll-mt-[19rem] text-blue-200 hover:text-opacity-50">
               <h2 className="text-center  font-Kingthings_Petrock text-5xl  xs:text-7xl ">
                 <u className="decoration-green-400">Free Branding Service</u>
               </h2>
